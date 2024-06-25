@@ -16,6 +16,7 @@
 		D526CD0E2C23F74E008D6C44 /* resetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D526CD0D2C23F74E008D6C44 /* resetTests.swift */; };
 		D526CD182C23F74E008D6C44 /* resetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D526CD172C23F74E008D6C44 /* resetUITests.swift */; };
 		D526CD1A2C23F74E008D6C44 /* resetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D526CD192C23F74E008D6C44 /* resetUITestsLaunchTests.swift */; };
+		D57C43B52C2B82FD001818E3 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57C43B42C2B82FD001818E3 /* utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		D526CD132C23F74E008D6C44 /* resetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D526CD172C23F74E008D6C44 /* resetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resetUITests.swift; sourceTree = "<group>"; };
 		D526CD192C23F74E008D6C44 /* resetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D57C43B42C2B82FD001818E3 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				D526CCF72C23F74C008D6C44 /* resetApp.swift */,
 				D526CCF92C23F74C008D6C44 /* ContentView.swift */,
+				D57C43B42C2B82FD001818E3 /* utils.swift */,
 				D526CCFB2C23F74E008D6C44 /* Assets.xcassets */,
 				D526CD002C23F74E008D6C44 /* Persistence.swift */,
 				D526CD022C23F74E008D6C44 /* reset.xcdatamodeld */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57C43B52C2B82FD001818E3 /* utils.swift in Sources */,
 				D526CD012C23F74E008D6C44 /* Persistence.swift in Sources */,
 				D526CD042C23F74E008D6C44 /* reset.xcdatamodeld in Sources */,
 				D526CCFA2C23F74C008D6C44 /* ContentView.swift in Sources */,
