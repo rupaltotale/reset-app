@@ -15,6 +15,11 @@ struct AwakeView: View {
         VStack {
             Spacer()
             
+            Text("Reflect on this today...")
+                .font(.title)
+                .fontWeight(.bold)
+                .padding(.bottom, 20)
+            
             // Quote from Buddha
             Text("“Three things cannot be long hidden: the sun, the moon, and the truth.”")
                 .font(.title)
@@ -54,7 +59,17 @@ struct SleepView: View {
         VStack {
             Spacer()
             
-            Text("How was your day?")
+            // Good Night message
+            Text("Goodnight, sweet dreams")
+                .font(.title)
+                .fontWeight(.bold)
+                .padding(.bottom, 20)
+            
+            // Question "How was your day?"
+            Text("Did you have a good day?")
+                .font(.title)
+                .multilineTextAlignment(.center)
+                .padding()
             
             // Like and Dislike buttons
             HStack(spacing: 40) {
