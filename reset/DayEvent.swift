@@ -12,6 +12,7 @@ struct DayEvent: Codable, Identifiable {
     var sleepTime: Date?
     let wakeTime: Date
     var liked: Bool?
+    let quote: [String: String]?
 }
 
 class DayEventStorage: ObservableObject {
@@ -44,7 +45,7 @@ class DayEventStorage: ObservableObject {
     }
     
     func updateWakeUp() {
-        events.append(DayEvent(wakeTime: Date()))
+        events.append(DayEvent(wakeTime: Date(), quote: quotes.randomElement()!))
         saveEvents()
     }
     
@@ -94,6 +95,10 @@ class DayEventStorage: ObservableObject {
     
     func getSleepTime() -> Date? {
         return events[events.count - 1].sleepTime
+    }
+    
+    func getQuote() -> [String: String] {
+        return events[events.count - 1].quote ?? ["quote": "Every morning we are born again. What we do today is what matters most.", "author": "Buddha"]
     }
     
     func isAwakeView() -> Bool {

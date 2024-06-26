@@ -1,4 +1,4 @@
-let quotes: [[String: Any]] = [
+let quotes: [[String: String]] = [
     ["quote": "You don’t have to be great to start, but you have to start to be great.", "author": "Zig Ziglar"],
     ["quote": "You are what you do, not what you say you do.", "author": "Carl Jung"],
     ["quote": "Small deeds done are better than great deeds planned.", "author": "Peter Marshall"],
@@ -107,5 +107,8 @@ let quotes: [[String: Any]] = [
     ["quote": "Reshape yourself through the power of your will.", "author": "Bhagavad Gita 2:7"],
     ["quote": "Those who restrain their senses, and are of a balanced mind, are intent on the welfare of all beings, attain to God.", "author": "Bhagavad Gita 5:25"],
     ["quote": "Set thy heart upon thy work, but never on its reward.", "author": "Bhagavad Gita 2:47"],
-    ["quote": "The wise see knowledge and action as one; they see truly.", "author": "Bhagavad Gita 5:4"]
+    ["quote": "The wise see knowledge and action as one; they see truly.", "author": "Bhagavad Gita 5:4"],
+    ["quote": "Allah does not require of any soul more than what it can afford.", "author": "Quran 2:286"],
+    ["quote": "Do what is beautiful. Allah loves those who do what is beautiful.", "author": "Quran 2:195"],
+    ["quote": "Perhaps you dislike something which is good for you and like something which is bad for you. Allah knows and you do not know.", "author": "Quran 2:216"]
 ]

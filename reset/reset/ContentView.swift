@@ -13,44 +13,46 @@ struct AwakeView: View {
     @EnvironmentObject var dayEventStorage: DayEventStorage
     
     var body: some View {
-        VStack {
+        ScrollView {
             VStack {
-                Image(systemName: "sun.max.fill")
-                               .font(.system(size: 100))
-                               .foregroundColor(.yellow)
-                               .padding(.bottom, 20)
-                Text("You started the day at")
-                Text(dateTimeString(date: dayEventStorage.getWakeUpTime())).foregroundColor(.accent).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-            }
-            
-            Spacer()
-            
-            Text("Reflect on this today...")
-                .font(.title)
-                .fontWeight(.bold)
-                .padding(.bottom, 20)
-            
-            // Quote from Buddha
-            Text("“Three things cannot be long hidden: the sun, the moon, and the truth.”")
-                .font(.title)
-                .multilineTextAlignment(.center)
-                .padding()
-            
-            Text("- Buddha")
-            
-            Spacer()
-            
-            LongPressButton(
-                current: ColorScheme.dark,
-                next: ColorScheme.light,
-                label: "Sleep",
-                onComplete: {
-                    isAwake = false
-                    dayEventStorage.updateSleep()
+                VStack {
+                    Image(systemName: "sun.max.fill")
+                        .font(.system(size: 100))
+                        .foregroundColor(.yellow)
+                        .padding(.bottom, 20)
+                    Text("You started the day at")
+                    Text(dateTimeString(date: dayEventStorage.getWakeUpTime())).foregroundColor(.accent).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 }
-            )
-            
-            Spacer()
+                
+                Spacer(minLength: 30)
+                
+                Text("Reflect on this today...")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .padding(.bottom, 10)
+                
+                // Quote from Buddha
+                Text("“\(dayEventStorage.getQuote()["quote"]!)“")
+                    .font(.title2)
+                    .multilineTextAlignment(.center)
+                    .padding()
+                
+                Text("- \(dayEventStorage.getQuote()["author"]!)")
+                
+                Spacer(minLength: 30)
+                
+                LongPressButton(
+                    current: ColorScheme.dark,
+                    next: ColorScheme.light,
+                    label: "Sleep",
+                    onComplete: {
+                        isAwake = false
+                        dayEventStorage.updateSleep()
+                    }
+                )
+                
+                Spacer()
+            }
         }
         .padding()
         .applyLightPageStyles()
@@ -68,9 +70,9 @@ struct SleepView: View {
         VStack {
             VStack {
                 Image(systemName: "moon.stars.fill")
-                               .font(.system(size: 100))
-                               .foregroundColor(.yellow)
-                               .padding(.bottom, 20)
+                    .font(.system(size: 100))
+                    .foregroundColor(.yellow)
+                    .padding(.bottom, 20)
                 if let time = dayEventStorage.getSleepTime() {
                     Text("You ended the day at")
                     Text(dateTimeString(date: time)).foregroundColor(.accent).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
