@@ -8,51 +8,58 @@
 import Foundation
 import SwiftUI
 
-struct LongPressGestureView: View {
+struct LongPressButton: View {
+    let current: Color
+    let next: Color
+    
+    let label: String
+    
+    let onComplete: () -> Void
+    
     @GestureState private var isDetectingLongPress = false
     @State private var completedLongPress = false
 
 
     var longPress: some Gesture {
-        LongPressGesture(minimumDuration: 3)
+        LongPressGesture(minimumDuration: 1)
             .updating($isDetectingLongPress) { currentState, gestureState,
                     transaction in
                 gestureState = currentState
-                transaction.animation = Animation.easeIn(duration: 2.0)
+                transaction.animation = Animation.easeIn(duration: 1.0)
             }
             .onEnded { finished in
                 self.completedLongPress = finished
+                onComplete()
+                let generator = UIImpactFeedbackGenerator(style: .medium)
+                generator.impactOccurred()
             }
     }
 
 
     var body: some View {
         Button(action: {        }) {
-            Text("Sleep")
+            Text(label)
                 .font(.headline)
                 .padding()
                 .frame(width: 100, height: 100)
                 .foregroundColor(self.isDetectingLongPress ?
-                                 ColorScheme.light :
-                                   (self.completedLongPress ? ColorScheme.light : ColorScheme.dark))
+                                 current :
+                                   (self.completedLongPress ? current : next))
                 .background(self.isDetectingLongPress ?
-                            Color.dark :
-                              (self.completedLongPress ? ColorScheme.dark : ColorScheme.light))
+                            next :
+                              (self.completedLongPress ? next : current))
                 .clipShape(Circle())            .gesture(longPress)
 
         }
-        
-        Circle()
-            .fill(self.isDetectingLongPress ?
-                  Color.brown :
-                    (self.completedLongPress ? ColorScheme.dark : ColorScheme.light))
-            .frame(width: 100, height: 100, alignment: .center)
-            .gesture(longPress)
     }
 }
 
-struct LongButtonView_Previews: PreviewProvider {
+struct LongPressButton_Previews: PreviewProvider {
     static var previews: some View {
-        LongPressGestureView()
+        LongPressButton(
+            current: ColorScheme.light,
+            next: ColorScheme.dark,
+            label: "test",
+            onComplete: {print("long pressed")})
     }
 }

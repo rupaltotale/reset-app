@@ -30,18 +30,12 @@ struct AwakeView: View {
             
             Spacer()
             
-            // Circular black button with "Sleep" text
-            Button(action: {
-                isAwake = false
-            }) {
-                Text("Sleep")
-                    .font(.headline)
-                    .padding()
-                    .frame(width: 100, height: 100)
-                    .foregroundColor(ColorScheme.light)
-                    .background(ColorScheme.dark)
-                    .clipShape(Circle())
-            }
+            LongPressButton(
+                current: ColorScheme.dark,
+                next: ColorScheme.light,
+                label: "Sleep",
+                onComplete: {isAwake = false}
+            )
             
             Spacer()
         }
@@ -95,18 +89,12 @@ struct SleepView: View {
             
             Spacer()
             
-            // Circular black button with "Wake Up" text
-            Button(action: {
-                isAwake = true
-            }) {
-                Text("Wake Up")
-                    .font(.headline)
-                    .padding()
-                    .frame(width: 100, height: 100)
-                    .foregroundColor(ColorScheme.dark)
-                    .background(ColorScheme.light)
-                    .clipShape(Circle())
-            }
+            LongPressButton(
+                current: ColorScheme.light,
+                next: ColorScheme.dark,
+                label: "Wake Up",
+                onComplete: {isAwake = true}
+            )
             
             Spacer()
         }
