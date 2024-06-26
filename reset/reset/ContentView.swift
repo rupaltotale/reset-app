@@ -8,8 +8,16 @@
 import SwiftUI
 import CoreData
 
+func currentDateTimeString() -> String {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .short
+        formatter.timeStyle = .short
+        return formatter.string(from: Date())
+    }
+
 struct AwakeView: View {
     @Binding var isAwake: Bool
+    @EnvironmentObject var dayEventStorage: DayEventStorage
     
     var body: some View {
         VStack {
@@ -34,7 +42,10 @@ struct AwakeView: View {
                 current: ColorScheme.dark,
                 next: ColorScheme.light,
                 label: "Sleep",
-                onComplete: {isAwake = false}
+                onComplete: {
+                    isAwake = false
+                    dayEventStorage.updateSleep()
+                }
             )
             
             Spacer()
@@ -48,6 +59,8 @@ struct SleepView: View {
     @Binding var isAwake: Bool
     @State private var liked = false
     @State private var disliked = false
+    
+    @EnvironmentObject var dayEventStorage: DayEventStorage
     
     var body: some View {
         VStack {
@@ -93,7 +106,10 @@ struct SleepView: View {
                 current: ColorScheme.light,
                 next: ColorScheme.dark,
                 label: "Wake Up",
-                onComplete: {isAwake = true}
+                onComplete: {
+                    isAwake = true
+                    dayEventStorage.updateWakeUp()
+                }
             )
             
             Spacer()
@@ -103,7 +119,9 @@ struct SleepView: View {
 }
 
 struct ContentView: View {
-    @State private var isAwake = true
+    @StateObject private var storage = DayEventStorage()
+    @State private var isAwake: Bool = true
+    
     var body: some View {
         VStack {
             if isAwake {
@@ -111,6 +129,10 @@ struct ContentView: View {
             } else {
                 SleepView(isAwake: $isAwake)
             }
+        }
+        .environmentObject(storage)
+        .onAppear{
+            isAwake = storage.isAwakeView()
         }
     }
 }
