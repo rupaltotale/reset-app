@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct DayEvent: Codable {
+struct DayEvent: Codable, Identifiable {
+    var id: UUID = UUID()
     let sleepTime: Date
     var wakeTime: Date?
     var liked: Bool?

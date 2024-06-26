@@ -83,6 +83,7 @@ struct SleepView: View {
                 Button(action: {
                     liked.toggle()
                     disliked = false
+                    dayEventStorage.updateLiked(liked: liked)
                 }) {
                     Image(systemName: liked ? "hand.thumbsup.fill" : "hand.thumbsup")
                         .foregroundColor(.green)
@@ -92,6 +93,7 @@ struct SleepView: View {
                 Button(action: {
                     disliked.toggle()
                     liked = false
+                    dayEventStorage.updateLiked(liked: liked)
                 }) {
                     Image(systemName: disliked ? "hand.thumbsdown.fill" : "hand.thumbsdown")
                         .foregroundColor(.red)
@@ -123,16 +125,25 @@ struct ContentView: View {
     @State private var isAwake: Bool = true
     
     var body: some View {
-        VStack {
-            if isAwake {
-                AwakeView(isAwake: $isAwake)
-            } else {
-                SleepView(isAwake: $isAwake)
+        NavigationView{
+            VStack {
+                if isAwake {
+                    AwakeView(isAwake: $isAwake)
+                } else {
+                    SleepView(isAwake: $isAwake)
+                }
             }
-        }
-        .environmentObject(storage)
-        .onAppear{
-            isAwake = storage.isAwakeView()
+            .environmentObject(storage)
+            .onAppear{
+                isAwake = storage.isAwakeView()
+            }
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    NavigationLink(destination: HistoryView().environmentObject(storage)) {
+                        Image(systemName: "clock").padding()
+                    }
+                }
+            }
         }
     }
 }

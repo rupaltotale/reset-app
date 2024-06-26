@@ -19,6 +19,7 @@
 		D57C43B52C2B82FD001818E3 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57C43B42C2B82FD001818E3 /* utils.swift */; };
 		D57C43B72C2B8CF9001818E3 /* LongButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57C43B62C2B8CF9001818E3 /* LongButton.swift */; };
 		D57C43B92C2BA970001818E3 /* DayEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57C43B82C2BA970001818E3 /* DayEvent.swift */; };
+		D57C43BB2C2BB4D9001818E3 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57C43BA2C2BB4D9001818E3 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		D57C43B42C2B82FD001818E3 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		D57C43B62C2B8CF9001818E3 /* LongButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongButton.swift; sourceTree = "<group>"; };
 		D57C43B82C2BA970001818E3 /* DayEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEvent.swift; sourceTree = "<group>"; };
+		D57C43BA2C2BB4D9001818E3 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		D526CCEB2C23F74C008D6C44 = {
 			isa = PBXGroup;
 			children = (
+				D57C43BA2C2BB4D9001818E3 /* HistoryView.swift */,
 				D57C43B82C2BA970001818E3 /* DayEvent.swift */,
 				D57C43B62C2B8CF9001818E3 /* LongButton.swift */,
 				D526CCF62C23F74C008D6C44 /* reset */,
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D57C43B92C2BA970001818E3 /* DayEvent.swift in Sources */,
+				D57C43BB2C2BB4D9001818E3 /* HistoryView.swift in Sources */,
 				D57C43B52C2B82FD001818E3 /* utils.swift in Sources */,
 				D57C43B72C2B8CF9001818E3 /* LongButton.swift in Sources */,
 				D526CD012C23F74E008D6C44 /* Persistence.swift in Sources */,
