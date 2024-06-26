@@ -9,7 +9,7 @@ import Foundation
 import Charts
 import SwiftUI
 
-func calculateAverageWakeUpHours(wakeTimes: [Date]) -> [(String, Int)] {
+func calculateAveragesByWeekday(wakeTimes: [Date]) -> [(String, Int)] {
     var weekdaySums = [Int: Int]()
     var weekdayCounts = [Int: Int]()
     
@@ -37,34 +37,39 @@ func calculateAverageWakeUpHours(wakeTimes: [Date]) -> [(String, Int)] {
 }
 
 
-struct PieChartExampleView: View {
-    var likedDaysTotal: Double {
-        5 // Example value for liked days
-    }
-
-    var dislikedDaysTotal: Double {
-        2 // Example value for disliked days
-    }
+struct PieChartView: View {
+    @EnvironmentObject var storage: DayEventStorage
 
     var data: [(type: String, amount: Double)] {
         [
-            (type: "Good Days", amount: likedDaysTotal),
-            (type: "Bad Days", amount: dislikedDaysTotal)
+            (type: "Good Days", amount: storage.getTotalLikedDays()),
+            (type: "Bad Days", amount: storage.getTotalDislikedDays())
         ]
     }
-
-    var maxType: String? {
-        data.max { $0.amount < $1.amount }?.type
+    
+    // Color mapping based on type
+    private func color(for type: String) -> Color {
+        switch type {
+        case "Good Days":
+            return .green
+        case "Bad Days":
+            return .red
+        default:
+            return .gray
+        }
     }
 
     var body: some View {
         VStack {
             Chart(data, id: \.type) { dataItem in
-                SectorMark(angle: .value(dataItem.type, dataItem.amount),
-                           innerRadius: .ratio(0.5),
-                           angularInset: 1.5)
-                    .cornerRadius(5)
-                    .opacity(dataItem.type == maxType ? 1 : 0.5)
+                SectorMark(
+                    angle: .value(dataItem.type,
+                                  dataItem.amount),
+                    innerRadius: .ratio(0.5),
+                    angularInset: 1.5)
+                .cornerRadius(5)
+                .foregroundStyle(color(for: dataItem.type))
+                
             }
             .frame(height: 200)
             
@@ -106,7 +111,6 @@ struct BarChartView: View {
                     .annotation(position: .top) {
                         Text("\(value)")
                             .font(.caption)
-                            .foregroundColor(.blue)
                     }
                 }
             }
@@ -124,16 +128,16 @@ struct GraphView: View {
         ScrollView{
             VStack (spacing: 30) {
                 BarChartView(
-                    data: calculateAverageWakeUpHours(wakeTimes: storage.getAllWakeTimes()),
+                    data: calculateAveragesByWeekday(wakeTimes: storage.getAllWakeTimes()),
                     label: "Start the day, on average",
                     image: "sun.max.fill"
                 )
                 BarChartView(
-                    data: calculateAverageWakeUpHours(wakeTimes: storage.getAllSleepTimes()),
+                    data: calculateAveragesByWeekday(wakeTimes: storage.getAllSleepTimes()),
                     label: "End the day, on average",
                     image: "moon.stars.fill"
                 )
-                PieChartExampleView()
+                PieChartView()
             }
         }
     }

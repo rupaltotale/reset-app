@@ -20,7 +20,8 @@ class DayEventStorage: ObservableObject {
     private var events: [DayEvent] = []
     
     init() {
-        loadEvents()
+        // loadEvents()
+        events = createSampleDayEvents()
     }
 
     private func loadEvents() {
@@ -118,21 +119,91 @@ class DayEventStorage: ObservableObject {
     }
     
     func getAllSleepTimes() -> [Date] {
-        return events.filter { $0.sleepTime != nil }.map { $0.sleepTime! }
+        return events.compactMap{ $0.sleepTime }
     }
     
-    func averageSleepTime(for weekday: Int) -> Double {
-        let filteredEvents = events.filter { $0.sleepTime != nil && Calendar.current.component(.weekday, from: $0.sleepTime!) == weekday }
-        
-        guard !filteredEvents.isEmpty else {
-            return 0
-        }
-        
-        let totalSleepHour = filteredEvents.reduce(0.0) { total, event in
-            total + Double(Calendar.current.component(.hour, from: event.sleepTime!))
-        }
-        
-        return totalSleepHour / Double(filteredEvents.count)
+    func getTotalLikedDays() -> Double {
+        return Double(events.filter { $0.liked == true }.count)
+    }
+    
+    func getTotalDislikedDays() -> Double {
+        return Double(events.filter { $0.liked == false }.count)
     }
 
+}
+
+func createSampleDayEvents() -> [DayEvent] {
+    let calendar = Calendar.current
+    let today = Date()
+    
+    // Helper function to create a Date with specific hour and minute
+    func createDate(hour: Int, minute: Int, daysAgo: Int) -> Date {
+        var dateComponents = calendar.dateComponents([.year, .month, .day], from: today)
+        dateComponents.hour = hour
+        dateComponents.minute = minute
+        dateComponents.day = (dateComponents.day ?? 0) - daysAgo
+        return calendar.date(from: dateComponents) ?? today
+    }
+    
+    let sleepTimes = [
+        createDate(hour: 24, minute: 0, daysAgo: 1),
+        createDate(hour: 22, minute: 0, daysAgo: 2),
+        createDate(hour: 23, minute: 0, daysAgo: 3),
+        createDate(hour: 21, minute: 30, daysAgo: 4),
+        createDate(hour: 22, minute: 45, daysAgo: 5),
+        createDate(hour: 23, minute: 15, daysAgo: 6),
+        createDate(hour: 21, minute: 0, daysAgo: 7),
+        createDate(hour: 22, minute: 30, daysAgo: 8),
+        createDate(hour: 23, minute: 0, daysAgo: 9),
+        createDate(hour: 21, minute: 0, daysAgo: 10),
+        createDate(hour: 22, minute: 0, daysAgo: 11),
+        createDate(hour: 23, minute: 0, daysAgo: 12),
+        createDate(hour: 21, minute: 30, daysAgo: 13),
+        createDate(hour: 22, minute: 45, daysAgo: 14),
+        createDate(hour: 23, minute: 15, daysAgo: 15),
+        createDate(hour: 21, minute: 0, daysAgo: 16),
+        createDate(hour: 22, minute: 30, daysAgo: 17),
+        createDate(hour: 23, minute: 0, daysAgo: 18),
+        createDate(hour: 21, minute: 0, daysAgo: 19),
+        createDate(hour: 22, minute: 0, daysAgo: 20)
+    ]
+    
+    let wakeTimes = [
+        createDate(hour: 6, minute: 0, daysAgo: 1),
+        createDate(hour: 8, minute: 0, daysAgo: 2),
+        createDate(hour: 6, minute: 0, daysAgo: 3),
+        createDate(hour: 7, minute: 30, daysAgo: 4),
+        createDate(hour: 8, minute: 45, daysAgo: 5),
+        createDate(hour: 6, minute: 15, daysAgo: 6),
+        createDate(hour: 7, minute: 0, daysAgo: 7),
+        createDate(hour: 8, minute: 30, daysAgo: 8),
+        createDate(hour: 9, minute: 0, daysAgo: 9),
+        createDate(hour: 7, minute: 0, daysAgo: 10),
+        createDate(hour: 8, minute: 0, daysAgo: 11),
+        createDate(hour: 9, minute: 0, daysAgo: 12),
+        createDate(hour: 7, minute: 30, daysAgo: 13),
+        createDate(hour: 8, minute: 45, daysAgo: 14),
+        createDate(hour: 9, minute: 15, daysAgo: 15),
+        createDate(hour: 7, minute: 0, daysAgo: 16),
+        createDate(hour: 8, minute: 30, daysAgo: 17),
+        createDate(hour: 9, minute: 0, daysAgo: 18),
+        createDate(hour: 7, minute: 0, daysAgo: 19),
+        createDate(hour: 8, minute: 0, daysAgo: 20)
+    ]
+    
+    let likedStatuses: [Bool?] = [
+        true, false, true, nil, false,
+        true, nil, true, false, true,
+        nil, false, true, false, nil,
+        true, false, true, nil, true
+    ]
+    
+    var events: [DayEvent] = []
+    
+    for i in 0..<20 {
+        let event = DayEvent(sleepTime: sleepTimes[i], wakeTime: wakeTimes[i], liked: likedStatuses[i], quote: nil)
+        events.append(event)
+    }
+    
+    return events
 }
