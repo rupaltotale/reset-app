@@ -92,11 +92,6 @@
 		D526CCEB2C23F74C008D6C44 = {
 			isa = PBXGroup;
 			children = (
-				D57C43BF2C2BCBB9001818E3 /* GraphView.swift */,
-				D57C43BA2C2BB4D9001818E3 /* HistoryView.swift */,
-				D57C43B82C2BA970001818E3 /* DayEvent.swift */,
-				D57C43C12C2BEBD8001818E3 /* Quotes.swift */,
-				D57C43B62C2B8CF9001818E3 /* LongButton.swift */,
 				D526CCF62C23F74C008D6C44 /* reset */,
 				D526CD0C2C23F74E008D6C44 /* resetTests */,
 				D526CD162C23F74E008D6C44 /* resetUITests */,
@@ -117,6 +112,11 @@
 		D526CCF62C23F74C008D6C44 /* reset */ = {
 			isa = PBXGroup;
 			children = (
+				D57C43BF2C2BCBB9001818E3 /* GraphView.swift */,
+				D57C43BA2C2BB4D9001818E3 /* HistoryView.swift */,
+				D57C43B82C2BA970001818E3 /* DayEvent.swift */,
+				D57C43C12C2BEBD8001818E3 /* Quotes.swift */,
+				D57C43B62C2B8CF9001818E3 /* LongButton.swift */,
 				D526CCF72C23F74C008D6C44 /* resetApp.swift */,
 				D526CCF92C23F74C008D6C44 /* ContentView.swift */,
 				D57C43B42C2B82FD001818E3 /* utils.swift */,
