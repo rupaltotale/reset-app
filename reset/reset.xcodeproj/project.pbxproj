@@ -17,6 +17,7 @@
 		D526CD182C23F74E008D6C44 /* resetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D526CD172C23F74E008D6C44 /* resetUITests.swift */; };
 		D526CD1A2C23F74E008D6C44 /* resetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D526CD192C23F74E008D6C44 /* resetUITestsLaunchTests.swift */; };
 		D57C43B52C2B82FD001818E3 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57C43B42C2B82FD001818E3 /* utils.swift */; };
+		D57C43B72C2B8CF9001818E3 /* LongButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57C43B62C2B8CF9001818E3 /* LongButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		D526CD172C23F74E008D6C44 /* resetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resetUITests.swift; sourceTree = "<group>"; };
 		D526CD192C23F74E008D6C44 /* resetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resetUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D57C43B42C2B82FD001818E3 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		D57C43B62C2B8CF9001818E3 /* LongButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		D526CCEB2C23F74C008D6C44 = {
 			isa = PBXGroup;
 			children = (
+				D57C43B62C2B8CF9001818E3 /* LongButton.swift */,
 				D526CCF62C23F74C008D6C44 /* reset */,
 				D526CD0C2C23F74E008D6C44 /* resetTests */,
 				D526CD162C23F74E008D6C44 /* resetUITests */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D57C43B52C2B82FD001818E3 /* utils.swift in Sources */,
+				D57C43B72C2B8CF9001818E3 /* LongButton.swift in Sources */,
 				D526CD012C23F74E008D6C44 /* Persistence.swift in Sources */,
 				D526CD042C23F74E008D6C44 /* reset.xcdatamodeld in Sources */,
 				D526CCFA2C23F74C008D6C44 /* ContentView.swift in Sources */,
