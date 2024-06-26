@@ -98,6 +98,7 @@ class DayEventStorage: ObservableObject {
     
     func isAwakeView() -> Bool {
         if events.isEmpty {
+            // TODO if list is empty, present a screen to start the day
             self.updateWakeUp()
             return false
         }
