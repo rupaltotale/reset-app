@@ -71,7 +71,10 @@ class DayEventStorage: ObservableObject {
 
     func removeEvent(at index: Int) {
         guard index >= 0 && index < events.count else { return }
-        events.remove(at: index)
+        
+        // delete from the end since list is rendered in reverse
+        let reversedIndex = events.count - 1 - index
+        events.remove(at: reversedIndex)
         saveEvents()
     }
 
