@@ -9,8 +9,8 @@ import Foundation
 
 struct DayEvent: Codable, Identifiable {
     var id: UUID = UUID()
-    let sleepTime: Date
-    var wakeTime: Date?
+    var sleepTime: Date?
+    let wakeTime: Date
     var liked: Bool?
 }
 
@@ -39,12 +39,12 @@ class DayEventStorage: ObservableObject {
     }
     
     func updateSleep() {
-        events.append(DayEvent(sleepTime: Date()))
+        events[events.count - 1].sleepTime = Date()
         saveEvents()
     }
     
     func updateWakeUp() {
-        events[events.count - 1].wakeTime = Date()
+        events.append(DayEvent(wakeTime: Date()))
         saveEvents()
     }
     
@@ -65,7 +65,7 @@ class DayEventStorage: ObservableObject {
     }
 
     func getAllEvents() -> [DayEvent] {
-        return events
+        return events.reversed()
     }
 
     func getEvent(at index: Int) -> DayEvent? {
@@ -80,8 +80,9 @@ class DayEventStorage: ObservableObject {
     
     func isAwakeView() -> Bool {
         if events.isEmpty {
-            return true
+            self.updateWakeUp()
+            return false
         }
-        return events.last?.wakeTime != nil
+        return events.last?.sleepTime == nil
     }
 }

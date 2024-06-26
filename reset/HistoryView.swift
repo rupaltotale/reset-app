@@ -30,13 +30,13 @@ struct HistoryView: View {
                 // TODO if complete set is not available, show placeholder view
                 List {
                     ForEach(storage.getAllEvents()) { event in
-                        if ((event.wakeTime) != nil){
+                        if (event.sleepTime != nil){
                             HStack {
                                 VStack(alignment: .leading) {
-                                    Text("\(dateString(from: event.wakeTime!))")
+                                    Text("\(dateString(from: event.wakeTime))")
                                         .font(.headline)
                                     
-                                    Text("You woke up at \(timeString(from: event.wakeTime!)) and slept at \(timeString(from: event.sleepTime))")
+                                    Text("You woke up at \(timeString(from: event.wakeTime)) and slept at \(timeString(from: event.sleepTime!))")
                                         .font(.body)
                                 }
                                 
@@ -73,7 +73,7 @@ struct HistoryView: View {
 
 struct HistoryView_Previews: PreviewProvider {
     static var previews: some View {
-        var storage = DayEventStorage()
+        let storage = DayEventStorage()
         return HistoryView().environmentObject(storage)
     }
 }
