@@ -19,7 +19,8 @@ struct AwakeView: View {
                                .font(.system(size: 100))
                                .foregroundColor(.yellow)
                                .padding(.bottom, 20)
-                Text("You woke up at \(dateTimeString(date: dayEventStorage.getWakeUpTime()))")
+                Text("You started the day at")
+                Text(dateTimeString(date: dayEventStorage.getWakeUpTime())).foregroundColor(.accent).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
             }
             
             Spacer()
@@ -71,7 +72,8 @@ struct SleepView: View {
                                .foregroundColor(.yellow)
                                .padding(.bottom, 20)
                 if let time = dayEventStorage.getSleepTime() {
-                    Text("You went to bed at \(dateTimeString(date: time))")
+                    Text("You ended the day at")
+                    Text(dateTimeString(date: time)).foregroundColor(.accent).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 }
             }
             Spacer()

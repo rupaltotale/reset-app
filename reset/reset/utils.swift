@@ -45,8 +45,5 @@ func dateString(from date: Date) -> String {
 
 
 func dateTimeString(date: Date) -> String {
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .short
-    return formatter.string(from: date)
+    return "\(timeString(from: date)) (\(dateString(from: date)))"
 }
