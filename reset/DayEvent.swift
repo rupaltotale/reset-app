@@ -78,6 +78,14 @@ class DayEventStorage: ObservableObject {
         saveEvents()
     }
     
+    func getWakeUpTime() -> Date {
+        return events[events.count - 1].wakeTime
+    }
+    
+    func getSleepTime() -> Date? {
+        return events[events.count - 1].sleepTime
+    }
+    
     func isAwakeView() -> Bool {
         if events.isEmpty {
             self.updateWakeUp()

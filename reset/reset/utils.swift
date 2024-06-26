@@ -29,3 +29,24 @@ extension View {
     }
     
 }
+
+func timeString(from date: Date) -> String {
+    let formatter = DateFormatter()
+    formatter.dateFormat = "h:mm a"
+    return formatter.string(from: date)
+}
+
+func dateString(from date: Date) -> String {
+    let formatter = DateFormatter()
+    formatter.dateFormat = "M/d"
+    return formatter.string(from: date)
+}
+
+
+
+func dateTimeString(date: Date) -> String {
+    let formatter = DateFormatter()
+    formatter.dateStyle = .short
+    formatter.timeStyle = .short
+    return formatter.string(from: date)
+}

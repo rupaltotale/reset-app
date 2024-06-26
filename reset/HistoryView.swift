@@ -8,19 +8,6 @@
 import Foundation
 import SwiftUI
 
-func timeString(from date: Date) -> String {
-    let formatter = DateFormatter()
-    formatter.dateFormat = "h:mm a"
-    return formatter.string(from: date)
-}
-
-func dateString(from date: Date) -> String {
-    let formatter = DateFormatter()
-    formatter.dateFormat = "M/d"
-    return formatter.string(from: date)
-}
-
-
 struct HistoryView: View {
     @EnvironmentObject private var storage: DayEventStorage
 
@@ -61,13 +48,6 @@ struct HistoryView: View {
         offsets.forEach { index in
             storage.removeEvent(at: index)
         }
-    }
-
-    private func formattedDateString(from date: Date) -> String {
-        let formatter = DateFormatter()
-        formatter.dateStyle = .short
-        formatter.timeStyle = .short
-        return formatter.string(from: date)
     }
 }
 

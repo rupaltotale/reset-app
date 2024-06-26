@@ -8,19 +8,20 @@
 import SwiftUI
 import CoreData
 
-func currentDateTimeString() -> String {
-        let formatter = DateFormatter()
-        formatter.dateStyle = .short
-        formatter.timeStyle = .short
-        return formatter.string(from: Date())
-    }
-
 struct AwakeView: View {
     @Binding var isAwake: Bool
     @EnvironmentObject var dayEventStorage: DayEventStorage
     
     var body: some View {
         VStack {
+            VStack {
+                Image(systemName: "sun.max.fill")
+                               .font(.system(size: 100))
+                               .foregroundColor(.yellow)
+                               .padding(.bottom, 20)
+                Text("You woke up at \(dateTimeString(date: dayEventStorage.getWakeUpTime()))")
+            }
+            
             Spacer()
             
             Text("Reflect on this today...")
@@ -64,10 +65,19 @@ struct SleepView: View {
     
     var body: some View {
         VStack {
+            VStack {
+                Image(systemName: "moon.stars.fill")
+                               .font(.system(size: 100))
+                               .foregroundColor(.yellow)
+                               .padding(.bottom, 20)
+                if let time = dayEventStorage.getSleepTime() {
+                    Text("You went to bed at \(dateTimeString(date: time))")
+                }
+            }
             Spacer()
             
             // Good Night message
-            Text("Goodnight, sweet dreams")
+            Text("Time to rest...")
                 .font(.title)
                 .fontWeight(.bold)
                 .padding(.bottom, 20)
