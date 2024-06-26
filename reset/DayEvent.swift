@@ -48,9 +48,19 @@ class DayEventStorage: ObservableObject {
         saveEvents()
     }
     
-    func updateLiked(liked: Bool?) {
-        events[events.count - 1].liked = liked
+    func updateLiked(liked: Bool, disliked: Bool) {
+        var finalState: Bool?
+        if (liked && !disliked) {
+            finalState = true
+        } else if (disliked && !liked) {
+            finalState = false
+        }
+        events[events.count - 1].liked = finalState
         saveEvents()
+    }
+    
+    func getLiked() -> Bool? {
+        return events.last?.liked
     }
 
     func addEvent(_ event: DayEvent) {

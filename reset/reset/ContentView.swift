@@ -93,7 +93,7 @@ struct SleepView: View {
                 Button(action: {
                     liked.toggle()
                     disliked = false
-                    dayEventStorage.updateLiked(liked: liked)
+                    dayEventStorage.updateLiked(liked: liked, disliked: disliked)
                 }) {
                     Image(systemName: liked ? "hand.thumbsup.fill" : "hand.thumbsup")
                         .foregroundColor(.green)
@@ -103,7 +103,7 @@ struct SleepView: View {
                 Button(action: {
                     disliked.toggle()
                     liked = false
-                    dayEventStorage.updateLiked(liked: liked)
+                    dayEventStorage.updateLiked(liked: liked, disliked: disliked)
                 }) {
                     Image(systemName: disliked ? "hand.thumbsdown.fill" : "hand.thumbsdown")
                         .foregroundColor(.red)
@@ -126,7 +126,12 @@ struct SleepView: View {
             
             Spacer()
         }
-        .padding().applyDarkPageStyles()
+        .onAppear {
+            liked = dayEventStorage.getLiked() == true
+            disliked = dayEventStorage.getLiked() == false
+        }
+        .padding()
+        .applyDarkPageStyles()
     }
 }
 
