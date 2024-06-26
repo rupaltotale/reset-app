@@ -38,7 +38,7 @@ func timeString(from date: Date) -> String {
 
 func dateString(from date: Date) -> String {
     let formatter = DateFormatter()
-    formatter.dateFormat = "M/d"
+    formatter.dateFormat = "EEEE, MMMM d"
     return formatter.string(from: date)
 }
 

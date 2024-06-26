@@ -27,24 +27,31 @@ struct HistoryView: View {
                     List {
                         ForEach(storage.getAllEvents()) { event in
                             if (event.sleepTime != nil){
-                                HStack {
-                                    VStack(alignment: .leading) {
+                                VStack(alignment: .leading) {
+                                    HStack{
                                         Text("\(dateString(from: event.wakeTime))")
                                             .font(.headline)
                                         
-                                        Text("You woke up at \(timeString(from: event.wakeTime)) and slept at \(timeString(from: event.sleepTime!))")
-                                            .font(.body)
+                                        Spacer()
+                                        
+                                        if let liked = event.liked {
+                                            Image(systemName: liked ? "hand.thumbsup.fill" : "hand.thumbsdown.fill")
+                                                .foregroundColor(liked ? .green : .red)
+                                                .font(.title)
+                                        }
                                     }
-                                    
-                                    Spacer()
-                                    
-                                    if let liked = event.liked {
-                                        Image(systemName: liked ? "hand.thumbsup.fill" : "hand.thumbsdown.fill")
-                                            .foregroundColor(liked ? .green : .red)
-                                            .font(.title)
-                                    }
+                                    HStack {
+                                        Image(systemName: "sun.max.fill")
+                                            .font(.system(size: 25))
+                                            .foregroundColor(.yellow)
+                                        Text("\(timeString(from: event.wakeTime))")
+                                        Spacer()
+                                        Image(systemName: "moon.stars.fill")
+                                            .font(.system(size: 25))
+                                            .foregroundColor(.yellow)
+                                        Text("\(timeString(from: event.sleepTime!))")
+                                    }.padding()
                                 }
-                                .padding(.vertical, 4)
                             }
                         }
                         .onDelete(perform: deleteEvent)
@@ -67,6 +74,9 @@ struct HistoryView: View {
 struct HistoryView_Previews: PreviewProvider {
     static var previews: some View {
         let storage = DayEventStorage()
+//        storage.updateWakeUp()
+//        storage.updateSleep()
+//        storage.updateLiked(liked: true, disliked: false)
         return HistoryView().environmentObject(storage)
     }
 }
