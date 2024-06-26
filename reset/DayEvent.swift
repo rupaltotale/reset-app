@@ -103,4 +103,33 @@ class DayEventStorage: ObservableObject {
         }
         return events.last?.sleepTime == nil
     }
+    
+    func averageWakeUpTime(for weekday: Int) -> Double {
+        let filteredEvents = events.filter { Calendar.current.component(.weekday, from: $0.wakeTime) == weekday }
+        
+        guard !filteredEvents.isEmpty else {
+            return 0
+        }
+        
+        let totalWakeUpHour = filteredEvents.reduce(0.0) { total, event in
+            total + Double(Calendar.current.component(.hour, from: event.wakeTime))
+        }
+        
+        return totalWakeUpHour / Double(filteredEvents.count)
+    }
+    
+    func averageSleepTime(for weekday: Int) -> Double {
+        let filteredEvents = events.filter { $0.sleepTime != nil && Calendar.current.component(.weekday, from: $0.sleepTime!) == weekday }
+        
+        guard !filteredEvents.isEmpty else {
+            return 0
+        }
+        
+        let totalSleepHour = filteredEvents.reduce(0.0) { total, event in
+            total + Double(Calendar.current.component(.hour, from: event.sleepTime!))
+        }
+        
+        return totalSleepHour / Double(filteredEvents.count)
+    }
+
 }
