@@ -8,6 +8,19 @@
 import Foundation
 import SwiftUI
 
+func timeString(from date: Date) -> String {
+    let formatter = DateFormatter()
+    formatter.dateFormat = "h:mm a"
+    return formatter.string(from: date)
+}
+
+func dateString(from date: Date) -> String {
+    let formatter = DateFormatter()
+    formatter.dateFormat = "M/d"
+    return formatter.string(from: date)
+}
+
+
 struct HistoryView: View {
     @EnvironmentObject private var storage: DayEventStorage
 
@@ -18,11 +31,24 @@ struct HistoryView: View {
                 List {
                     ForEach(storage.getAllEvents()) { event in
                         if ((event.wakeTime) != nil){
-                            VStack(alignment: .leading) {
-                                Text("Sleep Time: \(formattedDateString(from: event.sleepTime))")
-                                Text("Wake Time: \(formattedDateString(from: event.wakeTime!))")
-                                Text("Liked: \(event.liked?.description ?? "Not specified")")
+                            HStack {
+                                VStack(alignment: .leading) {
+                                    Text("\(dateString(from: event.wakeTime!))")
+                                        .font(.headline)
+                                    
+                                    Text("You woke up at \(timeString(from: event.wakeTime!)) and slept at \(timeString(from: event.sleepTime))")
+                                        .font(.body)
+                                }
+                                
+                                Spacer()
+                                
+                                if let liked = event.liked {
+                                    Image(systemName: liked ? "hand.thumbsup.fill" : "hand.thumbsdown.fill")
+                                        .foregroundColor(liked ? .green : .red)
+                                        .font(.title)
+                                }
                             }
+                            .padding(.vertical, 4)
                         }
                     }
                     .onDelete(perform: deleteEvent)
