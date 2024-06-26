@@ -6,11 +6,36 @@
 //
 
 import Foundation
-import SwiftUI
-import SwiftUICharts
 import Charts
-
 import SwiftUI
+
+func calculateAverageWakeUpHours(wakeTimes: [Date]) -> [(String, Int)] {
+    var weekdaySums = [Int: Int]()
+    var weekdayCounts = [Int: Int]()
+    
+    let calendar = Calendar.current
+    
+    for wakeTime in wakeTimes {
+        let weekday = calendar.component(.weekday, from: wakeTime)
+        let hour = calendar.component(.hour, from: wakeTime)
+        
+        weekdaySums[weekday, default: 0] += hour
+        weekdayCounts[weekday, default: 0] += 1
+    }
+    
+    let weekdays = calendar.weekdaySymbols
+    var averages = [(String, Int)]()
+    
+    for i in 1...7 {
+        if let sum = weekdaySums[i], let count = weekdayCounts[i] {
+            let averageHour = sum / count
+            averages.append((weekdays[i - 1], averageHour))
+        }
+    }
+    
+    return averages
+}
+
 
 struct PieChartExampleView: View {
     var likedDaysTotal: Double {
@@ -34,7 +59,6 @@ struct PieChartExampleView: View {
 
     var body: some View {
         VStack {
-            
             Chart(data, id: \.type) { dataItem in
                 SectorMark(angle: .value(dataItem.type, dataItem.amount),
                            innerRadius: .ratio(0.5),
@@ -60,66 +84,57 @@ struct PieChartExampleView: View {
     }
 }
 
-//struct PieChartExampleView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        PieChartExampleView()
-//    }
-//}
+struct BarChartView: View {
+    let data: [(String, Int)] 
+    let label: String
+    let image: String
+
+    var body: some View {
+        VStack {
+            HStack {
+                Image(systemName: image)
+                    .font(.system(size: 25))
+                    .foregroundColor(.yellow)
+                Text(label)
+            }
+            Chart {
+                ForEach(data, id: \.0) { day, value in
+                    BarMark(
+                        x: .value("Day", day),
+                        y: .value("Value", value)
+                    )
+                    .annotation(position: .top) {
+                        Text("\(value)")
+                            .font(.caption)
+                            .foregroundColor(.blue)
+                    }
+                }
+            }
+            .frame(height: 300)
+            .padding()
+        }
+    }
+}
 
 
 struct GraphView: View {
     @EnvironmentObject var storage: DayEventStorage
     
     var body: some View {
-        VStack (spacing: 30) {
-            HStack{
-                BarChartView(data: ChartData(values: [
-                    ("Sun", 7),
-                    ("Mon", 8),
-                    ("Tue", 6),
-                    ("Wed", 9),
-                    ("Thu", 10),
-                    ("Fri", 8),
-                    ("Sat", 8)
-                    
-//                    ("Sun", storage.averageWakeUpTime(for: 0)),
-//                    ("Mon", storage.averageWakeUpTime(for: 1)),
-//                    ("Tue", storage.averageWakeUpTime(for: 2)),
-//                    ("Wed", storage.averageWakeUpTime(for: 3)),
-//                    ("Thu", storage.averageWakeUpTime(for: 4)),
-//                    ("Fri", storage.averageWakeUpTime(for: 5)),
-//                    ("Sat", storage.averageWakeUpTime(for: 6))
-                ]),
-                             title: "Start the day",
-                             legend: "",
-                             cornerImage: Image(systemName: "sun.max.fill"),
-                             valueSpecifier: "%.2f"
-                             
+        ScrollView{
+            VStack (spacing: 30) {
+                BarChartView(
+                    data: calculateAverageWakeUpHours(wakeTimes: storage.getAllWakeTimes()),
+                    label: "Start the day, on average",
+                    image: "sun.max.fill"
                 )
-                
-                BarChartView(data: ChartData(values: [
-                    
-                        ("Sun", 17),
-                        ("Mon", 18),
-                        ("Tue", 16),
-                        ("Wed", 19),
-                        ("Thu", 21),
-                        ("Fri", 15),
-                        ("Sat", 17)
-//                    ("Sun", storage.averageSleepTime(for: 0)),
-//                    ("Mon", storage.averageSleepTime(for: 1)),
-//                    ("Tue", storage.averageSleepTime(for: 2)),
-//                    ("Wed", storage.averageSleepTime(for: 3)),
-//                    ("Thu", storage.averageSleepTime(for: 4)),
-//                    ("Fri", storage.averageSleepTime(for: 5)),
-//                    ("Sat", storage.averageSleepTime(for: 6))
-                ]),
-                             title: "End the day",
-                             legend: "",
-                             cornerImage: Image(systemName: "moon.fill"),
-                             valueSpecifier: "%.2f")
+                BarChartView(
+                    data: calculateAverageWakeUpHours(wakeTimes: storage.getAllSleepTimes()),
+                    label: "End the day, on average",
+                    image: "moon.stars.fill"
+                )
+                PieChartExampleView()
             }
-            PieChartExampleView()
         }
     }
 }
