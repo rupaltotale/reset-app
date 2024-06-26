@@ -6,7 +6,7 @@ def parse_quotes(file_path):
         content = file.read()
 
     # Regular expression to match quotes and authors
-    pattern = re.compile(r'“(.*?)”\s*—\s*(.*?)(?:\n|$)', re.DOTALL)
+    pattern = re.compile(r'"(.*?)"\s*-\s*(.*?)(?:\n|$)', re.DOTALL)
     matches = pattern.findall(content)
     
     return matches
