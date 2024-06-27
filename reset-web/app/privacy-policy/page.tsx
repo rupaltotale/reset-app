@@ -11,15 +11,15 @@ const PrivacyPolicy = () => {
         <p className="mb-4">
           This privacy policy applies to the Reset app (referred to as
           "Application") for mobile devices, created by Rupal Totale (referred
-          to as "Service Provider") as an ad-supported service. This service is
-          provided "AS IS".
+          to as "Service Provider") as a free service. This service is provided
+          "AS IS".
         </p>
 
         <h2 className="text-2xl font-semibold mt-6 mb-3">
           Information Collection
         </h2>
         <p className="mb-4">
-          The Application collects information when you download and use it,
+          The Application may collect information when you download and use it,
           including:
         </p>
         <ul className="list-disc list-inside mb-4">
@@ -29,10 +29,6 @@ const PrivacyPolicy = () => {
             of your visit, and the duration spent on those pages
           </li>
           <li>The operating system used on your mobile device</li>
-          <li>
-            Search queries for recipes, associated parameters, and results
-          </li>
-          <li>Recipe suggestions returned to you</li>
         </ul>
         <p className="mb-6">
           The Application does not collect precise location information about
@@ -41,42 +37,18 @@ const PrivacyPolicy = () => {
 
         <h2 className="text-2xl font-semibold mt-6 mb-3">Information Use</h2>
         <p className="mb-4">
-          The information collected by the Reset application is used to enhance
-          and improve your user experience, including:
+          Any information collected by the Reset application is used to enhance
+          and improve your user experience.
         </p>
-        <ul className="list-disc list-inside mb-4">
-          <li>
-            <strong>Personalization:</strong> To tailor content and
-            recommendations to your preferences and interests.
-          </li>
-          <li>
-            <strong>Analytics:</strong> To understand user behavior, monitor
-            usage patterns, and analyze trends for improving the application's
-            functionality and performance.
-          </li>
-          <li>
-            <strong>Communications:</strong> To contact you with important
-            updates, notifications, and promotional materials.
-          </li>
-          <li>
-            <strong>Security:</strong> To ensure the security and integrity of
-            our application by detecting and preventing fraudulent activities
-            and ensuring data protection.
-          </li>
-          <li>
-            <strong>Legal Compliance:</strong> To comply with legal obligations
-            and respond to legal requests, such as subpoenas or court orders.
-          </li>
-        </ul>
 
-        <h2 className="text-2xl font-semibold mt-6 mb-3">Third Party Access</h2>
+        {/* <h2 className="text-2xl font-semibold mt-6 mb-3">Third Party Access</h2>
         <p className="mb-4">
           Aggregated, anonymized data is periodically transmitted to external
           services to aid the Service Provider in improving the Application.
           Third-party services used by the Application have their own privacy
           policies:
-        </p>
-        <ul className="list-disc list-inside mb-6">
+        </p> */}
+        {/* <ul className="list-disc list-inside mb-6">
           <li>
             <a
               href="https://support.google.com/admob/answer/6128543?hl=en"
@@ -117,7 +89,7 @@ const PrivacyPolicy = () => {
               RevenueCat
             </a>
           </li>
-        </ul>
+        </ul> */}
         <p className="mb-6">
           The Service Provider may disclose user-provided and automatically
           collected information:
@@ -163,7 +135,7 @@ const PrivacyPolicy = () => {
           .
         </p>
 
-        <h2 className="text-2xl font-semibold mt-6 mb-3">Children</h2>
+        {/* <h2 className="text-2xl font-semibold mt-6 mb-3">Children</h2>
         <p className="mb-4">
           The Application does not address anyone under the age of 13. The
           Service Provider does not knowingly collect personally identifiable
@@ -179,7 +151,7 @@ const PrivacyPolicy = () => {
             reset_app@outlook.com
           </a>
           .
-        </p>
+        </p> */}
 
         <h2 className="text-2xl font-semibold mt-6 mb-3">Security</h2>
         <p className="mb-6">
@@ -195,7 +167,7 @@ const PrivacyPolicy = () => {
           updated Privacy Policy.
         </p>
         <p className="mb-6">
-          This privacy policy is effective as of 2024-06-03.
+          This privacy policy is effective as of 2024-06-27.
         </p>
 
         <h2 className="text-2xl font-semibold mt-6 mb-3">Your Consent</h2>

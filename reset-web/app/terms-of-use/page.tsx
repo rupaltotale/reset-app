@@ -49,65 +49,14 @@ const TermsOfUse = () => {
           correctly or at all.
         </p>
 
-        <div className="mb-4">
-          <p>
-            Please note that the Application utilizes third-party services that
-            have their own Terms and Conditions. Below are the links to the
-            Terms and Conditions of the third-party service providers used by
-            the Application:
-          </p>
-          <ul className="list-disc list-inside">
-            <li>
-              <a
-                href="https://developers.google.com/admob/terms"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 underline"
-              >
-                AdMob
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.google.com/analytics/terms/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 underline"
-              >
-                Google Analytics for Firebase
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://firebase.google.com/terms/crashlytics"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 underline"
-              >
-                Firebase Crashlytics
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.revenuecat.com/terms"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 underline"
-              >
-                RevenueCat
-              </a>
-            </li>
-          </ul>
-        </div>
-
         <p className="mb-4">
           Please be aware that the Service Provider does not assume
           responsibility for certain aspects. Some functions of the Application
-          require an active internet connection, which can be Wi-Fi or provided
-          by your mobile network provider. The Service Provider cannot be held
-          responsible if the Application does not function at full capacity due
-          to lack of access to Wi-Fi or if you have exhausted your data
-          allowance.
+          may require an active internet connection, which can be Wi-Fi or
+          provided by your mobile network provider. The Service Provider cannot
+          be held responsible if the Application does not function at full
+          capacity due to lack of access to Wi-Fi or if you have exhausted your
+          data allowance.
         </p>
 
         <p className="mb-4">
@@ -170,7 +119,7 @@ const TermsOfUse = () => {
         </p>
 
         <p className="mb-4">
-          These terms and conditions are effective as of 2024-06-03
+          These terms and conditions are effective as of 2024-06-26
         </p>
 
         <h2 className="text-2xl font-semibold mb-2">Contact Us</h2>
