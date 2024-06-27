@@ -93,23 +93,23 @@ class DayEventStorage: ObservableObject {
         saveEvents()
     }
     
-    func getWakeUpTime() -> Date {
-        return events[events.count - 1].wakeTime
+    func getWakeUpTime() -> Date? {
+        return events.last?.wakeTime
     }
     
     func getSleepTime() -> Date? {
-        return events[events.count - 1].sleepTime
+        return events.last?.sleepTime
     }
     
     func getQuote() -> [String: String] {
-        return events[events.count - 1].quote ?? ["quote": "Three things cannot long be hidden: the sun, the moon, and the truth.", "author": "Buddha"]
+        return events.last?.quote ?? ["quote": "Three things cannot long be hidden: the sun, the moon, and the truth.", "author": "Buddha"]
     }
     
     func isAwakeView() -> Bool {
         if events.isEmpty {
             // TODO if list is empty, present a screen to start the day
             self.updateWakeUp()
-            return false
+            return true
         }
         return events.last?.sleepTime == nil
     }

@@ -20,8 +20,10 @@ struct AwakeView: View {
                         .font(.system(size: 100))
                         .foregroundColor(.yellow)
                         .padding(.bottom, 20)
-                    Text("You started the day at")
-                    Text(dateTimeString(date: dayEventStorage.getWakeUpTime())).foregroundColor(.accent).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    if let time = dayEventStorage.getWakeUpTime(){
+                        Text("You started the day at")
+                        Text(dateTimeString(date: time )).foregroundColor(.accent).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    }
                 }
                 
                 Spacer(minLength: 30)
