@@ -20,7 +20,6 @@
 		D57C43B72C2B8CF9001818E3 /* LongButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57C43B62C2B8CF9001818E3 /* LongButton.swift */; };
 		D57C43B92C2BA970001818E3 /* DayEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57C43B82C2BA970001818E3 /* DayEvent.swift */; };
 		D57C43BB2C2BB4D9001818E3 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57C43BA2C2BB4D9001818E3 /* HistoryView.swift */; };
-		D57C43BE2C2BCBA5001818E3 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = D57C43BD2C2BCBA5001818E3 /* SwiftUICharts */; };
 		D57C43C02C2BCBB9001818E3 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57C43BF2C2BCBB9001818E3 /* GraphView.swift */; };
 		D57C43C22C2BEBD8001818E3 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57C43C12C2BEBD8001818E3 /* Quotes.swift */; };
 /* End PBXBuildFile section */
@@ -68,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D57C43BE2C2BCBA5001818E3 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +168,6 @@
 			);
 			name = reset;
 			packageProductDependencies = (
-				D57C43BD2C2BCBA5001818E3 /* SwiftUICharts */,
 			);
 			productName = reset;
 			productReference = D526CCF42C23F74C008D6C44 /* reset.app */;
@@ -245,7 +242,6 @@
 			);
 			mainGroup = D526CCEB2C23F74C008D6C44;
 			packageReferences = (
-				D57C43BC2C2BCBA4001818E3 /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = D526CCF52C23F74C008D6C44 /* Products */;
 			projectDirPath = "";
@@ -642,25 +638,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		D57C43BC2C2BCBA4001818E3 /* XCRemoteSwiftPackageReference "ChartView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AppPear/ChartView";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.5.5;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D57C43BD2C2BCBA5001818E3 /* SwiftUICharts */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D57C43BC2C2BCBA4001818E3 /* XCRemoteSwiftPackageReference "ChartView" */;
-			productName = SwiftUICharts;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D526CD022C23F74E008D6C44 /* reset.xcdatamodeld */ = {
