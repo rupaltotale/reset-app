@@ -20,8 +20,8 @@ class DayEventStorage: ObservableObject {
     private var events: [DayEvent] = []
     
     init() {
-        // loadEvents()
-        events = createSampleDayEvents()
+         loadEvents()
+//        events = createSampleDayEvents()
     }
 
     private func loadEvents() {
@@ -102,7 +102,7 @@ class DayEventStorage: ObservableObject {
     }
     
     func getQuote() -> [String: String] {
-        return events[events.count - 1].quote ?? ["quote": "Every morning we are born again. What we do today is what matters most.", "author": "Buddha"]
+        return events[events.count - 1].quote ?? ["quote": "Three things cannot long be hidden: the sun, the moon, and the truth.", "author": "Buddha"]
     }
     
     func isAwakeView() -> Bool {
@@ -146,25 +146,25 @@ func createSampleDayEvents() -> [DayEvent] {
     }
     
     let sleepTimes = [
-        createDate(hour: 24, minute: 0, daysAgo: 1),
-        createDate(hour: 22, minute: 0, daysAgo: 2),
-        createDate(hour: 23, minute: 0, daysAgo: 3),
-        createDate(hour: 21, minute: 30, daysAgo: 4),
+        createDate(hour: 2, minute: 0, daysAgo: 1),
+        createDate(hour: 0, minute: 0, daysAgo: 2),
+        createDate(hour: 0, minute: 0, daysAgo: 3),
+        createDate(hour: 23, minute: 30, daysAgo: 4),
         createDate(hour: 22, minute: 45, daysAgo: 5),
         createDate(hour: 23, minute: 15, daysAgo: 6),
-        createDate(hour: 21, minute: 0, daysAgo: 7),
+        createDate(hour: 23, minute: 0, daysAgo: 7),
         createDate(hour: 22, minute: 30, daysAgo: 8),
         createDate(hour: 23, minute: 0, daysAgo: 9),
-        createDate(hour: 21, minute: 0, daysAgo: 10),
+        createDate(hour: 23, minute: 0, daysAgo: 10),
         createDate(hour: 22, minute: 0, daysAgo: 11),
         createDate(hour: 23, minute: 0, daysAgo: 12),
-        createDate(hour: 21, minute: 30, daysAgo: 13),
+        createDate(hour: 23, minute: 30, daysAgo: 13),
         createDate(hour: 22, minute: 45, daysAgo: 14),
         createDate(hour: 23, minute: 15, daysAgo: 15),
-        createDate(hour: 21, minute: 0, daysAgo: 16),
+        createDate(hour: 23, minute: 0, daysAgo: 16),
         createDate(hour: 22, minute: 30, daysAgo: 17),
         createDate(hour: 23, minute: 0, daysAgo: 18),
-        createDate(hour: 21, minute: 0, daysAgo: 19),
+        createDate(hour: 23, minute: 0, daysAgo: 19),
         createDate(hour: 22, minute: 0, daysAgo: 20)
     ]
     
@@ -204,6 +204,7 @@ func createSampleDayEvents() -> [DayEvent] {
         let event = DayEvent(sleepTime: sleepTimes[i], wakeTime: wakeTimes[i], liked: likedStatuses[i], quote: nil)
         events.append(event)
     }
+    events.append(DayEvent(wakeTime: wakeTimes[0], quote: nil))
     
     return events
 }

@@ -9,7 +9,7 @@ import Foundation
 import Charts
 import SwiftUI
 
-func calculateAveragesByWeekday(wakeTimes: [Date]) -> [(String, Int)] {
+func calculateAveragesByWeekday(wakeTimes: [Date], cap: Int = 24) -> [(String, Int)] {
     var weekdaySums = [Int: Int]()
     var weekdayCounts = [Int: Int]()
     
@@ -17,18 +17,21 @@ func calculateAveragesByWeekday(wakeTimes: [Date]) -> [(String, Int)] {
     
     for wakeTime in wakeTimes {
         let weekday = calendar.component(.weekday, from: wakeTime)
-        let hour = calendar.component(.hour, from: wakeTime)
+        var hour = calendar.component(.hour, from: wakeTime)
+        if hour < cap {
+            hour += 24
+        }
         
         weekdaySums[weekday, default: 0] += hour
         weekdayCounts[weekday, default: 0] += 1
     }
     
-    let weekdays = calendar.weekdaySymbols
+    let weekdays = calendar.shortWeekdaySymbols
     var averages = [(String, Int)]()
     
     for i in 1...7 {
         if let sum = weekdaySums[i], let count = weekdayCounts[i] {
-            let averageHour = sum / count
+            let averageHour = (sum / count) % 24
             averages.append((weekdays[i - 1], averageHour))
         }
     }
@@ -133,7 +136,7 @@ struct GraphView: View {
                     image: "sun.max.fill"
                 )
                 BarChartView(
-                    data: calculateAveragesByWeekday(wakeTimes: storage.getAllSleepTimes()),
+                    data: calculateAveragesByWeekday(wakeTimes: storage.getAllSleepTimes(), cap: 6),
                     label: "End the day, on average",
                     image: "moon.stars.fill"
                 )
