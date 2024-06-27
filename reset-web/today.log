@@ -1,0 +1,1500 @@
+2024-06-13T06:00:53.586201+00:00 app[web.1]: servingSize: '2',
+2024-06-13T06:00:53.586201+00:00 app[web.1]: cookingTime: '25 minutes',
+2024-06-13T06:00:53.586202+00:00 app[web.1]: summary: 'This delicious lemon garlic roasted salmon recipe is the perfect dish for a light and flavorful meal. The tangy lemon and savory garlic pair perfectly with the tender salmon, creating a dish that is sure to impress.'
+2024-06-13T06:00:53.586202+00:00 app[web.1]: }
+2024-06-13T06:00:54.931380+00:00 app[web.1]: I want a recipe for Caprese salad with balsamic glaze with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Serving Size should be 2
+2024-06-13T06:00:54.931414+00:00 app[web.1]: 
+2024-06-13T06:00:57.754868+00:00 app[web.1]: Recipe Name: Caprese Salad with Balsamic Glaze
+2024-06-13T06:00:57.754925+00:00 app[web.1]: Serving Size: 2
+2024-06-13T06:00:57.754926+00:00 app[web.1]: Cooking Time: 15 minutes
+2024-06-13T06:00:57.754937+00:00 app[web.1]: Summary: A refreshing and flavorful salad made with fresh tomatoes, mozzarella cheese, basil, and a drizzle of balsamic glaze.
+2024-06-13T06:00:57.754938+00:00 app[web.1]: 
+2024-06-13T06:00:57.754938+00:00 app[web.1]: Ingredients:
+2024-06-13T06:00:57.754938+00:00 app[web.1]: - 2 large tomatoes, sliced
+2024-06-13T06:00:57.754939+00:00 app[web.1]: - 1 (8 oz) ball of fresh mozzarella cheese, sliced
+2024-06-13T06:00:57.754939+00:00 app[web.1]: - Fresh basil leaves
+2024-06-13T06:00:57.754939+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:00:57.754939+00:00 app[web.1]: - Balsamic glaze
+2024-06-13T06:00:57.754940+00:00 app[web.1]: 
+2024-06-13T06:00:57.754940+00:00 app[web.1]: Instructions:
+2024-06-13T06:00:57.754940+00:00 app[web.1]: 1. Arrange the tomato and mozzarella slices on a serving plate, alternating them.
+2024-06-13T06:00:57.754940+00:00 app[web.1]: 2. Tuck fresh basil leaves in between the tomato and mozzarella slices.
+2024-06-13T06:00:57.754941+00:00 app[web.1]: 3. Season with salt and pepper to taste.
+2024-06-13T06:00:57.754941+00:00 app[web.1]: 4. Drizzle balsamic glaze over the salad.
+2024-06-13T06:00:57.754941+00:00 app[web.1]: 5. Serve and enjoy!
+2024-06-13T06:00:57.755012+00:00 app[web.1]: {
+2024-06-13T06:00:57.755013+00:00 app[web.1]: name: 'Caprese Salad with Balsamic Glaze',
+2024-06-13T06:00:57.755013+00:00 app[web.1]: ingredients: [
+2024-06-13T06:00:57.755013+00:00 app[web.1]: '2 large tomatoes, sliced',
+2024-06-13T06:00:57.755013+00:00 app[web.1]: '1 (8 oz) ball of fresh mozzarella cheese, sliced',
+2024-06-13T06:00:57.755013+00:00 app[web.1]: 'Fresh basil leaves',
+2024-06-13T06:00:57.755013+00:00 app[web.1]: 'Salt and pepper to taste',
+2024-06-13T06:00:57.755013+00:00 app[web.1]: 'Balsamic glaze'
+2024-06-13T06:00:57.755014+00:00 app[web.1]: ],
+2024-06-13T06:00:57.755014+00:00 app[web.1]: instructions: [
+2024-06-13T06:00:57.755014+00:00 app[web.1]: '1. Arrange the tomato and mozzarella slices on a serving plate, alternating them.',
+2024-06-13T06:00:57.755014+00:00 app[web.1]: '2. Tuck fresh basil leaves in between the tomato and mozzarella slices.',
+2024-06-13T06:00:57.755014+00:00 app[web.1]: '3. Season with salt and pepper to taste.',
+2024-06-13T06:00:57.755014+00:00 app[web.1]: '4. Drizzle balsamic glaze over the salad.',
+2024-06-13T06:00:57.755014+00:00 app[web.1]: '5. Serve and enjoy!'
+2024-06-13T06:00:57.755015+00:00 app[web.1]: ],
+2024-06-13T06:00:57.755015+00:00 app[web.1]: servingSize: '2',
+2024-06-13T06:00:57.755015+00:00 app[web.1]: cookingTime: '15 minutes',
+2024-06-13T06:00:57.755015+00:00 app[web.1]: summary: 'A refreshing and flavorful salad made with fresh tomatoes, mozzarella cheese, basil, and a drizzle of balsamic glaze.'
+2024-06-13T06:00:57.755016+00:00 app[web.1]: }
+2024-06-13T06:00:57.755816+00:00 heroku[router]: at=info method=GET path="/recipe/Caprese%20salad%20with%20balsamic%20glaze?servingSize=2&difficulty=&dietaryRestriction=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=7bf7ed3c-b320-4a7a-9114-bfec58b55ad8 fwd="139.178.128.205" dyno=web.1 connect=0ms service=2825ms status=200 bytes=871 protocol=https
+2024-06-13T06:01:07.553297+00:00 app[web.1]: I want a recipe for Chicken stir-fry with vegetables with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Serving Size should be 2
+2024-06-13T06:01:07.553356+00:00 app[web.1]: 
+2024-06-13T06:01:12.209107+00:00 app[web.1]: Recipe Name: Chicken Stir-Fry with Vegetables
+2024-06-13T06:01:12.209153+00:00 app[web.1]: Serving Size: 2
+2024-06-13T06:01:12.209154+00:00 app[web.1]: Cooking Time: 20 minutes
+2024-06-13T06:01:12.209155+00:00 app[web.1]: Summary: This quick and easy chicken stir-fry with vegetables is a delicious and healthy meal that can be made in just 20 minutes. Perfect for a quick weeknight dinner!
+2024-06-13T06:01:12.209155+00:00 app[web.1]: 
+2024-06-13T06:01:12.209155+00:00 app[web.1]: Ingredients:
+2024-06-13T06:01:12.209155+00:00 app[web.1]: - 2 boneless, skinless chicken breasts, thinly sliced
+2024-06-13T06:01:12.209156+00:00 app[web.1]: - 1 tablespoon vegetable oil
+2024-06-13T06:01:12.209156+00:00 app[web.1]: - 1 red bell pepper, sliced
+2024-06-13T06:01:12.209156+00:00 app[web.1]: - 1 yellow bell pepper, sliced
+2024-06-13T06:01:12.209157+00:00 app[web.1]: - 1 cup broccoli florets
+2024-06-13T06:01:12.209157+00:00 app[web.1]: - 1 cup snap peas
+2024-06-13T06:01:12.209157+00:00 app[web.1]: - 1/4 cup soy sauce
+2024-06-13T06:01:12.209158+00:00 app[web.1]: - 2 tablespoons oyster sauce
+2024-06-13T06:01:12.209158+00:00 app[web.1]: - 1 tablespoon sesame oil
+2024-06-13T06:01:12.209158+00:00 app[web.1]: - 1 teaspoon cornstarch
+2024-06-13T06:01:12.209158+00:00 app[web.1]: - 1 teaspoon minced garlic
+2024-06-13T06:01:12.209158+00:00 app[web.1]: - 1 teaspoon minced ginger
+2024-06-13T06:01:12.209158+00:00 app[web.1]: - Cooked rice, for serving
+2024-06-13T06:01:12.209159+00:00 app[web.1]: 
+2024-06-13T06:01:12.209159+00:00 app[web.1]: Instructions:
+2024-06-13T06:01:12.209159+00:00 app[web.1]: 1. In a small bowl, mix together soy sauce, oyster sauce, sesame oil, cornstarch, garlic, and ginger. Set aside.
+2024-06-13T06:01:12.209159+00:00 app[web.1]: 2. Heat vegetable oil in a large skillet over medium-high heat. Add chicken and cook until browned, about 3-4 minutes.
+2024-06-13T06:01:12.209160+00:00 app[web.1]: 3. Add bell peppers, broccoli, and snap peas to the skillet. Cook for another 3-4 minutes, until vegetables are tender-crisp.
+2024-06-13T06:01:12.209160+00:00 app[web.1]: 4. Pour the sauce mixture over the chicken and vegetables. Stir well to combine and cook for another 2-3 minutes, until the sauce has thickened.
+2024-06-13T06:01:12.209161+00:00 app[web.1]: 5. Serve the chicken stir-fry over cooked rice and enjoy!
+2024-06-13T06:01:12.209257+00:00 app[web.1]: {
+2024-06-13T06:01:12.209258+00:00 app[web.1]: name: 'Chicken Stir-Fry with Vegetables',
+2024-06-13T06:01:12.209258+00:00 app[web.1]: ingredients: [
+2024-06-13T06:01:12.209258+00:00 app[web.1]: '2 boneless, skinless chicken breasts, thinly sliced',
+2024-06-13T06:01:12.209258+00:00 app[web.1]: '1 tablespoon vegetable oil',
+2024-06-13T06:01:12.209259+00:00 app[web.1]: '1 red bell pepper, sliced',
+2024-06-13T06:01:12.209259+00:00 app[web.1]: '1 yellow bell pepper, sliced',
+2024-06-13T06:01:12.209259+00:00 app[web.1]: '1 cup broccoli florets',
+2024-06-13T06:01:12.209259+00:00 app[web.1]: '1 cup snap peas',
+2024-06-13T06:01:12.209260+00:00 app[web.1]: '1/4 cup soy sauce',
+2024-06-13T06:01:12.209260+00:00 app[web.1]: '2 tablespoons oyster sauce',
+2024-06-13T06:01:12.209260+00:00 app[web.1]: '1 tablespoon sesame oil',
+2024-06-13T06:01:12.209261+00:00 app[web.1]: '1 teaspoon cornstarch',
+2024-06-13T06:01:12.209261+00:00 app[web.1]: '1 teaspoon minced garlic',
+2024-06-13T06:01:12.209261+00:00 app[web.1]: '1 teaspoon minced ginger',
+2024-06-13T06:01:12.209261+00:00 app[web.1]: 'Cooked rice, for serving'
+2024-06-13T06:01:12.209262+00:00 app[web.1]: ],
+2024-06-13T06:01:12.209262+00:00 app[web.1]: instructions: [
+2024-06-13T06:01:12.209262+00:00 app[web.1]: '1. In a small bowl, mix together soy sauce, oyster sauce, sesame oil, cornstarch, garlic, and ginger. Set aside.',
+2024-06-13T06:01:12.209263+00:00 app[web.1]: '2. Heat vegetable oil in a large skillet over medium-high heat. Add chicken and cook until browned, about 3-4 minutes.',
+2024-06-13T06:01:12.209263+00:00 app[web.1]: '3. Add bell peppers, broccoli, and snap peas to the skillet. Cook for another 3-4 minutes, until vegetables are tender-crisp.',
+2024-06-13T06:01:12.209264+00:00 app[web.1]: '4. Pour the sauce mixture over the chicken and vegetables. Stir well to combine and cook for another 2-3 minutes, until the sauce has thickened.',
+2024-06-13T06:01:12.209264+00:00 app[web.1]: '5. Serve the chicken stir-fry over cooked rice and enjoy!'
+2024-06-13T06:01:12.209264+00:00 app[web.1]: ],
+2024-06-13T06:01:12.209264+00:00 app[web.1]: servingSize: '2',
+2024-06-13T06:01:12.209265+00:00 app[web.1]: cookingTime: '20 minutes',
+2024-06-13T06:01:12.209265+00:00 app[web.1]: summary: 'This quick and easy chicken stir-fry with vegetables is a delicious and healthy meal that can be made in just 20 minutes. Perfect for a quick weeknight dinner!'
+2024-06-13T06:01:12.209266+00:00 app[web.1]: }
+2024-06-13T06:01:12.210195+00:00 heroku[router]: at=info method=GET path="/recipe/Chicken%20stir-fry%20with%20vegetables?servingSize=2&difficulty=&dietaryRestriction=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=83f47eb5-0f95-46a1-be94-f4106a373686 fwd="139.178.128.205" dyno=web.1 connect=0ms service=4657ms status=200 bytes=1439 protocol=https
+2024-06-13T06:01:45.488596+00:00 app[web.1]: I want a recipe for Beef tacos with homemade salsa with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Dietary restriction Dairy-Free.Serving Size should be 3
+2024-06-13T06:01:45.488599+00:00 app[web.1]: 
+2024-06-13T06:01:51.333081+00:00 app[web.1]: Recipe Name: Beef Tacos with Homemade Salsa
+2024-06-13T06:01:51.333133+00:00 app[web.1]: Serving Size: 3
+2024-06-13T06:01:51.333133+00:00 app[web.1]: Cooking Time: 30 minutes
+2024-06-13T06:01:51.333136+00:00 app[web.1]: Summary: These delicious beef tacos with homemade salsa are the perfect weeknight dinner. They are dairy-free and bursting with flavor.
+2024-06-13T06:01:51.333136+00:00 app[web.1]: Ingredients:
+2024-06-13T06:01:51.333137+00:00 app[web.1]: - 1 lb ground beef
+2024-06-13T06:01:51.333137+00:00 app[web.1]: - 1 small onion, diced
+2024-06-13T06:01:51.333137+00:00 app[web.1]: - 1 bell pepper, diced
+2024-06-13T06:01:51.333138+00:00 app[web.1]: - 2 cloves garlic, minced
+2024-06-13T06:01:51.333138+00:00 app[web.1]: - 1 tbsp chili powder
+2024-06-13T06:01:51.333138+00:00 app[web.1]: - 1 tsp cumin
+2024-06-13T06:01:51.333138+00:00 app[web.1]: - 1/2 tsp paprika
+2024-06-13T06:01:51.333139+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:01:51.333139+00:00 app[web.1]: - 1 cup diced tomatoes
+2024-06-13T06:01:51.333139+00:00 app[web.1]: - 1/4 cup chopped fresh cilantro
+2024-06-13T06:01:51.333139+00:00 app[web.1]: - 1 lime, juiced
+2024-06-13T06:01:51.333140+00:00 app[web.1]: - 6 corn tortillas
+2024-06-13T06:01:51.333140+00:00 app[web.1]: - Optional toppings: avocado, shredded lettuce, sliced jalapenos
+2024-06-13T06:01:51.333140+00:00 app[web.1]: 
+2024-06-13T06:01:51.333141+00:00 app[web.1]: Instructions:
+2024-06-13T06:01:51.333142+00:00 app[web.1]: 1. In a skillet, cook the ground beef over medium heat until browned. Add the onion, bell pepper, and garlic, and cook until vegetables are softened.
+2024-06-13T06:01:51.333143+00:00 app[web.1]: 2. Stir in the chili powder, cumin, paprika, salt, and pepper. Add the diced tomatoes and simmer for 10 minutes.
+2024-06-13T06:01:51.333144+00:00 app[web.1]: 3. In a small bowl, mix together the chopped cilantro and lime juice to make the salsa.
+2024-06-13T06:01:51.333145+00:00 app[web.1]: 4. Heat the corn tortillas in a separate skillet until warm and pliable.
+2024-06-13T06:01:51.333145+00:00 app[web.1]: 5. To assemble the tacos, spoon the beef mixture onto each tortilla and top with salsa and any desired toppings.
+2024-06-13T06:01:51.333147+00:00 app[web.1]: 6. Serve hot and enjoy your homemade beef tacos with salsa!
+2024-06-13T06:01:51.333240+00:00 app[web.1]: {
+2024-06-13T06:01:51.333241+00:00 app[web.1]: name: 'Beef Tacos with Homemade Salsa',
+2024-06-13T06:01:51.333241+00:00 app[web.1]: ingredients: [
+2024-06-13T06:01:51.333241+00:00 app[web.1]: '1 lb ground beef',
+2024-06-13T06:01:51.333242+00:00 app[web.1]: '1 small onion, diced',
+2024-06-13T06:01:51.333242+00:00 app[web.1]: '1 bell pepper, diced',
+2024-06-13T06:01:51.333242+00:00 app[web.1]: '2 cloves garlic, minced',
+2024-06-13T06:01:51.333242+00:00 app[web.1]: '1 tbsp chili powder',
+2024-06-13T06:01:51.333243+00:00 app[web.1]: '1 tsp cumin',
+2024-06-13T06:01:51.333243+00:00 app[web.1]: '1/2 tsp paprika',
+2024-06-13T06:01:51.333243+00:00 app[web.1]: 'Salt and pepper to taste',
+2024-06-13T06:01:51.333243+00:00 app[web.1]: '1 cup diced tomatoes',
+2024-06-13T06:01:51.333244+00:00 app[web.1]: '1/4 cup chopped fresh cilantro',
+2024-06-13T06:01:51.333244+00:00 app[web.1]: '1 lime, juiced',
+2024-06-13T06:01:51.333244+00:00 app[web.1]: '6 corn tortillas',
+2024-06-13T06:01:51.333244+00:00 app[web.1]: 'Optional toppings: avocado, shredded lettuce, sliced jalapenos'
+2024-06-13T06:01:51.333245+00:00 app[web.1]: ],
+2024-06-13T06:01:51.333245+00:00 app[web.1]: instructions: [
+2024-06-13T06:01:51.333245+00:00 app[web.1]: '1. In a skillet, cook the ground beef over medium heat until browned. Add the onion, bell pepper, and garlic, and cook until vegetables are softened.',
+2024-06-13T06:01:51.333245+00:00 app[web.1]: '2. Stir in the chili powder, cumin, paprika, salt, and pepper. Add the diced tomatoes and simmer for 10 minutes.',
+2024-06-13T06:01:51.333246+00:00 app[web.1]: '3. In a small bowl, mix together the chopped cilantro and lime juice to make the salsa.',
+2024-06-13T06:01:51.333246+00:00 app[web.1]: '4. Heat the corn tortillas in a separate skillet until warm and pliable.',
+2024-06-13T06:01:51.333246+00:00 app[web.1]: '5. To assemble the tacos, spoon the beef mixture onto each tortilla and top with salsa and any desired toppings.',
+2024-06-13T06:01:51.333246+00:00 app[web.1]: '6. Serve hot and enjoy your homemade beef tacos with salsa!'
+2024-06-13T06:01:51.333246+00:00 app[web.1]: ],
+2024-06-13T06:01:51.333247+00:00 app[web.1]: servingSize: '3',
+2024-06-13T06:01:51.333247+00:00 app[web.1]: cookingTime: '30 minutes',
+2024-06-13T06:01:51.333247+00:00 app[web.1]: summary: 'These delicious beef tacos with homemade salsa are the perfect weeknight dinner. They are dairy-free and bursting with flavor.'
+2024-06-13T06:01:51.333247+00:00 app[web.1]: }
+2024-06-13T06:01:51.334122+00:00 heroku[router]: at=info method=GET path="/recipe/Beef%20tacos%20with%20homemade%20salsa?servingSize=3&difficulty=&dietaryRestriction=Dairy-Free&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=40ae86b9-72f7-4bf9-be59-aec1abdcc750 fwd="139.178.128.205" dyno=web.1 connect=0ms service=5846ms status=200 bytes=1406 protocol=https
+2024-06-13T06:02:14.934285+00:00 app[web.1]: I want a recipe for Beef tacos with homemade salsa with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Dietary restriction Halal.Serving Size should be 3
+2024-06-13T06:02:14.934337+00:00 app[web.1]: 
+2024-06-13T06:02:16.612881+00:00 app[web.1]: I want a recipe for Chicken stir-fry with vegetables with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Dietary restriction Halal.Serving Size should be 3
+2024-06-13T06:02:16.612932+00:00 app[web.1]: 
+2024-06-13T06:02:19.972354+00:00 app[web.1]: Recipe Name: Beef Tacos with Homemade Salsa
+2024-06-13T06:02:19.972418+00:00 app[web.1]: Serving Size: 3
+2024-06-13T06:02:19.972418+00:00 app[web.1]: Cooking Time: 30 minutes
+2024-06-13T06:02:19.972419+00:00 app[web.1]: Summary: Enjoy delicious and flavorful beef tacos topped with homemade salsa for a satisfying meal.
+2024-06-13T06:02:19.972420+00:00 app[web.1]: Ingredients:
+2024-06-13T06:02:19.972420+00:00 app[web.1]: - 1 lb halal ground beef
+2024-06-13T06:02:19.972420+00:00 app[web.1]: - 1 onion, diced
+2024-06-13T06:02:19.972421+00:00 app[web.1]: - 2 cloves garlic, minced
+2024-06-13T06:02:19.972421+00:00 app[web.1]: - 1 tbsp chili powder
+2024-06-13T06:02:19.972421+00:00 app[web.1]: - 1 tsp cumin
+2024-06-13T06:02:19.972421+00:00 app[web.1]: - 1 tsp paprika
+2024-06-13T06:02:19.972422+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:02:19.972422+00:00 app[web.1]: - 1 cup diced tomatoes
+2024-06-13T06:02:19.972422+00:00 app[web.1]: - 1/4 cup chopped cilantro
+2024-06-13T06:02:19.972422+00:00 app[web.1]: - Juice of 1 lime
+2024-06-13T06:02:19.972423+00:00 app[web.1]: - 1 jalapeno, diced
+2024-06-13T06:02:19.972423+00:00 app[web.1]: - 1/2 red onion, diced
+2024-06-13T06:02:19.972423+00:00 app[web.1]: - 1/2 cup corn kernels
+2024-06-13T06:02:19.972423+00:00 app[web.1]: - 1/2 cup black beans
+2024-06-13T06:02:19.972423+00:00 app[web.1]: - 6 small flour tortillas
+2024-06-13T06:02:19.972423+00:00 app[web.1]: - 1/2 cup shredded cheese
+2024-06-13T06:02:19.972424+00:00 app[web.1]: - Sour cream and avocado for serving
+2024-06-13T06:02:19.972424+00:00 app[web.1]: 
+2024-06-13T06:02:19.972424+00:00 app[web.1]: Instructions:
+2024-06-13T06:02:19.972428+00:00 app[web.1]: 1. In a large skillet, cook the ground beef over medium heat until browned. Add in the diced onion and garlic, cooking until softened.
+2024-06-13T06:02:19.972428+00:00 app[web.1]: 2. Stir in the chili powder, cumin, paprika, salt, and pepper. Cook for an additional 2-3 minutes.
+2024-06-13T06:02:19.972428+00:00 app[web.1]: 3. In a separate bowl, combine the diced tomatoes, cilantro, lime juice, jalapeno, red onion, corn, and black beans to make the salsa.
+2024-06-13T06:02:19.972429+00:00 app[web.1]: 4. Warm the flour tortillas in a separate skillet or in the microwave.
+2024-06-13T06:02:19.972438+00:00 app[web.1]: 5. To assemble the tacos, spoon the beef mixture onto each tortilla, then top with the homemade salsa, shredded cheese, sour cream, and avocado.
+2024-06-13T06:02:19.972438+00:00 app[web.1]: 6. Serve the beef tacos hot and enjoy!
+2024-06-13T06:02:19.972904+00:00 app[web.1]: {
+2024-06-13T06:02:19.972905+00:00 app[web.1]: name: 'Beef Tacos with Homemade Salsa',
+2024-06-13T06:02:19.972905+00:00 app[web.1]: ingredients: [
+2024-06-13T06:02:19.972905+00:00 app[web.1]: '1 lb halal ground beef',
+2024-06-13T06:02:19.972905+00:00 app[web.1]: '1 onion, diced',
+2024-06-13T06:02:19.972906+00:00 app[web.1]: '2 cloves garlic, minced',
+2024-06-13T06:02:19.972906+00:00 app[web.1]: '1 tbsp chili powder',
+2024-06-13T06:02:19.972906+00:00 app[web.1]: '1 tsp cumin',
+2024-06-13T06:02:19.972906+00:00 app[web.1]: '1 tsp paprika',
+2024-06-13T06:02:19.972907+00:00 app[web.1]: 'Salt and pepper to taste',
+2024-06-13T06:02:19.972907+00:00 app[web.1]: '1 cup diced tomatoes',
+2024-06-13T06:02:19.972907+00:00 app[web.1]: '1/4 cup chopped cilantro',
+2024-06-13T06:02:19.972907+00:00 app[web.1]: 'Juice of 1 lime',
+2024-06-13T06:02:19.972908+00:00 app[web.1]: '1 jalapeno, diced',
+2024-06-13T06:02:19.972908+00:00 app[web.1]: '1/2 red onion, diced',
+2024-06-13T06:02:19.972908+00:00 app[web.1]: '1/2 cup corn kernels',
+2024-06-13T06:02:19.972908+00:00 app[web.1]: '1/2 cup black beans',
+2024-06-13T06:02:19.972909+00:00 app[web.1]: '6 small flour tortillas',
+2024-06-13T06:02:19.972909+00:00 app[web.1]: '1/2 cup shredded cheese',
+2024-06-13T06:02:19.972909+00:00 app[web.1]: 'Sour cream and avocado for serving'
+2024-06-13T06:02:19.972909+00:00 app[web.1]: ],
+2024-06-13T06:02:19.972909+00:00 app[web.1]: instructions: [
+2024-06-13T06:02:19.972910+00:00 app[web.1]: '1. In a large skillet, cook the ground beef over medium heat until browned. Add in the diced onion and garlic, cooking until softened.',
+2024-06-13T06:02:19.972910+00:00 app[web.1]: '2. Stir in the chili powder, cumin, paprika, salt, and pepper. Cook for an additional 2-3 minutes.',
+2024-06-13T06:02:19.972911+00:00 app[web.1]: '3. In a separate bowl, combine the diced tomatoes, cilantro, lime juice, jalapeno, red onion, corn, and black beans to make the salsa.',
+2024-06-13T06:02:19.972911+00:00 app[web.1]: '4. Warm the flour tortillas in a separate skillet or in the microwave.',
+2024-06-13T06:02:19.972911+00:00 app[web.1]: '5. To assemble the tacos, spoon the beef mixture onto each tortilla, then top with the homemade salsa, shredded cheese, sour cream, and avocado.',
+2024-06-13T06:02:19.972912+00:00 app[web.1]: '6. Serve the beef tacos hot and enjoy!'
+2024-06-13T06:02:19.972912+00:00 app[web.1]: ],
+2024-06-13T06:02:19.972912+00:00 app[web.1]: servingSize: '3',
+2024-06-13T06:02:19.972912+00:00 app[web.1]: cookingTime: '30 minutes',
+2024-06-13T06:02:19.972912+00:00 app[web.1]: summary: 'Enjoy delicious and flavorful beef tacos topped with homemade salsa for a satisfying meal.'
+2024-06-13T06:02:19.972913+00:00 app[web.1]: }
+2024-06-13T06:02:19.974135+00:00 heroku[router]: at=info method=GET path="/recipe/Beef%20tacos%20with%20homemade%20salsa?servingSize=3&difficulty=&dietaryRestriction=Halal&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=13d9b82b-9477-48e2-b51b-0520c15a4062 fwd="139.178.128.205" dyno=web.1 connect=1ms service=5040ms status=200 bytes=1460 protocol=https
+2024-06-13T06:02:22.807258+00:00 app[web.1]: Recipe Name: Chicken Stir-Fry with Vegetables
+2024-06-13T06:02:22.807317+00:00 app[web.1]: Serving Size: 3
+2024-06-13T06:02:22.807317+00:00 app[web.1]: Cooking Time: 30 minutes
+2024-06-13T06:02:22.807319+00:00 app[web.1]: Summary: A delicious and healthy stir-fry dish with tender chicken and an assortment of colorful vegetables, perfect for a quick and easy meal.
+2024-06-13T06:02:22.807319+00:00 app[web.1]: Ingredients:
+2024-06-13T06:02:22.807320+00:00 app[web.1]: - 1 lb boneless, skinless chicken breasts, cut into bite-sized pieces
+2024-06-13T06:02:22.807320+00:00 app[web.1]: - 1 tablespoon vegetable oil
+2024-06-13T06:02:22.807320+00:00 app[web.1]: - 2 cloves garlic, minced
+2024-06-13T06:02:22.807321+00:00 app[web.1]: - 1 small onion, sliced
+2024-06-13T06:02:22.807321+00:00 app[web.1]: - 1 bell pepper, sliced
+2024-06-13T06:02:22.807321+00:00 app[web.1]: - 1 cup broccoli florets
+2024-06-13T06:02:22.807322+00:00 app[web.1]: - 1 cup snap peas
+2024-06-13T06:02:22.807322+00:00 app[web.1]: - 1/4 cup soy sauce
+2024-06-13T06:02:22.807322+00:00 app[web.1]: - 2 tablespoons oyster sauce
+2024-06-13T06:02:22.807322+00:00 app[web.1]: - 1 tablespoon cornstarch
+2024-06-13T06:02:22.807323+00:00 app[web.1]: - 1/2 cup chicken broth
+2024-06-13T06:02:22.807323+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:02:22.807323+00:00 app[web.1]: 
+2024-06-13T06:02:22.807323+00:00 app[web.1]: Instructions:
+2024-06-13T06:02:22.807324+00:00 app[web.1]: 1. In a small bowl, mix together soy sauce, oyster sauce, cornstarch, and chicken broth. Set aside.
+2024-06-13T06:02:22.807324+00:00 app[web.1]: 2. Heat vegetable oil in a large skillet or wok over medium-high heat. Add chicken pieces and cook until browned on all sides, about 5-7 minutes.
+2024-06-13T06:02:22.807325+00:00 app[web.1]: 3. Add garlic and onion to the skillet and cook for 2-3 minutes until onion is translucent.
+2024-06-13T06:02:22.807325+00:00 app[web.1]: 4. Add bell pepper, broccoli, and snap peas to the skillet. Stir-fry for another 5 minutes until vegetables are tender-crisp.
+2024-06-13T06:02:22.807326+00:00 app[web.1]: 5. Pour the sauce mixture over the chicken and vegetables. Stir well to coat everything in the sauce.
+2024-06-13T06:02:22.807326+00:00 app[web.1]: 6. Cook for an additional 2-3 minutes until the sauce has thickened.
+2024-06-13T06:02:22.807327+00:00 app[web.1]: 7. Season with salt and pepper to taste.
+2024-06-13T06:02:22.807327+00:00 app[web.1]: 8. Serve hot over steamed rice or noodles. Enjoy your delicious Chicken Stir-Fry with Vegetables!
+2024-06-13T06:02:22.807412+00:00 app[web.1]: {
+2024-06-13T06:02:22.807412+00:00 app[web.1]: name: 'Chicken Stir-Fry with Vegetables',
+2024-06-13T06:02:22.807412+00:00 app[web.1]: ingredients: [
+2024-06-13T06:02:22.807412+00:00 app[web.1]: '1 lb boneless, skinless chicken breasts, cut into bite-sized pieces',
+2024-06-13T06:02:22.807413+00:00 app[web.1]: '1 tablespoon vegetable oil',
+2024-06-13T06:02:22.807413+00:00 app[web.1]: '2 cloves garlic, minced',
+2024-06-13T06:02:22.807413+00:00 app[web.1]: '1 small onion, sliced',
+2024-06-13T06:02:22.807413+00:00 app[web.1]: '1 bell pepper, sliced',
+2024-06-13T06:02:22.807413+00:00 app[web.1]: '1 cup broccoli florets',
+2024-06-13T06:02:22.807413+00:00 app[web.1]: '1 cup snap peas',
+2024-06-13T06:02:22.807414+00:00 app[web.1]: '1/4 cup soy sauce',
+2024-06-13T06:02:22.807414+00:00 app[web.1]: '2 tablespoons oyster sauce',
+2024-06-13T06:02:22.807414+00:00 app[web.1]: '1 tablespoon cornstarch',
+2024-06-13T06:02:22.807414+00:00 app[web.1]: '1/2 cup chicken broth',
+2024-06-13T06:02:22.807419+00:00 app[web.1]: 'Salt and pepper to taste'
+2024-06-13T06:02:22.807420+00:00 app[web.1]: ],
+2024-06-13T06:02:22.807420+00:00 app[web.1]: instructions: [
+2024-06-13T06:02:22.807420+00:00 app[web.1]: '1. In a small bowl, mix together soy sauce, oyster sauce, cornstarch, and chicken broth. Set aside.',
+2024-06-13T06:02:22.807420+00:00 app[web.1]: '2. Heat vegetable oil in a large skillet or wok over medium-high heat. Add chicken pieces and cook until browned on all sides, about 5-7 minutes.',
+2024-06-13T06:02:22.807420+00:00 app[web.1]: '3. Add garlic and onion to the skillet and cook for 2-3 minutes until onion is translucent.',
+2024-06-13T06:02:22.807421+00:00 app[web.1]: '4. Add bell pepper, broccoli, and snap peas to the skillet. Stir-fry for another 5 minutes until vegetables are tender-crisp.',
+2024-06-13T06:02:22.807421+00:00 app[web.1]: '5. Pour the sauce mixture over the chicken and vegetables. Stir well to coat everything in the sauce.',
+2024-06-13T06:02:22.807421+00:00 app[web.1]: '6. Cook for an additional 2-3 minutes until the sauce has thickened.',
+2024-06-13T06:02:22.807421+00:00 app[web.1]: '7. Season with salt and pepper to taste.',
+2024-06-13T06:02:22.807421+00:00 app[web.1]: '8. Serve hot over steamed rice or noodles. Enjoy your delicious Chicken Stir-Fry with Vegetables!'
+2024-06-13T06:02:22.807422+00:00 app[web.1]: ],
+2024-06-13T06:02:22.807422+00:00 app[web.1]: servingSize: '3',
+2024-06-13T06:02:22.807422+00:00 app[web.1]: cookingTime: '30 minutes',
+2024-06-13T06:02:22.807422+00:00 app[web.1]: summary: 'A delicious and healthy stir-fry dish with tender chicken and an assortment of colorful vegetables, perfect for a quick and easy meal.'
+2024-06-13T06:02:22.807422+00:00 app[web.1]: }
+2024-06-13T06:02:22.808438+00:00 heroku[router]: at=info method=GET path="/recipe/Chicken%20stir-fry%20with%20vegetables?servingSize=3&difficulty=&dietaryRestriction=Halal&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=b7a068bd-ca13-4ae6-89f4-dcc8191f0118 fwd="139.178.128.205" dyno=web.1 connect=0ms service=6196ms status=200 bytes=1610 protocol=https
+2024-06-13T06:03:21.803886+00:00 app[web.1]: I want a recipe for Caprese salad with balsamic glaze with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Dietary restriction Nut-Free.Serving Size should be 5
+2024-06-13T06:03:21.803944+00:00 app[web.1]: 
+2024-06-13T06:03:24.793726+00:00 app[web.1]: Recipe Name: Caprese Salad with Balsamic Glaze
+2024-06-13T06:03:24.793831+00:00 app[web.1]: Serving Size: 5
+2024-06-13T06:03:24.793832+00:00 app[web.1]: Cooking Time: 15 minutes
+2024-06-13T06:03:24.793834+00:00 app[web.1]: Summary: This classic Caprese salad with a drizzle of tangy balsamic glaze is a simple and delicious dish perfect for a light lunch or appetizer.
+2024-06-13T06:03:24.793834+00:00 app[web.1]: 
+2024-06-13T06:03:24.793834+00:00 app[web.1]: Ingredients:
+2024-06-13T06:03:24.793835+00:00 app[web.1]: - 2 large ripe tomatoes, sliced
+2024-06-13T06:03:24.793835+00:00 app[web.1]: - 1 pound fresh mozzarella cheese, sliced
+2024-06-13T06:03:24.793835+00:00 app[web.1]: - 1/2 cup fresh basil leaves
+2024-06-13T06:03:24.793835+00:00 app[web.1]: - 1/4 cup balsamic glaze
+2024-06-13T06:03:24.793836+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:03:24.793836+00:00 app[web.1]: - Extra virgin olive oil for drizzling
+2024-06-13T06:03:24.793836+00:00 app[web.1]: 
+2024-06-13T06:03:24.793837+00:00 app[web.1]: Instructions:
+2024-06-13T06:03:24.793837+00:00 app[web.1]: 1. Arrange the tomato slices and mozzarella cheese on a serving platter, alternating between the two.
+2024-06-13T06:03:24.793838+00:00 app[web.1]: 2. Tuck basil leaves in between the tomato and mozzarella slices.
+2024-06-13T06:03:24.793838+00:00 app[web.1]: 3. Drizzle balsamic glaze over the salad.
+2024-06-13T06:03:24.793838+00:00 app[web.1]: 4. Season with salt and pepper, to taste.
+2024-06-13T06:03:24.793839+00:00 app[web.1]: 5. Finish with a drizzle of extra virgin olive oil.
+2024-06-13T06:03:24.793839+00:00 app[web.1]: 6. Serve immediately and enjoy!
+2024-06-13T06:03:24.793844+00:00 app[web.1]: {
+2024-06-13T06:03:24.793845+00:00 app[web.1]: name: 'Caprese Salad with Balsamic Glaze',
+2024-06-13T06:03:24.793845+00:00 app[web.1]: ingredients: [
+2024-06-13T06:03:24.793846+00:00 app[web.1]: '2 large ripe tomatoes, sliced',
+2024-06-13T06:03:24.793846+00:00 app[web.1]: '1 pound fresh mozzarella cheese, sliced',
+2024-06-13T06:03:24.793846+00:00 app[web.1]: '1/2 cup fresh basil leaves',
+2024-06-13T06:03:24.793846+00:00 app[web.1]: '1/4 cup balsamic glaze',
+2024-06-13T06:03:24.793847+00:00 app[web.1]: 'Salt and pepper to taste',
+2024-06-13T06:03:24.793847+00:00 app[web.1]: 'Extra virgin olive oil for drizzling'
+2024-06-13T06:03:24.793847+00:00 app[web.1]: ],
+2024-06-13T06:03:24.793847+00:00 app[web.1]: instructions: [
+2024-06-13T06:03:24.793848+00:00 app[web.1]: '1. Arrange the tomato slices and mozzarella cheese on a serving platter, alternating between the two.',
+2024-06-13T06:03:24.793848+00:00 app[web.1]: '2. Tuck basil leaves in between the tomato and mozzarella slices.',
+2024-06-13T06:03:24.793848+00:00 app[web.1]: '3. Drizzle balsamic glaze over the salad.',
+2024-06-13T06:03:24.793848+00:00 app[web.1]: '4. Season with salt and pepper, to taste.',
+2024-06-13T06:03:24.793849+00:00 app[web.1]: '5. Finish with a drizzle of extra virgin olive oil.',
+2024-06-13T06:03:24.793849+00:00 app[web.1]: '6. Serve immediately and enjoy!'
+2024-06-13T06:03:24.793849+00:00 app[web.1]: ],
+2024-06-13T06:03:24.793849+00:00 app[web.1]: servingSize: '5',
+2024-06-13T06:03:24.793849+00:00 app[web.1]: cookingTime: '15 minutes',
+2024-06-13T06:03:24.793850+00:00 app[web.1]: summary: 'This classic Caprese salad with a drizzle of tangy balsamic glaze is a simple and delicious dish perfect for a light lunch or appetizer.'
+2024-06-13T06:03:24.793850+00:00 app[web.1]: }
+2024-06-13T06:03:24.794678+00:00 heroku[router]: at=info method=GET path="/recipe/Caprese%20salad%20with%20balsamic%20glaze?servingSize=5&difficulty=&dietaryRestriction=Nut-Free&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=54928236-60de-4aa0-a390-80bf5757f47c fwd="139.178.128.205" dyno=web.1 connect=0ms service=2991ms status=200 bytes=1022 protocol=https
+2024-06-13T06:04:35.563604+00:00 app[web.1]: {
+2024-06-13T06:04:35.563656+00:00 app[web.1]: dietaryRestriction: '',
+2024-06-13T06:04:35.563656+00:00 app[web.1]: mealType: '',
+2024-06-13T06:04:35.563656+00:00 app[web.1]: cuisine: '',
+2024-06-13T06:04:35.563658+00:00 app[web.1]: difficulty: '',
+2024-06-13T06:04:35.563658+00:00 app[web.1]: ingredients: ''
+2024-06-13T06:04:35.563658+00:00 app[web.1]: }
+2024-06-13T06:04:35.563662+00:00 app[web.1]: Suggest 5 dishes (concise title) to make.
+2024-06-13T06:04:36.735520+00:00 heroku[router]: at=info method=GET path="/suggestions?dietaryRestriction=&mealType=&cuisine=&difficulty=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=16b95f5a-c2e9-4583-aaff-21520681437b fwd="139.178.128.205" dyno=web.1 connect=0ms service=1172ms status=200 bytes=358 protocol=https
+2024-06-13T06:04:39.042191+00:00 app[web.1]: I want a recipe for Vegetarian Chickpea Curry with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Serving Size should be 3
+2024-06-13T06:04:39.042255+00:00 app[web.1]: 
+2024-06-13T06:04:40.669425+00:00 app[web.1]: I want a recipe for Beef Stir-Fry with Vegetables with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Serving Size should be 3
+2024-06-13T06:04:40.669471+00:00 app[web.1]: 
+2024-06-13T06:04:44.266409+00:00 app[web.1]: Recipe Name: Vegetarian Chickpea Curry
+2024-06-13T06:04:44.266461+00:00 app[web.1]: Serving Size: 3
+2024-06-13T06:04:44.266461+00:00 app[web.1]: Cooking Time: 30 minutes
+2024-06-13T06:04:44.266462+00:00 app[web.1]: Summary: A delicious and filling vegetarian chickpea curry that is perfect for a quick and easy weeknight meal.
+2024-06-13T06:04:44.266462+00:00 app[web.1]: Ingredients:
+2024-06-13T06:04:44.266463+00:00 app[web.1]: - 1 can of chickpeas, drained and rinsed
+2024-06-13T06:04:44.266463+00:00 app[web.1]: - 1 onion, chopped
+2024-06-13T06:04:44.266464+00:00 app[web.1]: - 2 cloves of garlic, minced
+2024-06-13T06:04:44.266464+00:00 app[web.1]: - 1 tablespoon of curry powder
+2024-06-13T06:04:44.266464+00:00 app[web.1]: - 1 teaspoon of ground cumin
+2024-06-13T06:04:44.266465+00:00 app[web.1]: - 1 teaspoon of ground coriander
+2024-06-13T06:04:44.266465+00:00 app[web.1]: - 1/2 teaspoon of turmeric
+2024-06-13T06:04:44.266465+00:00 app[web.1]: - 1/4 teaspoon of cayenne pepper (optional)
+2024-06-13T06:04:44.266465+00:00 app[web.1]: - 1 can of diced tomatoes
+2024-06-13T06:04:44.266466+00:00 app[web.1]: - 1 can of coconut milk
+2024-06-13T06:04:44.266466+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:04:44.266466+00:00 app[web.1]: - Fresh cilantro, chopped (for garnish)
+2024-06-13T06:04:44.266466+00:00 app[web.1]: - Cooked rice or naan bread (for serving)
+2024-06-13T06:04:44.266467+00:00 app[web.1]: 
+2024-06-13T06:04:44.266467+00:00 app[web.1]: Instructions:
+2024-06-13T06:04:44.266470+00:00 app[web.1]: 1. In a large skillet, heat some oil over medium heat. Add the chopped onion and garlic and sauté until softened, about 5 minutes.
+2024-06-13T06:04:44.266476+00:00 app[web.1]: 2. Add the curry powder, cumin, coriander, turmeric, and cayenne pepper. Stir to coat the onions and garlic in the spices.
+2024-06-13T06:04:44.266476+00:00 app[web.1]: 3. Add the chickpeas, diced tomatoes, and coconut milk to the skillet. Stir to combine, and bring the mixture to a simmer.
+2024-06-13T06:04:44.266477+00:00 app[web.1]: 4. Let the curry simmer for about 15-20 minutes, stirring occasionally, until the flavors have melded together and the sauce has thickened.
+2024-06-13T06:04:44.266477+00:00 app[web.1]: 5. Season with salt and pepper to taste.
+2024-06-13T06:04:44.266477+00:00 app[web.1]: 6. Serve the vegetarian chickpea curry over cooked rice or with naan bread. Garnish with fresh cilantro before serving. Enjoy!
+2024-06-13T06:04:44.266543+00:00 app[web.1]: {
+2024-06-13T06:04:44.266543+00:00 app[web.1]: name: 'Vegetarian Chickpea Curry',
+2024-06-13T06:04:44.266544+00:00 app[web.1]: ingredients: [
+2024-06-13T06:04:44.266544+00:00 app[web.1]: '1 can of chickpeas, drained and rinsed',
+2024-06-13T06:04:44.266544+00:00 app[web.1]: '1 onion, chopped',
+2024-06-13T06:04:44.266544+00:00 app[web.1]: '2 cloves of garlic, minced',
+2024-06-13T06:04:44.266544+00:00 app[web.1]: '1 tablespoon of curry powder',
+2024-06-13T06:04:44.266545+00:00 app[web.1]: '1 teaspoon of ground cumin',
+2024-06-13T06:04:44.266545+00:00 app[web.1]: '1 teaspoon of ground coriander',
+2024-06-13T06:04:44.266545+00:00 app[web.1]: '1/2 teaspoon of turmeric',
+2024-06-13T06:04:44.266546+00:00 app[web.1]: '1/4 teaspoon of cayenne pepper (optional)',
+2024-06-13T06:04:44.266546+00:00 app[web.1]: '1 can of diced tomatoes',
+2024-06-13T06:04:44.266546+00:00 app[web.1]: '1 can of coconut milk',
+2024-06-13T06:04:44.266547+00:00 app[web.1]: 'Salt and pepper to taste',
+2024-06-13T06:04:44.266547+00:00 app[web.1]: 'Fresh cilantro, chopped (for garnish)',
+2024-06-13T06:04:44.266547+00:00 app[web.1]: 'Cooked rice or naan bread (for serving)'
+2024-06-13T06:04:44.266547+00:00 app[web.1]: ],
+2024-06-13T06:04:44.266548+00:00 app[web.1]: instructions: [
+2024-06-13T06:04:44.266548+00:00 app[web.1]: '1. In a large skillet, heat some oil over medium heat. Add the chopped onion and garlic and sauté until softened, about 5 minutes.',
+2024-06-13T06:04:44.266548+00:00 app[web.1]: '2. Add the curry powder, cumin, coriander, turmeric, and cayenne pepper. Stir to coat the onions and garlic in the spices.',
+2024-06-13T06:04:44.266549+00:00 app[web.1]: '3. Add the chickpeas, diced tomatoes, and coconut milk to the skillet. Stir to combine, and bring the mixture to a simmer.',
+2024-06-13T06:04:44.266550+00:00 app[web.1]: '4. Let the curry simmer for about 15-20 minutes, stirring occasionally, until the flavors have melded together and the sauce has thickened.',
+2024-06-13T06:04:44.266550+00:00 app[web.1]: '5. Season with salt and pepper to taste.',
+2024-06-13T06:04:44.266550+00:00 app[web.1]: '6. Serve the vegetarian chickpea curry over cooked rice or with naan bread. Garnish with fresh cilantro before serving. Enjoy!'
+2024-06-13T06:04:44.266550+00:00 app[web.1]: ],
+2024-06-13T06:04:44.266551+00:00 app[web.1]: servingSize: '3',
+2024-06-13T06:04:44.266551+00:00 app[web.1]: cookingTime: '30 minutes',
+2024-06-13T06:04:44.266551+00:00 app[web.1]: summary: 'A delicious and filling vegetarian chickpea curry that is perfect for a quick and easy weeknight meal.'
+2024-06-13T06:04:44.266551+00:00 app[web.1]: }
+2024-06-13T06:04:44.267763+00:00 heroku[router]: at=info method=GET path="/recipe/Vegetarian%20Chickpea%20Curry?servingSize=3&difficulty=&dietaryRestriction=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=b099f8bb-0b3e-49ba-b9b5-0280962204d9 fwd="139.178.128.205" dyno=web.1 connect=1ms service=5226ms status=200 bytes=1549 protocol=https
+2024-06-13T06:04:45.639472+00:00 app[web.1]: Recipe Name: Beef Stir-Fry with Vegetables
+2024-06-13T06:04:45.639532+00:00 app[web.1]: Serving Size: 3
+2024-06-13T06:04:45.639533+00:00 app[web.1]: Cooking Time: 30 minutes
+2024-06-13T06:04:45.639534+00:00 app[web.1]: Summary: A delicious and easy-to-make beef stir-fry with a variety of colorful vegetables.
+2024-06-13T06:04:45.639535+00:00 app[web.1]: 
+2024-06-13T06:04:45.639535+00:00 app[web.1]: Ingredients:
+2024-06-13T06:04:45.639536+00:00 app[web.1]: - 1 lb beef sirloin, thinly sliced
+2024-06-13T06:04:45.639537+00:00 app[web.1]: - 1 red bell pepper, sliced
+2024-06-13T06:04:45.639537+00:00 app[web.1]: - 1 yellow bell pepper, sliced
+2024-06-13T06:04:45.639537+00:00 app[web.1]: - 1 cup broccoli florets
+2024-06-13T06:04:45.639537+00:00 app[web.1]: - 1 carrot, thinly sliced
+2024-06-13T06:04:45.639538+00:00 app[web.1]: - 1 onion, sliced
+2024-06-13T06:04:45.639538+00:00 app[web.1]: - 3 cloves garlic, minced
+2024-06-13T06:04:45.639538+00:00 app[web.1]: - 1/4 cup soy sauce
+2024-06-13T06:04:45.639539+00:00 app[web.1]: - 2 tbsp oyster sauce
+2024-06-13T06:04:45.639539+00:00 app[web.1]: - 1 tbsp sesame oil
+2024-06-13T06:04:45.639539+00:00 app[web.1]: - 1 tbsp cornstarch
+2024-06-13T06:04:45.639539+00:00 app[web.1]: - 2 tbsp vegetable oil
+2024-06-13T06:04:45.639540+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:04:45.639540+00:00 app[web.1]: 
+2024-06-13T06:04:45.639540+00:00 app[web.1]: Instructions:
+2024-06-13T06:04:45.639541+00:00 app[web.1]: 1. In a small bowl, mix together soy sauce, oyster sauce, sesame oil, and cornstarch. Set aside.
+2024-06-13T06:04:45.639542+00:00 app[web.1]: 2. Heat vegetable oil in a large skillet or wok over high heat.
+2024-06-13T06:04:45.639542+00:00 app[web.1]: 3. Add beef slices and stir-fry until browned, about 2-3 minutes. Remove beef from the skillet and set aside.
+2024-06-13T06:04:45.639542+00:00 app[web.1]: 4. In the same skillet, add garlic and onion. Stir-fry for 1-2 minutes until fragrant.
+2024-06-13T06:04:45.639542+00:00 app[web.1]: 5. Add bell peppers, broccoli, and carrots. Stir-fry for another 3-4 minutes until vegetables are tender-crisp.
+2024-06-13T06:04:45.639544+00:00 app[web.1]: 6. Return the beef to the skillet and pour the sauce over the beef and vegetables. Stir well to coat everything in the sauce.
+2024-06-13T06:04:45.639544+00:00 app[web.1]: 7. Cook for another 2-3 minutes until the sauce has thickened and the beef is heated through.
+2024-06-13T06:04:45.639544+00:00 app[web.1]: 8. Season with salt and pepper to taste.
+2024-06-13T06:04:45.639545+00:00 app[web.1]: 9. Serve hot over steamed rice or noodles. Enjoy!
+2024-06-13T06:04:45.639583+00:00 app[web.1]: {
+2024-06-13T06:04:45.639584+00:00 app[web.1]: name: 'Beef Stir-Fry with Vegetables',
+2024-06-13T06:04:45.639584+00:00 app[web.1]: ingredients: [
+2024-06-13T06:04:45.639585+00:00 app[web.1]: '1 lb beef sirloin, thinly sliced',
+2024-06-13T06:04:45.639585+00:00 app[web.1]: '1 red bell pepper, sliced',
+2024-06-13T06:04:45.639585+00:00 app[web.1]: '1 yellow bell pepper, sliced',
+2024-06-13T06:04:45.639585+00:00 app[web.1]: '1 cup broccoli florets',
+2024-06-13T06:04:45.639585+00:00 app[web.1]: '1 carrot, thinly sliced',
+2024-06-13T06:04:45.639586+00:00 app[web.1]: '1 onion, sliced',
+2024-06-13T06:04:45.639586+00:00 app[web.1]: '3 cloves garlic, minced',
+2024-06-13T06:04:45.639586+00:00 app[web.1]: '1/4 cup soy sauce',
+2024-06-13T06:04:45.639586+00:00 app[web.1]: '2 tbsp oyster sauce',
+2024-06-13T06:04:45.639586+00:00 app[web.1]: '1 tbsp sesame oil',
+2024-06-13T06:04:45.639587+00:00 app[web.1]: '1 tbsp cornstarch',
+2024-06-13T06:04:45.639587+00:00 app[web.1]: '2 tbsp vegetable oil',
+2024-06-13T06:04:45.639587+00:00 app[web.1]: 'Salt and pepper to taste'
+2024-06-13T06:04:45.639587+00:00 app[web.1]: ],
+2024-06-13T06:04:45.639587+00:00 app[web.1]: instructions: [
+2024-06-13T06:04:45.639588+00:00 app[web.1]: '1. In a small bowl, mix together soy sauce, oyster sauce, sesame oil, and cornstarch. Set aside.',
+2024-06-13T06:04:45.639588+00:00 app[web.1]: '2. Heat vegetable oil in a large skillet or wok over high heat.',
+2024-06-13T06:04:45.639588+00:00 app[web.1]: '3. Add beef slices and stir-fry until browned, about 2-3 minutes. Remove beef from the skillet and set aside.',
+2024-06-13T06:04:45.639589+00:00 app[web.1]: '4. In the same skillet, add garlic and onion. Stir-fry for 1-2 minutes until fragrant.',
+2024-06-13T06:04:45.639589+00:00 app[web.1]: '5. Add bell peppers, broccoli, and carrots. Stir-fry for another 3-4 minutes until vegetables are tender-crisp.',
+2024-06-13T06:04:45.639591+00:00 app[web.1]: '6. Return the beef to the skillet and pour the sauce over the beef and vegetables. Stir well to coat everything in the sauce.',
+2024-06-13T06:04:45.639591+00:00 app[web.1]: '7. Cook for another 2-3 minutes until the sauce has thickened and the beef is heated through.',
+2024-06-13T06:04:45.639592+00:00 app[web.1]: '8. Season with salt and pepper to taste.',
+2024-06-13T06:04:45.639592+00:00 app[web.1]: '9. Serve hot over steamed rice or noodles. Enjoy!'
+2024-06-13T06:04:45.639592+00:00 app[web.1]: ],
+2024-06-13T06:04:45.639592+00:00 app[web.1]: servingSize: '3',
+2024-06-13T06:04:45.639593+00:00 app[web.1]: cookingTime: '30 minutes',
+2024-06-13T06:04:45.639593+00:00 app[web.1]: summary: 'A delicious and easy-to-make beef stir-fry with a variety of colorful vegetables.'
+2024-06-13T06:04:45.639593+00:00 app[web.1]: }
+2024-06-13T06:04:45.640763+00:00 heroku[router]: at=info method=GET path="/recipe/Beef%20Stir-Fry%20with%20Vegetables?servingSize=3&difficulty=&dietaryRestriction=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=fdfd579d-bc5d-4f6a-a75f-0f7ffa4c29ce fwd="139.178.128.205" dyno=web.1 connect=0ms service=4971ms status=200 bytes=1542 protocol=https
+2024-06-13T06:05:02.158519+00:00 app[web.1]: I want a recipe for Spaghetti Aglio e Olio with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Serving Size should be 2
+2024-06-13T06:05:02.158576+00:00 app[web.1]: Difficulty should be Medium
+2024-06-13T06:05:02.158576+00:00 app[web.1]: 
+2024-06-13T06:05:04.274388+00:00 app[web.1]: I want a recipe for Lemon Herb Roasted Chicken with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Serving Size should be 2
+2024-06-13T06:05:04.274439+00:00 app[web.1]: Difficulty should be Medium
+2024-06-13T06:05:04.274439+00:00 app[web.1]: 
+2024-06-13T06:05:06.362412+00:00 app[web.1]: Recipe Name: Spaghetti Aglio e Olio
+2024-06-13T06:05:06.362452+00:00 app[web.1]: Serving Size: 2
+2024-06-13T06:05:06.362452+00:00 app[web.1]: Cooking Time: 15 minutes
+2024-06-13T06:05:06.362453+00:00 app[web.1]: Summary: A classic Italian dish that is simple yet flavorful, featuring spaghetti tossed in a garlic and olive oil sauce.
+2024-06-13T06:05:06.362453+00:00 app[web.1]: Ingredients:
+2024-06-13T06:05:06.362453+00:00 app[web.1]: - 8 oz spaghetti
+2024-06-13T06:05:06.362454+00:00 app[web.1]: - 4 cloves garlic, thinly sliced
+2024-06-13T06:05:06.362454+00:00 app[web.1]: - 1/4 cup extra virgin olive oil
+2024-06-13T06:05:06.362454+00:00 app[web.1]: - 1/2 tsp red pepper flakes
+2024-06-13T06:05:06.362454+00:00 app[web.1]: - Salt and pepper, to taste
+2024-06-13T06:05:06.362455+00:00 app[web.1]: - Grated Parmesan cheese, for serving
+2024-06-13T06:05:06.362455+00:00 app[web.1]: - Fresh parsley, chopped, for garnish
+2024-06-13T06:05:06.362455+00:00 app[web.1]: 
+2024-06-13T06:05:06.362455+00:00 app[web.1]: Instructions:
+2024-06-13T06:05:06.362461+00:00 app[web.1]: 1. Cook the spaghetti in a large pot of salted boiling water according to package instructions until al dente. Reserve 1 cup of pasta water before draining.
+2024-06-13T06:05:06.362461+00:00 app[web.1]: 2. In a large skillet, heat the olive oil over medium heat. Add the sliced garlic and red pepper flakes, stirring constantly until the garlic is golden brown and fragrant, about 2-3 minutes.
+2024-06-13T06:05:06.362463+00:00 app[web.1]: 3. Add the cooked spaghetti to the skillet along with 1/2 cup of the reserved pasta water. Toss to coat the spaghetti in the garlic and oil mixture, adding more pasta water as needed to create a silky sauce.
+2024-06-13T06:05:06.362464+00:00 app[web.1]: 4. Season with salt and pepper to taste. Serve the spaghetti aglio e olio hot, garnished with grated Parmesan cheese and chopped parsley. Enjoy!
+2024-06-13T06:05:06.362519+00:00 app[web.1]: {
+2024-06-13T06:05:06.362519+00:00 app[web.1]: name: 'Spaghetti Aglio e Olio',
+2024-06-13T06:05:06.362519+00:00 app[web.1]: ingredients: [
+2024-06-13T06:05:06.362520+00:00 app[web.1]: '8 oz spaghetti',
+2024-06-13T06:05:06.362520+00:00 app[web.1]: '4 cloves garlic, thinly sliced',
+2024-06-13T06:05:06.362520+00:00 app[web.1]: '1/4 cup extra virgin olive oil',
+2024-06-13T06:05:06.362520+00:00 app[web.1]: '1/2 tsp red pepper flakes',
+2024-06-13T06:05:06.362520+00:00 app[web.1]: 'Salt and pepper, to taste',
+2024-06-13T06:05:06.362520+00:00 app[web.1]: 'Grated Parmesan cheese, for serving',
+2024-06-13T06:05:06.362521+00:00 app[web.1]: 'Fresh parsley, chopped, for garnish'
+2024-06-13T06:05:06.362521+00:00 app[web.1]: ],
+2024-06-13T06:05:06.362521+00:00 app[web.1]: instructions: [
+2024-06-13T06:05:06.362522+00:00 app[web.1]: '1. Cook the spaghetti in a large pot of salted boiling water according to package instructions until al dente. Reserve 1 cup of pasta water before draining.',
+2024-06-13T06:05:06.362522+00:00 app[web.1]: '2. In a large skillet, heat the olive oil over medium heat. Add the sliced garlic and red pepper flakes, stirring constantly until the garlic is golden brown and fragrant, about 2-3 minutes.',
+2024-06-13T06:05:06.362523+00:00 app[web.1]: '3. Add the cooked spaghetti to the skillet along with 1/2 cup of the reserved pasta water. Toss to coat the spaghetti in the garlic and oil mixture, adding more pasta water as needed to create a silky sauce.',
+2024-06-13T06:05:06.362523+00:00 app[web.1]: '4. Season with salt and pepper to taste. Serve the spaghetti aglio e olio hot, garnished with grated Parmesan cheese and chopped parsley. Enjoy!'
+2024-06-13T06:05:06.362523+00:00 app[web.1]: ],
+2024-06-13T06:05:06.362523+00:00 app[web.1]: servingSize: '2',
+2024-06-13T06:05:06.362524+00:00 app[web.1]: cookingTime: '15 minutes',
+2024-06-13T06:05:06.362524+00:00 app[web.1]: summary: 'A classic Italian dish that is simple yet flavorful, featuring spaghetti tossed in a garlic and olive oil sauce.'
+2024-06-13T06:05:06.362524+00:00 app[web.1]: }
+2024-06-13T06:05:06.364189+00:00 heroku[router]: at=info method=GET path="/recipe/Spaghetti%20Aglio%20e%20Olio?servingSize=2&difficulty=Medium&dietaryRestriction=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=f4a22e78-e80b-4e1b-a74b-a4bf201a46fb fwd="139.178.128.205" dyno=web.1 connect=0ms service=4206ms status=200 bytes=1370 protocol=https
+2024-06-13T06:05:07.756242+00:00 app[web.1]: I want a recipe for Baked Salmon with Dill and Lemon with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Serving Size should be 2
+2024-06-13T06:05:07.756296+00:00 app[web.1]: Difficulty should be Medium
+2024-06-13T06:05:07.756296+00:00 app[web.1]: 
+2024-06-13T06:05:08.184528+00:00 app[web.1]: Recipe Name: Lemon Herb Roasted Chicken
+2024-06-13T06:05:08.184579+00:00 app[web.1]: Serving Size: 2
+2024-06-13T06:05:08.184580+00:00 app[web.1]: Cooking Time: 1 hour
+2024-06-13T06:05:08.184580+00:00 app[web.1]: Summary: This Lemon Herb Roasted Chicken is a flavorful and easy dish to make for a cozy dinner for two. The combination of lemon and herbs creates a deliciously tangy and aromatic chicken.
+2024-06-13T06:05:08.184581+00:00 app[web.1]: 
+2024-06-13T06:05:08.184581+00:00 app[web.1]: Ingredients:
+2024-06-13T06:05:08.184581+00:00 app[web.1]: - 2 bone-in, skin-on chicken breasts
+2024-06-13T06:05:08.184581+00:00 app[web.1]: - 1 lemon, sliced
+2024-06-13T06:05:08.184582+00:00 app[web.1]: - 2 cloves of garlic, minced
+2024-06-13T06:05:08.184582+00:00 app[web.1]: - 2 tablespoons of olive oil
+2024-06-13T06:05:08.184582+00:00 app[web.1]: - 1 teaspoon of dried thyme
+2024-06-13T06:05:08.184582+00:00 app[web.1]: - 1 teaspoon of dried rosemary
+2024-06-13T06:05:08.184582+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:05:08.184582+00:00 app[web.1]: 
+2024-06-13T06:05:08.184583+00:00 app[web.1]: Instructions:
+2024-06-13T06:05:08.184583+00:00 app[web.1]: 1. Preheat the oven to 375°F (190°C).
+2024-06-13T06:05:08.184583+00:00 app[web.1]: 2. In a small bowl, mix together the minced garlic, olive oil, dried thyme, dried rosemary, salt, and pepper.
+2024-06-13T06:05:08.184584+00:00 app[web.1]: 3. Pat the chicken breasts dry with paper towels and place them in a baking dish.
+2024-06-13T06:05:08.184584+00:00 app[web.1]: 4. Rub the herb mixture all over the chicken breasts, making sure they are evenly coated.
+2024-06-13T06:05:08.184584+00:00 app[web.1]: 5. Place the lemon slices on top of the chicken breasts.
+2024-06-13T06:05:08.184585+00:00 app[web.1]: 6. Roast the chicken in the preheated oven for 45-50 minutes, or until the internal temperature reaches 165°F (74°C) and the skin is crispy.
+2024-06-13T06:05:08.184585+00:00 app[web.1]: 7. Remove the chicken from the oven and let it rest for 5 minutes before serving.
+2024-06-13T06:05:08.184585+00:00 app[web.1]: 8. Serve the Lemon Herb Roasted Chicken with your favorite sides and enjoy!
+2024-06-13T06:05:08.184658+00:00 app[web.1]: {
+2024-06-13T06:05:08.184658+00:00 app[web.1]: name: 'Lemon Herb Roasted Chicken',
+2024-06-13T06:05:08.184658+00:00 app[web.1]: ingredients: [
+2024-06-13T06:05:08.184659+00:00 app[web.1]: '2 bone-in, skin-on chicken breasts',
+2024-06-13T06:05:08.184659+00:00 app[web.1]: '1 lemon, sliced',
+2024-06-13T06:05:08.184659+00:00 app[web.1]: '2 cloves of garlic, minced',
+2024-06-13T06:05:08.184659+00:00 app[web.1]: '2 tablespoons of olive oil',
+2024-06-13T06:05:08.184659+00:00 app[web.1]: '1 teaspoon of dried thyme',
+2024-06-13T06:05:08.184659+00:00 app[web.1]: '1 teaspoon of dried rosemary',
+2024-06-13T06:05:08.184660+00:00 app[web.1]: 'Salt and pepper to taste'
+2024-06-13T06:05:08.184660+00:00 app[web.1]: ],
+2024-06-13T06:05:08.184660+00:00 app[web.1]: instructions: [
+2024-06-13T06:05:08.184660+00:00 app[web.1]: '1. Preheat the oven to 375°F (190°C).',
+2024-06-13T06:05:08.184661+00:00 app[web.1]: '2. In a small bowl, mix together the minced garlic, olive oil, dried thyme, dried rosemary, salt, and pepper.',
+2024-06-13T06:05:08.184661+00:00 app[web.1]: '3. Pat the chicken breasts dry with paper towels and place them in a baking dish.',
+2024-06-13T06:05:08.184661+00:00 app[web.1]: '4. Rub the herb mixture all over the chicken breasts, making sure they are evenly coated.',
+2024-06-13T06:05:08.184661+00:00 app[web.1]: '5. Place the lemon slices on top of the chicken breasts.',
+2024-06-13T06:05:08.184662+00:00 app[web.1]: '6. Roast the chicken in the preheated oven for 45-50 minutes, or until the internal temperature reaches 165°F (74°C) and the skin is crispy.',
+2024-06-13T06:05:08.184662+00:00 app[web.1]: '7. Remove the chicken from the oven and let it rest for 5 minutes before serving.',
+2024-06-13T06:05:08.184662+00:00 app[web.1]: '8. Serve the Lemon Herb Roasted Chicken with your favorite sides and enjoy!'
+2024-06-13T06:05:08.184662+00:00 app[web.1]: ],
+2024-06-13T06:05:08.184663+00:00 app[web.1]: servingSize: '2',
+2024-06-13T06:05:08.184663+00:00 app[web.1]: cookingTime: '1 hour',
+2024-06-13T06:05:08.184663+00:00 app[web.1]: summary: 'This Lemon Herb Roasted Chicken is a flavorful and easy dish to make for a cozy dinner for two. The combination of lemon and herbs creates a deliciously tangy and aromatic chicken.'
+2024-06-13T06:05:08.184663+00:00 app[web.1]: }
+2024-06-13T06:05:08.185681+00:00 heroku[router]: at=info method=GET path="/recipe/Lemon%20Herb%20Roasted%20Chicken?servingSize=2&difficulty=Medium&dietaryRestriction=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=d927355f-8e12-452a-b097-ccbc603f7aba fwd="139.178.128.205" dyno=web.1 connect=0ms service=3911ms status=200 bytes=1409 protocol=https
+2024-06-13T06:05:11.175700+00:00 app[web.1]: Recipe Name: Baked Salmon with Dill and Lemon
+2024-06-13T06:05:11.175766+00:00 app[web.1]: Serving Size: 2
+2024-06-13T06:05:11.175767+00:00 app[web.1]: Cooking Time: 20 minutes
+2024-06-13T06:05:11.175768+00:00 app[web.1]: Summary: This recipe for Baked Salmon with Dill and Lemon is a delicious and healthy dish that is perfect for a quick weeknight dinner. The combination of fresh dill and lemon gives the salmon a bright and flavorful taste that pairs perfectly with the tender fish.
+2024-06-13T06:05:11.175769+00:00 app[web.1]: 
+2024-06-13T06:05:11.175769+00:00 app[web.1]: Ingredients:
+2024-06-13T06:05:11.175769+00:00 app[web.1]: - 2 salmon fillets
+2024-06-13T06:05:11.175770+00:00 app[web.1]: - 2 tablespoons olive oil
+2024-06-13T06:05:11.175770+00:00 app[web.1]: - 1 tablespoon fresh dill, chopped
+2024-06-13T06:05:11.175770+00:00 app[web.1]: - 1 lemon, thinly sliced
+2024-06-13T06:05:11.175771+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:05:11.175771+00:00 app[web.1]: 
+2024-06-13T06:05:11.175771+00:00 app[web.1]: Instructions:
+2024-06-13T06:05:11.175772+00:00 app[web.1]: 1. Preheat your oven to 400°F (200°C).
+2024-06-13T06:05:11.175772+00:00 app[web.1]: 2. Place the salmon fillets on a baking sheet lined with parchment paper.
+2024-06-13T06:05:11.175773+00:00 app[web.1]: 3. Drizzle the olive oil over the salmon fillets and season with salt and pepper.
+2024-06-13T06:05:11.175773+00:00 app[web.1]: 4. Sprinkle the chopped dill over the salmon fillets and place a few slices of lemon on top.
+2024-06-13T06:05:11.175774+00:00 app[web.1]: 5. Bake in the preheated oven for 15-20 minutes, or until the salmon is cooked through and flakes easily with a fork.
+2024-06-13T06:05:11.175774+00:00 app[web.1]: 6. Serve the Baked Salmon with Dill and Lemon hot, garnished with additional dill and lemon slices if desired. Enjoy!
+2024-06-13T06:05:11.175831+00:00 app[web.1]: {
+2024-06-13T06:05:11.175831+00:00 app[web.1]: name: 'Baked Salmon with Dill and Lemon',
+2024-06-13T06:05:11.175831+00:00 app[web.1]: ingredients: [
+2024-06-13T06:05:11.175831+00:00 app[web.1]: '2 salmon fillets',
+2024-06-13T06:05:11.175831+00:00 app[web.1]: '2 tablespoons olive oil',
+2024-06-13T06:05:11.175832+00:00 app[web.1]: '1 tablespoon fresh dill, chopped',
+2024-06-13T06:05:11.175832+00:00 app[web.1]: '1 lemon, thinly sliced',
+2024-06-13T06:05:11.175832+00:00 app[web.1]: 'Salt and pepper to taste'
+2024-06-13T06:05:11.175832+00:00 app[web.1]: ],
+2024-06-13T06:05:11.175832+00:00 app[web.1]: instructions: [
+2024-06-13T06:05:11.175832+00:00 app[web.1]: '1. Preheat your oven to 400°F (200°C).',
+2024-06-13T06:05:11.175833+00:00 app[web.1]: '2. Place the salmon fillets on a baking sheet lined with parchment paper.',
+2024-06-13T06:05:11.175833+00:00 app[web.1]: '3. Drizzle the olive oil over the salmon fillets and season with salt and pepper.',
+2024-06-13T06:05:11.175833+00:00 app[web.1]: '4. Sprinkle the chopped dill over the salmon fillets and place a few slices of lemon on top.',
+2024-06-13T06:05:11.175833+00:00 app[web.1]: '5. Bake in the preheated oven for 15-20 minutes, or until the salmon is cooked through and flakes easily with a fork.',
+2024-06-13T06:05:11.175834+00:00 app[web.1]: '6. Serve the Baked Salmon with Dill and Lemon hot, garnished with additional dill and lemon slices if desired. Enjoy!'
+2024-06-13T06:05:11.175834+00:00 app[web.1]: ],
+2024-06-13T06:05:11.175834+00:00 app[web.1]: servingSize: '2',
+2024-06-13T06:05:11.175834+00:00 app[web.1]: cookingTime: '20 minutes',
+2024-06-13T06:05:11.175834+00:00 app[web.1]: summary: 'This recipe for Baked Salmon with Dill and Lemon is a delicious and healthy dish that is perfect for a quick weeknight dinner. The combination of fresh dill and lemon gives the salmon a bright and flavorful taste that pairs perfectly with the tender fish.'
+2024-06-13T06:05:11.175835+00:00 app[web.1]: }
+2024-06-13T06:05:11.176743+00:00 heroku[router]: at=info method=GET path="/recipe/Baked%20Salmon%20with%20Dill%20and%20Lemon?servingSize=2&difficulty=Medium&dietaryRestriction=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=abf968dd-9309-40e0-ad89-52b62dc8dbc3 fwd="139.178.128.205" dyno=web.1 connect=2ms service=3420ms status=200 bytes=1269 protocol=https
+2024-06-13T06:05:35.507088+00:00 app[web.1]: I want a recipe for Spaghetti Aglio e Olio with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Serving Size should be 2
+2024-06-13T06:05:35.507092+00:00 app[web.1]: Difficulty should be Medium
+2024-06-13T06:05:35.507092+00:00 app[web.1]: 
+2024-06-13T06:05:38.750589+00:00 app[web.1]: Recipe Name: Spaghetti Aglio e Olio
+2024-06-13T06:05:38.750641+00:00 app[web.1]: Serving Size: 2
+2024-06-13T06:05:38.750641+00:00 app[web.1]: Cooking Time: 15 minutes
+2024-06-13T06:05:38.750642+00:00 app[web.1]: Summary: A classic Italian pasta dish made with simple ingredients like garlic, olive oil, and red pepper flakes, perfect for a quick and flavorful meal.
+2024-06-13T06:05:38.750642+00:00 app[web.1]: 
+2024-06-13T06:05:38.750643+00:00 app[web.1]: Ingredients:
+2024-06-13T06:05:38.750643+00:00 app[web.1]: - 8 oz spaghetti
+2024-06-13T06:05:38.750643+00:00 app[web.1]: - 4 cloves garlic, thinly sliced
+2024-06-13T06:05:38.750644+00:00 app[web.1]: - 1/4 cup extra virgin olive oil
+2024-06-13T06:05:38.750644+00:00 app[web.1]: - 1/2 tsp red pepper flakes
+2024-06-13T06:05:38.750644+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:05:38.750645+00:00 app[web.1]: - Fresh parsley, chopped (optional)
+2024-06-13T06:05:38.750645+00:00 app[web.1]: - Grated Parmesan cheese (optional)
+2024-06-13T06:05:38.750645+00:00 app[web.1]: 
+2024-06-13T06:05:38.750645+00:00 app[web.1]: Instructions:
+2024-06-13T06:05:38.750646+00:00 app[web.1]: 1. Cook the spaghetti according to package instructions until al dente. Drain and set aside.
+2024-06-13T06:05:38.750646+00:00 app[web.1]: 2. In a large skillet, heat the olive oil over medium heat. Add the sliced garlic and red pepper flakes. Cook until the garlic is golden and fragrant, about 2-3 minutes.
+2024-06-13T06:05:38.750647+00:00 app[web.1]: 3. Add the cooked spaghetti to the skillet and toss to coat in the garlic-infused oil. Season with salt and pepper to taste.
+2024-06-13T06:05:38.750647+00:00 app[web.1]: 4. Serve the spaghetti aglio e olio hot, garnished with fresh parsley and grated Parmesan cheese if desired. Enjoy!
+2024-06-13T06:05:38.750696+00:00 app[web.1]: {
+2024-06-13T06:05:38.750696+00:00 app[web.1]: name: 'Spaghetti Aglio e Olio',
+2024-06-13T06:05:38.750697+00:00 app[web.1]: ingredients: [
+2024-06-13T06:05:38.750697+00:00 app[web.1]: '8 oz spaghetti',
+2024-06-13T06:05:38.750697+00:00 app[web.1]: '4 cloves garlic, thinly sliced',
+2024-06-13T06:05:38.750698+00:00 app[web.1]: '1/4 cup extra virgin olive oil',
+2024-06-13T06:05:38.750698+00:00 app[web.1]: '1/2 tsp red pepper flakes',
+2024-06-13T06:05:38.750698+00:00 app[web.1]: 'Salt and pepper to taste',
+2024-06-13T06:05:38.750698+00:00 app[web.1]: 'Fresh parsley, chopped (optional)',
+2024-06-13T06:05:38.750699+00:00 app[web.1]: 'Grated Parmesan cheese (optional)'
+2024-06-13T06:05:38.750699+00:00 app[web.1]: ],
+2024-06-13T06:05:38.750699+00:00 app[web.1]: instructions: [
+2024-06-13T06:05:38.750700+00:00 app[web.1]: '1. Cook the spaghetti according to package instructions until al dente. Drain and set aside.',
+2024-06-13T06:05:38.750700+00:00 app[web.1]: '2. In a large skillet, heat the olive oil over medium heat. Add the sliced garlic and red pepper flakes. Cook until the garlic is golden and fragrant, about 2-3 minutes.',
+2024-06-13T06:05:38.750701+00:00 app[web.1]: '3. Add the cooked spaghetti to the skillet and toss to coat in the garlic-infused oil. Season with salt and pepper to taste.',
+2024-06-13T06:05:38.750708+00:00 app[web.1]: '4. Serve the spaghetti aglio e olio hot, garnished with fresh parsley and grated Parmesan cheese if desired. Enjoy!'
+2024-06-13T06:05:38.750709+00:00 app[web.1]: ],
+2024-06-13T06:05:38.750709+00:00 app[web.1]: servingSize: '2',
+2024-06-13T06:05:38.750709+00:00 app[web.1]: cookingTime: '15 minutes',
+2024-06-13T06:05:38.750709+00:00 app[web.1]: summary: 'A classic Italian pasta dish made with simple ingredients like garlic, olive oil, and red pepper flakes, perfect for a quick and flavorful meal.'
+2024-06-13T06:05:38.750710+00:00 app[web.1]: }
+2024-06-13T06:05:38.751708+00:00 heroku[router]: at=info method=GET path="/recipe/Spaghetti%20Aglio%20e%20Olio?servingSize=2&difficulty=Medium&dietaryRestriction=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=560c2c51-4fb9-493f-b3a4-b871b8c32a6c fwd="139.178.128.205" dyno=web.1 connect=0ms service=3245ms status=200 bytes=1199 protocol=https
+2024-06-13T06:05:51.799441+00:00 app[web.1]: I want a recipe for Baked Salmon with Dill and Lemon with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Serving Size should be 2
+2024-06-13T06:05:51.799497+00:00 app[web.1]: Difficulty should be Medium
+2024-06-13T06:05:51.799497+00:00 app[web.1]: 
+2024-06-13T06:05:56.141516+00:00 app[web.1]: Recipe Name: Baked Salmon with Dill and Lemon
+2024-06-13T06:05:56.141549+00:00 app[web.1]: Serving Size: 2
+2024-06-13T06:05:56.141550+00:00 app[web.1]: Cooking Time: 20 minutes
+2024-06-13T06:05:56.141551+00:00 app[web.1]: Summary: This recipe for Baked Salmon with Dill and Lemon is a delicious and healthy way to enjoy this popular fish. The combination of fresh dill and zesty lemon adds a burst of flavor to the tender salmon fillets.
+2024-06-13T06:05:56.141552+00:00 app[web.1]: 
+2024-06-13T06:05:56.141552+00:00 app[web.1]: Ingredients:
+2024-06-13T06:05:56.141553+00:00 app[web.1]: - 2 salmon fillets
+2024-06-13T06:05:56.141553+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:05:56.141553+00:00 app[web.1]: - 2 tablespoons olive oil
+2024-06-13T06:05:56.141553+00:00 app[web.1]: - 1 lemon, sliced
+2024-06-13T06:05:56.141554+00:00 app[web.1]: - 2 tablespoons fresh dill, chopped
+2024-06-13T06:05:56.141554+00:00 app[web.1]: - 2 cloves garlic, minced
+2024-06-13T06:05:56.141554+00:00 app[web.1]: 
+2024-06-13T06:05:56.141554+00:00 app[web.1]: Instructions:
+2024-06-13T06:05:56.141554+00:00 app[web.1]: 1. Preheat the oven to 400°F (200°C).
+2024-06-13T06:05:56.141555+00:00 app[web.1]: 2. Season the salmon fillets with salt and pepper on both sides.
+2024-06-13T06:05:56.141556+00:00 app[web.1]: 3. In a small bowl, mix together the olive oil, garlic, and dill.
+2024-06-13T06:05:56.141556+00:00 app[web.1]: 4. Place the salmon fillets on a baking sheet lined with parchment paper.
+2024-06-13T06:05:56.141559+00:00 app[web.1]: 5. Brush the olive oil mixture over the salmon fillets.
+2024-06-13T06:05:56.141559+00:00 app[web.1]: 6. Top each fillet with a few slices of lemon.
+2024-06-13T06:05:56.141560+00:00 app[web.1]: 7. Bake in the preheated oven for 15-20 minutes, or until the salmon is cooked through and flakes easily with a fork.
+2024-06-13T06:05:56.141560+00:00 app[web.1]: 8. Serve the Baked Salmon with Dill and Lemon hot, garnished with additional fresh dill and lemon slices. Enjoy!
+2024-06-13T06:05:56.141683+00:00 app[web.1]: {
+2024-06-13T06:05:56.141684+00:00 app[web.1]: name: 'Baked Salmon with Dill and Lemon',
+2024-06-13T06:05:56.141684+00:00 app[web.1]: ingredients: [
+2024-06-13T06:05:56.141684+00:00 app[web.1]: '2 salmon fillets',
+2024-06-13T06:05:56.141684+00:00 app[web.1]: 'Salt and pepper to taste',
+2024-06-13T06:05:56.141684+00:00 app[web.1]: '2 tablespoons olive oil',
+2024-06-13T06:05:56.141685+00:00 app[web.1]: '1 lemon, sliced',
+2024-06-13T06:05:56.141685+00:00 app[web.1]: '2 tablespoons fresh dill, chopped',
+2024-06-13T06:05:56.141685+00:00 app[web.1]: '2 cloves garlic, minced'
+2024-06-13T06:05:56.141685+00:00 app[web.1]: ],
+2024-06-13T06:05:56.141685+00:00 app[web.1]: instructions: [
+2024-06-13T06:05:56.141686+00:00 app[web.1]: '1. Preheat the oven to 400°F (200°C).',
+2024-06-13T06:05:56.141686+00:00 app[web.1]: '2. Season the salmon fillets with salt and pepper on both sides.',
+2024-06-13T06:05:56.141686+00:00 app[web.1]: '3. In a small bowl, mix together the olive oil, garlic, and dill.',
+2024-06-13T06:05:56.141687+00:00 app[web.1]: '4. Place the salmon fillets on a baking sheet lined with parchment paper.',
+2024-06-13T06:05:56.141688+00:00 app[web.1]: '5. Brush the olive oil mixture over the salmon fillets.',
+2024-06-13T06:05:56.141688+00:00 app[web.1]: '6. Top each fillet with a few slices of lemon.',
+2024-06-13T06:05:56.141688+00:00 app[web.1]: '7. Bake in the preheated oven for 15-20 minutes, or until the salmon is cooked through and flakes easily with a fork.',
+2024-06-13T06:05:56.141688+00:00 app[web.1]: '8. Serve the Baked Salmon with Dill and Lemon hot, garnished with additional fresh dill and lemon slices. Enjoy!'
+2024-06-13T06:05:56.141689+00:00 app[web.1]: ],
+2024-06-13T06:05:56.141689+00:00 app[web.1]: servingSize: '2',
+2024-06-13T06:05:56.141689+00:00 app[web.1]: cookingTime: '20 minutes',
+2024-06-13T06:05:56.141690+00:00 app[web.1]: summary: 'This recipe for Baked Salmon with Dill and Lemon is a delicious and healthy way to enjoy this popular fish. The combination of fresh dill and zesty lemon adds a burst of flavor to the tender salmon fillets.'
+2024-06-13T06:05:56.141690+00:00 app[web.1]: }
+2024-06-13T06:05:56.142731+00:00 heroku[router]: at=info method=GET path="/recipe/Baked%20Salmon%20with%20Dill%20and%20Lemon?servingSize=2&difficulty=Medium&dietaryRestriction=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=2b7d11dc-51c2-4e48-9400-46f2e07e8927 fwd="139.178.128.205" dyno=web.1 connect=0ms service=4344ms status=200 bytes=1297 protocol=https
+2024-06-13T06:06:10.179588+00:00 app[web.1]: I want a recipe for Baked Salmon with Dill and Lemon with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Dietary restriction Egg-Free.Serving Size should be 3
+2024-06-13T06:06:10.179627+00:00 app[web.1]: Difficulty should be Medium
+2024-06-13T06:06:10.179628+00:00 app[web.1]: 
+2024-06-13T06:06:11.856541+00:00 app[web.1]: I want a recipe for Spaghetti Aglio e Olio with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Dietary restriction Egg-Free.Serving Size should be 3
+2024-06-13T06:06:11.856591+00:00 app[web.1]: Difficulty should be Medium
+2024-06-13T06:06:11.856592+00:00 app[web.1]: 
+2024-06-13T06:06:13.896427+00:00 app[web.1]: Recipe Name: Baked Salmon with Dill and Lemon
+2024-06-13T06:06:13.896484+00:00 app[web.1]: Serving Size: 3
+2024-06-13T06:06:13.896485+00:00 app[web.1]: Cooking Time: 25 minutes
+2024-06-13T06:06:13.896488+00:00 app[web.1]: Summary: This delicious recipe features tender and flaky salmon with a bright and fresh flavor from dill and lemon. It's the perfect dish for a healthy and satisfying meal.
+2024-06-13T06:06:13.896488+00:00 app[web.1]: 
+2024-06-13T06:06:13.896488+00:00 app[web.1]: Ingredients:
+2024-06-13T06:06:13.896489+00:00 app[web.1]: - 3 salmon fillets
+2024-06-13T06:06:13.896490+00:00 app[web.1]: - 1 lemon, sliced
+2024-06-13T06:06:13.896490+00:00 app[web.1]: - 3 tablespoons fresh dill, chopped
+2024-06-13T06:06:13.896490+00:00 app[web.1]: - 2 tablespoons olive oil
+2024-06-13T06:06:13.896491+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:06:13.896491+00:00 app[web.1]: 
+2024-06-13T06:06:13.896491+00:00 app[web.1]: Instructions:
+2024-06-13T06:06:13.896492+00:00 app[web.1]: 1. Preheat your oven to 375°F (190°C).
+2024-06-13T06:06:13.896492+00:00 app[web.1]: 2. Place the salmon fillets on a baking sheet lined with parchment paper.
+2024-06-13T06:06:13.896492+00:00 app[web.1]: 3. Drizzle the olive oil over the salmon and season with salt and pepper.
+2024-06-13T06:06:13.896493+00:00 app[web.1]: 4. Place a few slices of lemon on top of each salmon fillet.
+2024-06-13T06:06:13.896493+00:00 app[web.1]: 5. Sprinkle the fresh dill over the salmon.
+2024-06-13T06:06:13.896494+00:00 app[web.1]: 6. Bake in the preheated oven for 20-25 minutes, or until the salmon is cooked through and flakes easily with a fork.
+2024-06-13T06:06:13.896495+00:00 app[web.1]: 7. Serve the baked salmon with additional lemon slices and a sprinkle of fresh dill on top. Enjoy!
+2024-06-13T06:06:13.896627+00:00 app[web.1]: {
+2024-06-13T06:06:13.896627+00:00 app[web.1]: name: 'Baked Salmon with Dill and Lemon',
+2024-06-13T06:06:13.896627+00:00 app[web.1]: ingredients: [
+2024-06-13T06:06:13.896628+00:00 app[web.1]: '3 salmon fillets',
+2024-06-13T06:06:13.896628+00:00 app[web.1]: '1 lemon, sliced',
+2024-06-13T06:06:13.896628+00:00 app[web.1]: '3 tablespoons fresh dill, chopped',
+2024-06-13T06:06:13.896629+00:00 app[web.1]: '2 tablespoons olive oil',
+2024-06-13T06:06:13.896629+00:00 app[web.1]: 'Salt and pepper to taste'
+2024-06-13T06:06:13.896629+00:00 app[web.1]: ],
+2024-06-13T06:06:13.896629+00:00 app[web.1]: instructions: [
+2024-06-13T06:06:13.896630+00:00 app[web.1]: '1. Preheat your oven to 375°F (190°C).',
+2024-06-13T06:06:13.896630+00:00 app[web.1]: '2. Place the salmon fillets on a baking sheet lined with parchment paper.',
+2024-06-13T06:06:13.896630+00:00 app[web.1]: '3. Drizzle the olive oil over the salmon and season with salt and pepper.',
+2024-06-13T06:06:13.896631+00:00 app[web.1]: '4. Place a few slices of lemon on top of each salmon fillet.',
+2024-06-13T06:06:13.896631+00:00 app[web.1]: '5. Sprinkle the fresh dill over the salmon.',
+2024-06-13T06:06:13.896631+00:00 app[web.1]: '6. Bake in the preheated oven for 20-25 minutes, or until the salmon is cooked through and flakes easily with a fork.',
+2024-06-13T06:06:13.896631+00:00 app[web.1]: '7. Serve the baked salmon with additional lemon slices and a sprinkle of fresh dill on top. Enjoy!'
+2024-06-13T06:06:13.896632+00:00 app[web.1]: ],
+2024-06-13T06:06:13.896632+00:00 app[web.1]: servingSize: '3',
+2024-06-13T06:06:13.896632+00:00 app[web.1]: cookingTime: '25 minutes',
+2024-06-13T06:06:13.896634+00:00 app[web.1]: summary: "This delicious recipe features tender and flaky salmon with a bright and fresh flavor from dill and lemon. It's the perfect dish for a healthy and satisfying meal."
+2024-06-13T06:06:13.896634+00:00 app[web.1]: }
+2024-06-13T06:06:13.897516+00:00 heroku[router]: at=info method=GET path="/recipe/Baked%20Salmon%20with%20Dill%20and%20Lemon?servingSize=3&difficulty=Medium&dietaryRestriction=Egg-Free&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=dc37a22b-2898-4b9d-a5c9-f84a396158e0 fwd="139.178.128.205" dyno=web.1 connect=0ms service=3718ms status=200 bytes=1157 protocol=https
+2024-06-13T06:06:16.499010+00:00 app[web.1]: Recipe Name: Spaghetti Aglio e Olio
+2024-06-13T06:06:16.499048+00:00 app[web.1]: Serving Size: 3
+2024-06-13T06:06:16.499049+00:00 app[web.1]: Cooking Time: 20 minutes
+2024-06-13T06:06:16.499052+00:00 app[web.1]: Summary: This classic Italian pasta dish is simple yet flavorful, featuring garlic-infused olive oil and a touch of red pepper flakes for a bit of heat.
+2024-06-13T06:06:16.499052+00:00 app[web.1]: 
+2024-06-13T06:06:16.499053+00:00 app[web.1]: Ingredients:
+2024-06-13T06:06:16.499053+00:00 app[web.1]: - 12 oz spaghetti
+2024-06-13T06:06:16.499054+00:00 app[web.1]: - 1/3 cup extra virgin olive oil
+2024-06-13T06:06:16.499055+00:00 app[web.1]: - 4 cloves of garlic, thinly sliced
+2024-06-13T06:06:16.499055+00:00 app[web.1]: - 1/2 tsp red pepper flakes
+2024-06-13T06:06:16.499055+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:06:16.499056+00:00 app[web.1]: - Fresh parsley, chopped (for garnish)
+2024-06-13T06:06:16.499056+00:00 app[web.1]: - Grated Parmesan cheese (optional)
+2024-06-13T06:06:16.499056+00:00 app[web.1]: 
+2024-06-13T06:06:16.499057+00:00 app[web.1]: Instructions:
+2024-06-13T06:06:16.499057+00:00 app[web.1]: 1. Cook the spaghetti in a large pot of salted boiling water according to package instructions until al dente. Reserve 1 cup of pasta water, then drain the spaghetti and set aside.
+2024-06-13T06:06:16.499058+00:00 app[web.1]: 2. In a large skillet, heat the olive oil over medium heat. Add the sliced garlic and red pepper flakes, and cook until the garlic is golden brown and fragrant, about 2-3 minutes.
+2024-06-13T06:06:16.499059+00:00 app[web.1]: 3. Add the cooked spaghetti to the skillet, tossing to coat the pasta in the garlic-infused oil. If the pasta seems dry, add some of the reserved pasta water a little at a time until the desired consistency is reached.
+2024-06-13T06:06:16.499059+00:00 app[web.1]: 4. Season with salt and pepper to taste. Serve the spaghetti aglio e olio hot, garnished with chopped parsley and grated Parmesan cheese if desired. Enjoy!
+2024-06-13T06:06:16.499208+00:00 app[web.1]: {
+2024-06-13T06:06:16.499208+00:00 app[web.1]: name: 'Spaghetti Aglio e Olio',
+2024-06-13T06:06:16.499208+00:00 app[web.1]: ingredients: [
+2024-06-13T06:06:16.499209+00:00 app[web.1]: '12 oz spaghetti',
+2024-06-13T06:06:16.499209+00:00 app[web.1]: '1/3 cup extra virgin olive oil',
+2024-06-13T06:06:16.499209+00:00 app[web.1]: '4 cloves of garlic, thinly sliced',
+2024-06-13T06:06:16.499209+00:00 app[web.1]: '1/2 tsp red pepper flakes',
+2024-06-13T06:06:16.499209+00:00 app[web.1]: 'Salt and pepper to taste',
+2024-06-13T06:06:16.499210+00:00 app[web.1]: 'Fresh parsley, chopped (for garnish)',
+2024-06-13T06:06:16.499210+00:00 app[web.1]: 'Grated Parmesan cheese (optional)'
+2024-06-13T06:06:16.499210+00:00 app[web.1]: ],
+2024-06-13T06:06:16.499211+00:00 app[web.1]: instructions: [
+2024-06-13T06:06:16.499211+00:00 app[web.1]: '1. Cook the spaghetti in a large pot of salted boiling water according to package instructions until al dente. Reserve 1 cup of pasta water, then drain the spaghetti and set aside.',
+2024-06-13T06:06:16.499211+00:00 app[web.1]: '2. In a large skillet, heat the olive oil over medium heat. Add the sliced garlic and red pepper flakes, and cook until the garlic is golden brown and fragrant, about 2-3 minutes.',
+2024-06-13T06:06:16.499215+00:00 app[web.1]: '3. Add the cooked spaghetti to the skillet, tossing to coat the pasta in the garlic-infused oil. If the pasta seems dry, add some of the reserved pasta water a little at a time until the desired consistency is reached.',
+2024-06-13T06:06:16.499215+00:00 app[web.1]: '4. Season with salt and pepper to taste. Serve the spaghetti aglio e olio hot, garnished with chopped parsley and grated Parmesan cheese if desired. Enjoy!'
+2024-06-13T06:06:16.499215+00:00 app[web.1]: ],
+2024-06-13T06:06:16.499216+00:00 app[web.1]: servingSize: '3',
+2024-06-13T06:06:16.499216+00:00 app[web.1]: cookingTime: '20 minutes',
+2024-06-13T06:06:16.499216+00:00 app[web.1]: summary: 'This classic Italian pasta dish is simple yet flavorful, featuring garlic-infused olive oil and a touch of red pepper flakes for a bit of heat.'
+2024-06-13T06:06:16.499216+00:00 app[web.1]: }
+2024-06-13T06:06:16.500436+00:00 heroku[router]: at=info method=GET path="/recipe/Spaghetti%20Aglio%20e%20Olio?servingSize=3&difficulty=Medium&dietaryRestriction=Egg-Free&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=5324c6b3-cf05-4d09-baef-c8ad1366ae80 fwd="139.178.128.205" dyno=web.1 connect=1ms service=4644ms status=200 bytes=1438 protocol=https
+2024-06-13T06:06:20.301603+00:00 app[web.1]: I want a recipe for Baked Salmon with Dill and Lemon with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Dietary restriction Egg-Free.Serving Size should be 3
+2024-06-13T06:06:20.301609+00:00 app[web.1]: Difficulty should be Medium
+2024-06-13T06:06:20.301610+00:00 app[web.1]: 
+2024-06-13T06:06:24.313405+00:00 app[web.1]: Recipe Name: Baked Salmon with Dill and Lemon
+2024-06-13T06:06:24.313454+00:00 app[web.1]: Serving Size: 3
+2024-06-13T06:06:24.313455+00:00 app[web.1]: Cooking Time: 20 minutes
+2024-06-13T06:06:24.313455+00:00 app[web.1]: Summary: This delicious and healthy baked salmon dish is perfect for a quick and easy weeknight dinner. The combination of dill and lemon gives the salmon a fresh and vibrant flavor that pairs perfectly with the tender and flaky fish.
+2024-06-13T06:06:24.313456+00:00 app[web.1]: 
+2024-06-13T06:06:24.313456+00:00 app[web.1]: Ingredients:
+2024-06-13T06:06:24.313456+00:00 app[web.1]: - 3 salmon fillets
+2024-06-13T06:06:24.313457+00:00 app[web.1]: - 2 tablespoons olive oil
+2024-06-13T06:06:24.313457+00:00 app[web.1]: - 1 tablespoon lemon juice
+2024-06-13T06:06:24.313457+00:00 app[web.1]: - 2 cloves garlic, minced
+2024-06-13T06:06:24.313457+00:00 app[web.1]: - 2 tablespoons fresh dill, chopped
+2024-06-13T06:06:24.313457+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:06:24.313458+00:00 app[web.1]: - Lemon slices for garnish
+2024-06-13T06:06:24.313458+00:00 app[web.1]: 
+2024-06-13T06:06:24.313458+00:00 app[web.1]: Instructions:
+2024-06-13T06:06:24.313458+00:00 app[web.1]: 1. Preheat the oven to 400°F (200°C).
+2024-06-13T06:06:24.313459+00:00 app[web.1]: 2. In a small bowl, mix together the olive oil, lemon juice, garlic, dill, salt, and pepper.
+2024-06-13T06:06:24.313459+00:00 app[web.1]: 3. Place the salmon fillets on a baking sheet lined with parchment paper.
+2024-06-13T06:06:24.313459+00:00 app[web.1]: 4. Brush the dill and lemon mixture over the salmon fillets, making sure to coat them evenly.
+2024-06-13T06:06:24.313460+00:00 app[web.1]: 5. Place a lemon slice on top of each fillet for garnish.
+2024-06-13T06:06:24.313462+00:00 app[web.1]: 6. Bake the salmon in the preheated oven for 15-20 minutes, or until the salmon is cooked through and flakes easily with a fork.
+2024-06-13T06:06:24.313462+00:00 app[web.1]: 7. Serve the baked salmon with your favorite side dishes and enjoy!
+2024-06-13T06:06:24.313518+00:00 app[web.1]: {
+2024-06-13T06:06:24.313518+00:00 app[web.1]: name: 'Baked Salmon with Dill and Lemon',
+2024-06-13T06:06:24.313518+00:00 app[web.1]: ingredients: [
+2024-06-13T06:06:24.313518+00:00 app[web.1]: '3 salmon fillets',
+2024-06-13T06:06:24.313519+00:00 app[web.1]: '2 tablespoons olive oil',
+2024-06-13T06:06:24.313519+00:00 app[web.1]: '1 tablespoon lemon juice',
+2024-06-13T06:06:24.313519+00:00 app[web.1]: '2 cloves garlic, minced',
+2024-06-13T06:06:24.313519+00:00 app[web.1]: '2 tablespoons fresh dill, chopped',
+2024-06-13T06:06:24.313519+00:00 app[web.1]: 'Salt and pepper to taste',
+2024-06-13T06:06:24.313519+00:00 app[web.1]: 'Lemon slices for garnish'
+2024-06-13T06:06:24.313519+00:00 app[web.1]: ],
+2024-06-13T06:06:24.313520+00:00 app[web.1]: instructions: [
+2024-06-13T06:06:24.313520+00:00 app[web.1]: '1. Preheat the oven to 400°F (200°C).',
+2024-06-13T06:06:24.313520+00:00 app[web.1]: '2. In a small bowl, mix together the olive oil, lemon juice, garlic, dill, salt, and pepper.',
+2024-06-13T06:06:24.313520+00:00 app[web.1]: '3. Place the salmon fillets on a baking sheet lined with parchment paper.',
+2024-06-13T06:06:24.313521+00:00 app[web.1]: '4. Brush the dill and lemon mixture over the salmon fillets, making sure to coat them evenly.',
+2024-06-13T06:06:24.313521+00:00 app[web.1]: '5. Place a lemon slice on top of each fillet for garnish.',
+2024-06-13T06:06:24.313521+00:00 app[web.1]: '6. Bake the salmon in the preheated oven for 15-20 minutes, or until the salmon is cooked through and flakes easily with a fork.',
+2024-06-13T06:06:24.313521+00:00 app[web.1]: '7. Serve the baked salmon with your favorite side dishes and enjoy!'
+2024-06-13T06:06:24.313521+00:00 app[web.1]: ],
+2024-06-13T06:06:24.313521+00:00 app[web.1]: servingSize: '3',
+2024-06-13T06:06:24.313522+00:00 app[web.1]: cookingTime: '20 minutes',
+2024-06-13T06:06:24.313522+00:00 app[web.1]: summary: 'This delicious and healthy baked salmon dish is perfect for a quick and easy weeknight dinner. The combination of dill and lemon gives the salmon a fresh and vibrant flavor that pairs perfectly with the tender and flaky fish.'
+2024-06-13T06:06:24.313522+00:00 app[web.1]: }
+2024-06-13T06:06:24.314558+00:00 heroku[router]: at=info method=GET path="/recipe/Baked%20Salmon%20with%20Dill%20and%20Lemon?servingSize=3&difficulty=Medium&dietaryRestriction=Egg-Free&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=f7c18d52-493f-4e31-b2f4-bfc439dc1222 fwd="139.178.128.205" dyno=web.1 connect=0ms service=4013ms status=200 bytes=1327 protocol=https
+2024-06-13T06:07:13.880588+00:00 app[web.1]: I want a recipe for Lemon Herb Roasted Chicken with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Dietary restriction Lactose-Free.Serving Size should be 4
+2024-06-13T06:07:13.880628+00:00 app[web.1]: Difficulty should be Medium
+2024-06-13T06:07:13.880630+00:00 app[web.1]: 
+2024-06-13T06:07:18.584169+00:00 app[web.1]: Recipe Name: Lemon Herb Roasted Chicken
+2024-06-13T06:07:18.584224+00:00 app[web.1]: Serving Size: 4
+2024-06-13T06:07:18.584224+00:00 app[web.1]: Cooking Time: 1 hour
+2024-06-13T06:07:18.584225+00:00 app[web.1]: Summary: This flavorful and juicy lemon herb roasted chicken is a perfect dish for a family dinner or special occasion. The combination of herbs and lemon zest creates a delicious marinade that infuses the chicken with incredible flavor.
+2024-06-13T06:07:18.584225+00:00 app[web.1]: 
+2024-06-13T06:07:18.584226+00:00 app[web.1]: Ingredients:
+2024-06-13T06:07:18.584226+00:00 app[web.1]: - 1 whole chicken (about 4-5 pounds)
+2024-06-13T06:07:18.584226+00:00 app[web.1]: - 2 lemons, zested and juiced
+2024-06-13T06:07:18.584226+00:00 app[web.1]: - 4 cloves garlic, minced
+2024-06-13T06:07:18.584227+00:00 app[web.1]: - 2 tablespoons fresh rosemary, chopped
+2024-06-13T06:07:18.584227+00:00 app[web.1]: - 2 tablespoons fresh thyme, chopped
+2024-06-13T06:07:18.584227+00:00 app[web.1]: - 2 tablespoons olive oil
+2024-06-13T06:07:18.584227+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:07:18.584232+00:00 app[web.1]: 
+2024-06-13T06:07:18.584232+00:00 app[web.1]: Instructions:
+2024-06-13T06:07:18.584233+00:00 app[web.1]: 1. Preheat the oven to 400°F (200°C).
+2024-06-13T06:07:18.584233+00:00 app[web.1]: 2. In a small bowl, combine the lemon zest, lemon juice, minced garlic, rosemary, thyme, olive oil, salt, and pepper to create a marinade.
+2024-06-13T06:07:18.584234+00:00 app[web.1]: 3. Pat the chicken dry with paper towels and season the inside and outside with salt and pepper.
+2024-06-13T06:07:18.584234+00:00 app[web.1]: 4. Place the chicken in a roasting pan and rub the marinade all over the chicken, making sure to get it under the skin.
+2024-06-13T06:07:18.584235+00:00 app[web.1]: 5. Tie the legs together with kitchen twine and tuck the wing tips under the body of the chicken.
+2024-06-13T06:07:18.584235+00:00 app[web.1]: 6. Roast the chicken in the preheated oven for about 1 hour, or until the internal temperature reaches 165°F (74°C) and the skin is crispy and golden brown.
+2024-06-13T06:07:18.584235+00:00 app[web.1]: 7. Remove the chicken from the oven and let it rest for 10 minutes before carving.
+2024-06-13T06:07:18.584236+00:00 app[web.1]: 8. Serve the lemon herb roasted chicken with your favorite side dishes and enjoy!
+2024-06-13T06:07:18.584342+00:00 app[web.1]: {
+2024-06-13T06:07:18.584343+00:00 app[web.1]: name: 'Lemon Herb Roasted Chicken',
+2024-06-13T06:07:18.584343+00:00 app[web.1]: ingredients: [
+2024-06-13T06:07:18.584343+00:00 app[web.1]: '1 whole chicken (about 4-5 pounds)',
+2024-06-13T06:07:18.584343+00:00 app[web.1]: '2 lemons, zested and juiced',
+2024-06-13T06:07:18.584343+00:00 app[web.1]: '4 cloves garlic, minced',
+2024-06-13T06:07:18.584343+00:00 app[web.1]: '2 tablespoons fresh rosemary, chopped',
+2024-06-13T06:07:18.584344+00:00 app[web.1]: '2 tablespoons fresh thyme, chopped',
+2024-06-13T06:07:18.584344+00:00 app[web.1]: '2 tablespoons olive oil',
+2024-06-13T06:07:18.584344+00:00 app[web.1]: 'Salt and pepper to taste'
+2024-06-13T06:07:18.584344+00:00 app[web.1]: ],
+2024-06-13T06:07:18.584344+00:00 app[web.1]: instructions: [
+2024-06-13T06:07:18.584344+00:00 app[web.1]: '1. Preheat the oven to 400°F (200°C).',
+2024-06-13T06:07:18.584344+00:00 app[web.1]: '2. In a small bowl, combine the lemon zest, lemon juice, minced garlic, rosemary, thyme, olive oil, salt, and pepper to create a marinade.',
+2024-06-13T06:07:18.584345+00:00 app[web.1]: '3. Pat the chicken dry with paper towels and season the inside and outside with salt and pepper.',
+2024-06-13T06:07:18.584345+00:00 app[web.1]: '4. Place the chicken in a roasting pan and rub the marinade all over the chicken, making sure to get it under the skin.',
+2024-06-13T06:07:18.584345+00:00 app[web.1]: '5. Tie the legs together with kitchen twine and tuck the wing tips under the body of the chicken.',
+2024-06-13T06:07:18.584345+00:00 app[web.1]: '6. Roast the chicken in the preheated oven for about 1 hour, or until the internal temperature reaches 165°F (74°C) and the skin is crispy and golden brown.',
+2024-06-13T06:07:18.584346+00:00 app[web.1]: '7. Remove the chicken from the oven and let it rest for 10 minutes before carving.',
+2024-06-13T06:07:18.584346+00:00 app[web.1]: '8. Serve the lemon herb roasted chicken with your favorite side dishes and enjoy!'
+2024-06-13T06:07:18.584346+00:00 app[web.1]: ],
+2024-06-13T06:07:18.584346+00:00 app[web.1]: servingSize: '4',
+2024-06-13T06:07:18.584346+00:00 app[web.1]: cookingTime: '1 hour',
+2024-06-13T06:07:18.584348+00:00 app[web.1]: summary: 'This flavorful and juicy lemon herb roasted chicken is a perfect dish for a family dinner or special occasion. The combination of herbs and lemon zest creates a delicious marinade that infuses the chicken with incredible flavor.'
+2024-06-13T06:07:18.584348+00:00 app[web.1]: }
+2024-06-13T06:07:18.585310+00:00 heroku[router]: at=info method=GET path="/recipe/Lemon%20Herb%20Roasted%20Chicken?servingSize=4&difficulty=Medium&dietaryRestriction=Lactose-Free&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=889560b6-a6e2-49f4-9567-c22aaef1cac8 fwd="139.178.128.205" dyno=web.1 connect=1ms service=4705ms status=200 bytes=1619 protocol=https
+2024-06-13T06:07:26.943180+00:00 app[web.1]: I want a recipe for Beef Stir-Fry with Vegetables with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Dietary restriction Vegan.Serving Size should be 5
+2024-06-13T06:07:26.943259+00:00 app[web.1]: 
+2024-06-13T06:07:32.195668+00:00 app[web.1]: Recipe Name: Vegan Beef Stir-Fry with Vegetables
+2024-06-13T06:07:32.195713+00:00 app[web.1]: Serving Size: 5
+2024-06-13T06:07:32.195713+00:00 app[web.1]: Cooking Time: 30 minutes
+2024-06-13T06:07:32.195714+00:00 app[web.1]: Summary: This Vegan Beef Stir-Fry with Vegetables is a delicious and healthy plant-based alternative to traditional beef stir-fry. Packed with colorful vegetables and vegan beef strips, this dish is sure to satisfy your cravings for a flavorful and nutritious meal.
+2024-06-13T06:07:32.195714+00:00 app[web.1]: 
+2024-06-13T06:07:32.195714+00:00 app[web.1]: Ingredients:
+2024-06-13T06:07:32.195715+00:00 app[web.1]: - 1 package of vegan beef strips
+2024-06-13T06:07:32.195725+00:00 app[web.1]: - 1 red bell pepper, sliced
+2024-06-13T06:07:32.195725+00:00 app[web.1]: - 1 yellow bell pepper, sliced
+2024-06-13T06:07:32.195725+00:00 app[web.1]: - 1 green bell pepper, sliced
+2024-06-13T06:07:32.195725+00:00 app[web.1]: - 1 onion, sliced
+2024-06-13T06:07:32.195726+00:00 app[web.1]: - 2 cups of broccoli florets
+2024-06-13T06:07:32.195726+00:00 app[web.1]: - 1 cup of snap peas
+2024-06-13T06:07:32.195726+00:00 app[web.1]: - 3 cloves of garlic, minced
+2024-06-13T06:07:32.195726+00:00 app[web.1]: - 1 tbsp of ginger, minced
+2024-06-13T06:07:32.195726+00:00 app[web.1]: - 1/4 cup of soy sauce
+2024-06-13T06:07:32.195727+00:00 app[web.1]: - 2 tbsp of hoisin sauce
+2024-06-13T06:07:32.195727+00:00 app[web.1]: - 1 tbsp of sesame oil
+2024-06-13T06:07:32.195727+00:00 app[web.1]: - 1 tsp of cornstarch
+2024-06-13T06:07:32.195727+00:00 app[web.1]: - 1/4 cup of vegetable broth
+2024-06-13T06:07:32.195727+00:00 app[web.1]: - Cooked rice or noodles for serving
+2024-06-13T06:07:32.195728+00:00 app[web.1]: 
+2024-06-13T06:07:32.195728+00:00 app[web.1]: Instructions:
+2024-06-13T06:07:32.195728+00:00 app[web.1]: 1. In a small bowl, whisk together soy sauce, hoisin sauce, sesame oil, cornstarch, and vegetable broth. Set aside.
+2024-06-13T06:07:32.195729+00:00 app[web.1]: 2. Heat a large skillet or wok over medium-high heat. Add vegan beef strips and cook until browned, about 5-7 minutes. Remove from skillet and set aside.
+2024-06-13T06:07:32.195729+00:00 app[web.1]: 3. In the same skillet, add a little more oil if needed. Add garlic and ginger, and sauté for 1 minute.
+2024-06-13T06:07:32.195730+00:00 app[web.1]: 4. Add bell peppers, onion, broccoli, and snap peas to the skillet. Stir-fry for 5-7 minutes, or until vegetables are tender-crisp.
+2024-06-13T06:07:32.195730+00:00 app[web.1]: 5. Return vegan beef strips to the skillet, and pour the sauce over the vegetables and beef. Stir well to coat everything in the sauce.
+2024-06-13T06:07:32.195730+00:00 app[web.1]: 6. Cook for another 2-3 minutes, or until the sauce has thickened.
+2024-06-13T06:07:32.195730+00:00 app[web.1]: 7. Serve the Vegan Beef Stir-Fry with Vegetables over cooked rice or noodles. Enjoy!
+2024-06-13T06:07:32.195813+00:00 app[web.1]: {
+2024-06-13T06:07:32.195813+00:00 app[web.1]: name: 'Vegan Beef Stir-Fry with Vegetables',
+2024-06-13T06:07:32.195813+00:00 app[web.1]: ingredients: [
+2024-06-13T06:07:32.195813+00:00 app[web.1]: '1 package of vegan beef strips',
+2024-06-13T06:07:32.195814+00:00 app[web.1]: '1 red bell pepper, sliced',
+2024-06-13T06:07:32.195814+00:00 app[web.1]: '1 yellow bell pepper, sliced',
+2024-06-13T06:07:32.195814+00:00 app[web.1]: '1 green bell pepper, sliced',
+2024-06-13T06:07:32.195814+00:00 app[web.1]: '1 onion, sliced',
+2024-06-13T06:07:32.195814+00:00 app[web.1]: '2 cups of broccoli florets',
+2024-06-13T06:07:32.195815+00:00 app[web.1]: '1 cup of snap peas',
+2024-06-13T06:07:32.195815+00:00 app[web.1]: '3 cloves of garlic, minced',
+2024-06-13T06:07:32.195815+00:00 app[web.1]: '1 tbsp of ginger, minced',
+2024-06-13T06:07:32.195815+00:00 app[web.1]: '1/4 cup of soy sauce',
+2024-06-13T06:07:32.195815+00:00 app[web.1]: '2 tbsp of hoisin sauce',
+2024-06-13T06:07:32.195815+00:00 app[web.1]: '1 tbsp of sesame oil',
+2024-06-13T06:07:32.195815+00:00 app[web.1]: '1 tsp of cornstarch',
+2024-06-13T06:07:32.195815+00:00 app[web.1]: '1/4 cup of vegetable broth',
+2024-06-13T06:07:32.195815+00:00 app[web.1]: 'Cooked rice or noodles for serving'
+2024-06-13T06:07:32.195816+00:00 app[web.1]: ],
+2024-06-13T06:07:32.195816+00:00 app[web.1]: instructions: [
+2024-06-13T06:07:32.195816+00:00 app[web.1]: '1. In a small bowl, whisk together soy sauce, hoisin sauce, sesame oil, cornstarch, and vegetable broth. Set aside.',
+2024-06-13T06:07:32.195817+00:00 app[web.1]: '2. Heat a large skillet or wok over medium-high heat. Add vegan beef strips and cook until browned, about 5-7 minutes. Remove from skillet and set aside.',
+2024-06-13T06:07:32.195817+00:00 app[web.1]: '3. In the same skillet, add a little more oil if needed. Add garlic and ginger, and sauté for 1 minute.',
+2024-06-13T06:07:32.195817+00:00 app[web.1]: '4. Add bell peppers, onion, broccoli, and snap peas to the skillet. Stir-fry for 5-7 minutes, or until vegetables are tender-crisp.',
+2024-06-13T06:07:32.195817+00:00 app[web.1]: '5. Return vegan beef strips to the skillet, and pour the sauce over the vegetables and beef. Stir well to coat everything in the sauce.',
+2024-06-13T06:07:32.195818+00:00 app[web.1]: '6. Cook for another 2-3 minutes, or until the sauce has thickened.',
+2024-06-13T06:07:32.195818+00:00 app[web.1]: '7. Serve the Vegan Beef Stir-Fry with Vegetables over cooked rice or noodles. Enjoy!'
+2024-06-13T06:07:32.195818+00:00 app[web.1]: ],
+2024-06-13T06:07:32.195818+00:00 app[web.1]: servingSize: '5',
+2024-06-13T06:07:32.195818+00:00 app[web.1]: cookingTime: '30 minutes',
+2024-06-13T06:07:32.195819+00:00 app[web.1]: summary: 'This Vegan Beef Stir-Fry with Vegetables is a delicious and healthy plant-based alternative to traditional beef stir-fry. Packed with colorful vegetables and vegan beef strips, this dish is sure to satisfy your cravings for a flavorful and nutritious meal.'
+2024-06-13T06:07:32.195819+00:00 app[web.1]: }
+2024-06-13T06:07:32.196695+00:00 heroku[router]: at=info method=GET path="/recipe/Beef%20Stir-Fry%20with%20Vegetables?servingSize=5&difficulty=&dietaryRestriction=Vegan&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=5dc9edd3-089f-4bb1-aa28-fbca89a82dc9 fwd="139.178.128.205" dyno=web.1 connect=1ms service=5254ms status=200 bytes=1817 protocol=https
+2024-06-13T06:08:06.586908+00:00 app[web.1]: I want a recipe for Beef Stir-Fry with Vegetables with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Dietary restriction Soy-Free.Serving Size should be 5
+2024-06-13T06:08:06.586947+00:00 app[web.1]: Difficulty should be Easy
+2024-06-13T06:08:06.586949+00:00 app[web.1]: 
+2024-06-13T06:08:11.285857+00:00 app[web.1]: Recipe Name: Beef Stir-Fry with Vegetables
+2024-06-13T06:08:11.285902+00:00 app[web.1]: Serving Size: 5
+2024-06-13T06:08:11.285903+00:00 app[web.1]: Cooking Time: 30 minutes
+2024-06-13T06:08:11.285906+00:00 app[web.1]: Summary: This easy and delicious beef stir-fry with vegetables is perfect for a quick and healthy weeknight meal. Packed with flavor and nutrients, it's sure to be a hit with the whole family.
+2024-06-13T06:08:11.285906+00:00 app[web.1]: 
+2024-06-13T06:08:11.285906+00:00 app[web.1]: Ingredients:
+2024-06-13T06:08:11.285906+00:00 app[web.1]: - 1 lb beef sirloin, thinly sliced
+2024-06-13T06:08:11.285906+00:00 app[web.1]: - 2 tablespoons vegetable oil
+2024-06-13T06:08:11.285906+00:00 app[web.1]: - 2 cloves garlic, minced
+2024-06-13T06:08:11.285907+00:00 app[web.1]: - 1 onion, sliced
+2024-06-13T06:08:11.285907+00:00 app[web.1]: - 1 bell pepper, sliced
+2024-06-13T06:08:11.285907+00:00 app[web.1]: - 1 cup broccoli florets
+2024-06-13T06:08:11.285907+00:00 app[web.1]: - 1 cup snap peas
+2024-06-13T06:08:11.285908+00:00 app[web.1]: - 1/4 cup soy sauce
+2024-06-13T06:08:11.285908+00:00 app[web.1]: - 2 tablespoons oyster sauce
+2024-06-13T06:08:11.285908+00:00 app[web.1]: - 1 tablespoon cornstarch
+2024-06-13T06:08:11.285908+00:00 app[web.1]: - 1/2 cup beef broth
+2024-06-13T06:08:11.285908+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:08:11.285908+00:00 app[web.1]: - Cooked rice or noodles, for serving
+2024-06-13T06:08:11.285908+00:00 app[web.1]: 
+2024-06-13T06:08:11.285908+00:00 app[web.1]: Instructions:
+2024-06-13T06:08:11.285910+00:00 app[web.1]: 1. In a small bowl, mix together soy sauce, oyster sauce, cornstarch, and beef broth. Set aside.
+2024-06-13T06:08:11.285910+00:00 app[web.1]: 2. Heat vegetable oil in a large skillet or wok over high heat. Add garlic and onion, and cook until fragrant.
+2024-06-13T06:08:11.285911+00:00 app[web.1]: 3. Add beef slices to the skillet and cook until browned, about 5 minutes.
+2024-06-13T06:08:11.285912+00:00 app[web.1]: 4. Add bell pepper, broccoli, and snap peas to the skillet. Cook for an additional 5 minutes, or until vegetables are tender-crisp.
+2024-06-13T06:08:11.285913+00:00 app[web.1]: 5. Pour the sauce mixture over the beef and vegetables. Cook for another 2-3 minutes, until the sauce has thickened.
+2024-06-13T06:08:11.285914+00:00 app[web.1]: 6. Season with salt and pepper to taste.
+2024-06-13T06:08:11.285915+00:00 app[web.1]: 7. Serve the beef stir-fry over cooked rice or noodles. Enjoy!
+2024-06-13T06:08:11.286009+00:00 app[web.1]: {
+2024-06-13T06:08:11.286009+00:00 app[web.1]: name: 'Beef Stir-Fry with Vegetables',
+2024-06-13T06:08:11.286010+00:00 app[web.1]: ingredients: [
+2024-06-13T06:08:11.286010+00:00 app[web.1]: '1 lb beef sirloin, thinly sliced',
+2024-06-13T06:08:11.286010+00:00 app[web.1]: '2 tablespoons vegetable oil',
+2024-06-13T06:08:11.286010+00:00 app[web.1]: '2 cloves garlic, minced',
+2024-06-13T06:08:11.286010+00:00 app[web.1]: '1 onion, sliced',
+2024-06-13T06:08:11.286010+00:00 app[web.1]: '1 bell pepper, sliced',
+2024-06-13T06:08:11.286010+00:00 app[web.1]: '1 cup broccoli florets',
+2024-06-13T06:08:11.286011+00:00 app[web.1]: '1 cup snap peas',
+2024-06-13T06:08:11.286011+00:00 app[web.1]: '1/4 cup soy sauce',
+2024-06-13T06:08:11.286011+00:00 app[web.1]: '2 tablespoons oyster sauce',
+2024-06-13T06:08:11.286011+00:00 app[web.1]: '1 tablespoon cornstarch',
+2024-06-13T06:08:11.286011+00:00 app[web.1]: '1/2 cup beef broth',
+2024-06-13T06:08:11.286011+00:00 app[web.1]: 'Salt and pepper to taste',
+2024-06-13T06:08:11.286011+00:00 app[web.1]: 'Cooked rice or noodles, for serving'
+2024-06-13T06:08:11.286011+00:00 app[web.1]: ],
+2024-06-13T06:08:11.286012+00:00 app[web.1]: instructions: [
+2024-06-13T06:08:11.286012+00:00 app[web.1]: '1. In a small bowl, mix together soy sauce, oyster sauce, cornstarch, and beef broth. Set aside.',
+2024-06-13T06:08:11.286012+00:00 app[web.1]: '2. Heat vegetable oil in a large skillet or wok over high heat. Add garlic and onion, and cook until fragrant.',
+2024-06-13T06:08:11.286013+00:00 app[web.1]: '3. Add beef slices to the skillet and cook until browned, about 5 minutes.',
+2024-06-13T06:08:11.286013+00:00 app[web.1]: '4. Add bell pepper, broccoli, and snap peas to the skillet. Cook for an additional 5 minutes, or until vegetables are tender-crisp.',
+2024-06-13T06:08:11.286013+00:00 app[web.1]: '5. Pour the sauce mixture over the beef and vegetables. Cook for another 2-3 minutes, until the sauce has thickened.',
+2024-06-13T06:08:11.286014+00:00 app[web.1]: '6. Season with salt and pepper to taste.',
+2024-06-13T06:08:11.286014+00:00 app[web.1]: '7. Serve the beef stir-fry over cooked rice or noodles. Enjoy!'
+2024-06-13T06:08:11.286014+00:00 app[web.1]: ],
+2024-06-13T06:08:11.286014+00:00 app[web.1]: servingSize: '5',
+2024-06-13T06:08:11.286015+00:00 app[web.1]: cookingTime: '30 minutes',
+2024-06-13T06:08:11.286015+00:00 app[web.1]: summary: "This easy and delicious beef stir-fry with vegetables is perfect for a quick and healthy weeknight meal. Packed with flavor and nutrients, it's sure to be a hit with the whole family."
+2024-06-13T06:08:11.286015+00:00 app[web.1]: }
+2024-06-13T06:08:11.286990+00:00 heroku[router]: at=info method=GET path="/recipe/Beef%20Stir-Fry%20with%20Vegetables?servingSize=5&difficulty=Easy&dietaryRestriction=Soy-Free&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=d349d470-de41-46e8-a5b1-06df67d2bdcf fwd="139.178.128.205" dyno=web.1 connect=0ms service=4700ms status=200 bytes=1511 protocol=https
+2024-06-13T06:08:14.296758+00:00 app[web.1]: I want a recipe for Vegetarian Chickpea Curry with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Dietary restriction Soy-Free.Serving Size should be 6
+2024-06-13T06:08:14.296806+00:00 app[web.1]: Difficulty should be Easy
+2024-06-13T06:08:14.296806+00:00 app[web.1]: 
+2024-06-13T06:08:16.604294+00:00 app[web.1]: I want a recipe for Lemon Herb Roasted Chicken with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Dietary restriction Soy-Free.Serving Size should be 6
+2024-06-13T06:08:16.604345+00:00 app[web.1]: Difficulty should be Easy
+2024-06-13T06:08:16.604345+00:00 app[web.1]: 
+2024-06-13T06:08:18.953897+00:00 app[web.1]: Recipe Name: Vegetarian Chickpea Curry
+2024-06-13T06:08:18.953927+00:00 app[web.1]: Serving Size: 6
+2024-06-13T06:08:18.953927+00:00 app[web.1]: Cooking Time: 30 minutes
+2024-06-13T06:08:18.953931+00:00 app[web.1]: Summary: This easy and flavorful Vegetarian Chickpea Curry is a perfect weeknight meal for the whole family. Packed with protein and fiber, this curry will keep you satisfied and happy.
+2024-06-13T06:08:18.953931+00:00 app[web.1]: 
+2024-06-13T06:08:18.953931+00:00 app[web.1]: Ingredients:
+2024-06-13T06:08:18.953931+00:00 app[web.1]: - 2 cans of chickpeas, drained and rinsed
+2024-06-13T06:08:18.953932+00:00 app[web.1]: - 1 onion, chopped
+2024-06-13T06:08:18.953932+00:00 app[web.1]: - 3 cloves of garlic, minced
+2024-06-13T06:08:18.953933+00:00 app[web.1]: - 1 tablespoon of ginger, minced
+2024-06-13T06:08:18.953933+00:00 app[web.1]: - 1 can of diced tomatoes
+2024-06-13T06:08:18.953933+00:00 app[web.1]: - 1 can of coconut milk
+2024-06-13T06:08:18.953933+00:00 app[web.1]: - 2 tablespoons of curry powder
+2024-06-13T06:08:18.953934+00:00 app[web.1]: - 1 teaspoon of cumin
+2024-06-13T06:08:18.953934+00:00 app[web.1]: - 1 teaspoon of turmeric
+2024-06-13T06:08:18.953934+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:08:18.953934+00:00 app[web.1]: - Fresh cilantro for garnish
+2024-06-13T06:08:18.953934+00:00 app[web.1]: 
+2024-06-13T06:08:18.953934+00:00 app[web.1]: Instructions:
+2024-06-13T06:08:18.953935+00:00 app[web.1]: 1. In a large pot, sauté the onion, garlic, and ginger until fragrant.
+2024-06-13T06:08:18.953936+00:00 app[web.1]: 2. Add the chickpeas, diced tomatoes, coconut milk, curry powder, cumin, turmeric, salt, and pepper. Stir to combine.
+2024-06-13T06:08:18.953936+00:00 app[web.1]: 3. Bring the curry to a simmer and let it cook for 20 minutes, stirring occasionally.
+2024-06-13T06:08:18.953936+00:00 app[web.1]: 4. Taste and adjust seasoning as needed.
+2024-06-13T06:08:18.953937+00:00 app[web.1]: 5. Serve the Vegetarian Chickpea Curry over rice or with naan bread, and garnish with fresh cilantro. Enjoy!
+2024-06-13T06:08:18.954042+00:00 app[web.1]: {
+2024-06-13T06:08:18.954042+00:00 app[web.1]: name: 'Vegetarian Chickpea Curry',
+2024-06-13T06:08:18.954042+00:00 app[web.1]: ingredients: [
+2024-06-13T06:08:18.954043+00:00 app[web.1]: '2 cans of chickpeas, drained and rinsed',
+2024-06-13T06:08:18.954043+00:00 app[web.1]: '1 onion, chopped',
+2024-06-13T06:08:18.954043+00:00 app[web.1]: '3 cloves of garlic, minced',
+2024-06-13T06:08:18.954043+00:00 app[web.1]: '1 tablespoon of ginger, minced',
+2024-06-13T06:08:18.954043+00:00 app[web.1]: '1 can of diced tomatoes',
+2024-06-13T06:08:18.954044+00:00 app[web.1]: '1 can of coconut milk',
+2024-06-13T06:08:18.954044+00:00 app[web.1]: '2 tablespoons of curry powder',
+2024-06-13T06:08:18.954044+00:00 app[web.1]: '1 teaspoon of cumin',
+2024-06-13T06:08:18.954044+00:00 app[web.1]: '1 teaspoon of turmeric',
+2024-06-13T06:08:18.954044+00:00 app[web.1]: 'Salt and pepper to taste',
+2024-06-13T06:08:18.954045+00:00 app[web.1]: 'Fresh cilantro for garnish'
+2024-06-13T06:08:18.954045+00:00 app[web.1]: ],
+2024-06-13T06:08:18.954045+00:00 app[web.1]: instructions: [
+2024-06-13T06:08:18.954046+00:00 app[web.1]: '1. In a large pot, sauté the onion, garlic, and ginger until fragrant.',
+2024-06-13T06:08:18.954046+00:00 app[web.1]: '2. Add the chickpeas, diced tomatoes, coconut milk, curry powder, cumin, turmeric, salt, and pepper. Stir to combine.',
+2024-06-13T06:08:18.954046+00:00 app[web.1]: '3. Bring the curry to a simmer and let it cook for 20 minutes, stirring occasionally.',
+2024-06-13T06:08:18.954047+00:00 app[web.1]: '4. Taste and adjust seasoning as needed.',
+2024-06-13T06:08:18.954047+00:00 app[web.1]: '5. Serve the Vegetarian Chickpea Curry over rice or with naan bread, and garnish with fresh cilantro. Enjoy!'
+2024-06-13T06:08:18.954047+00:00 app[web.1]: ],
+2024-06-13T06:08:18.954047+00:00 app[web.1]: servingSize: '6',
+2024-06-13T06:08:18.954047+00:00 app[web.1]: cookingTime: '30 minutes',
+2024-06-13T06:08:18.954048+00:00 app[web.1]: summary: 'This easy and flavorful Vegetarian Chickpea Curry is a perfect weeknight meal for the whole family. Packed with protein and fiber, this curry will keep you satisfied and happy.'
+2024-06-13T06:08:18.954048+00:00 app[web.1]: }
+2024-06-13T06:08:18.954941+00:00 heroku[router]: at=info method=GET path="/recipe/Vegetarian%20Chickpea%20Curry?servingSize=6&difficulty=Easy&dietaryRestriction=Soy-Free&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=59297578-503d-4f5e-8fed-7902b8e46fac fwd="139.178.128.205" dyno=web.1 connect=1ms service=4658ms status=200 bytes=1257 protocol=https
+2024-06-13T06:08:21.964869+00:00 app[web.1]: Recipe Name: Lemon Herb Roasted Chicken
+2024-06-13T06:08:21.964917+00:00 app[web.1]: Serving Size: 6
+2024-06-13T06:08:21.964918+00:00 app[web.1]: Cooking Time: 1 hour
+2024-06-13T06:08:21.964920+00:00 app[web.1]: Summary: This easy and flavorful lemon herb roasted chicken is perfect for a family dinner or special occasion. The combination of fresh herbs and citrus adds a bright and delicious flavor to the tender roasted chicken.
+2024-06-13T06:08:21.964921+00:00 app[web.1]: Ingredients:
+2024-06-13T06:08:21.964921+00:00 app[web.1]: - 1 whole chicken (about 4-5 pounds)
+2024-06-13T06:08:21.964921+00:00 app[web.1]: - 2 lemons, sliced
+2024-06-13T06:08:21.964921+00:00 app[web.1]: - 4 cloves of garlic, minced
+2024-06-13T06:08:21.964921+00:00 app[web.1]: - 2 tablespoons of fresh rosemary, chopped
+2024-06-13T06:08:21.964922+00:00 app[web.1]: - 2 tablespoons of fresh thyme, chopped
+2024-06-13T06:08:21.964922+00:00 app[web.1]: - 2 tablespoons of fresh parsley, chopped
+2024-06-13T06:08:21.964922+00:00 app[web.1]: - 1/4 cup of olive oil
+2024-06-13T06:08:21.964922+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T06:08:21.964923+00:00 app[web.1]: 
+2024-06-13T06:08:21.964923+00:00 app[web.1]: Instructions:
+2024-06-13T06:08:21.964923+00:00 app[web.1]: 1. Preheat your oven to 375°F (190°C).
+2024-06-13T06:08:21.964923+00:00 app[web.1]: 2. In a small bowl, mix together the minced garlic, chopped herbs, olive oil, salt, and pepper.
+2024-06-13T06:08:21.964924+00:00 app[web.1]: 3. Pat the whole chicken dry with paper towels and place it in a roasting pan.
+2024-06-13T06:08:21.964924+00:00 app[web.1]: 4. Rub the herb mixture all over the chicken, making sure to coat it evenly.
+2024-06-13T06:08:21.964924+00:00 app[web.1]: 5. Place the sliced lemons on top of and around the chicken in the roasting pan.
+2024-06-13T06:08:21.964925+00:00 app[web.1]: 6. Roast the chicken in the preheated oven for about 1 hour, or until the internal temperature reaches 165°F (74°C) when measured with a meat thermometer.
+2024-06-13T06:08:21.964926+00:00 app[web.1]: 7. Once the chicken is cooked through, remove it from the oven and let it rest for 10 minutes before carving.
+2024-06-13T06:08:21.964926+00:00 app[web.1]: 8. Serve the lemon herb roasted chicken with the roasted lemon slices and pan juices on the side. Enjoy!
+2024-06-13T06:08:21.965577+00:00 app[web.1]: {
+2024-06-13T06:08:21.965578+00:00 app[web.1]: name: 'Lemon Herb Roasted Chicken',
+2024-06-13T06:08:21.965578+00:00 app[web.1]: ingredients: [
+2024-06-13T06:08:21.965579+00:00 app[web.1]: '1 whole chicken (about 4-5 pounds)',
+2024-06-13T06:08:21.965579+00:00 app[web.1]: '2 lemons, sliced',
+2024-06-13T06:08:21.965579+00:00 app[web.1]: '4 cloves of garlic, minced',
+2024-06-13T06:08:21.965580+00:00 app[web.1]: '2 tablespoons of fresh rosemary, chopped',
+2024-06-13T06:08:21.965580+00:00 app[web.1]: '2 tablespoons of fresh thyme, chopped',
+2024-06-13T06:08:21.965580+00:00 app[web.1]: '2 tablespoons of fresh parsley, chopped',
+2024-06-13T06:08:21.965580+00:00 app[web.1]: '1/4 cup of olive oil',
+2024-06-13T06:08:21.965580+00:00 app[web.1]: 'Salt and pepper to taste'
+2024-06-13T06:08:21.965581+00:00 app[web.1]: ],
+2024-06-13T06:08:21.965581+00:00 app[web.1]: instructions: [
+2024-06-13T06:08:21.965581+00:00 app[web.1]: '1. Preheat your oven to 375°F (190°C).',
+2024-06-13T06:08:21.965581+00:00 app[web.1]: '2. In a small bowl, mix together the minced garlic, chopped herbs, olive oil, salt, and pepper.',
+2024-06-13T06:08:21.965582+00:00 app[web.1]: '3. Pat the whole chicken dry with paper towels and place it in a roasting pan.',
+2024-06-13T06:08:21.965582+00:00 app[web.1]: '4. Rub the herb mixture all over the chicken, making sure to coat it evenly.',
+2024-06-13T06:08:21.965582+00:00 app[web.1]: '5. Place the sliced lemons on top of and around the chicken in the roasting pan.',
+2024-06-13T06:08:21.965584+00:00 app[web.1]: '6. Roast the chicken in the preheated oven for about 1 hour, or until the internal temperature reaches 165°F (74°C) when measured with a meat thermometer.',
+2024-06-13T06:08:21.965585+00:00 app[web.1]: '7. Once the chicken is cooked through, remove it from the oven and let it rest for 10 minutes before carving.',
+2024-06-13T06:08:21.965585+00:00 app[web.1]: '8. Serve the lemon herb roasted chicken with the roasted lemon slices and pan juices on the side. Enjoy!'
+2024-06-13T06:08:21.965585+00:00 app[web.1]: ],
+2024-06-13T06:08:21.965585+00:00 app[web.1]: servingSize: '6',
+2024-06-13T06:08:21.965586+00:00 app[web.1]: cookingTime: '1 hour',
+2024-06-13T06:08:21.965586+00:00 app[web.1]: summary: 'This easy and flavorful lemon herb roasted chicken is perfect for a family dinner or special occasion. The combination of fresh herbs and citrus adds a bright and delicious flavor to the tender roasted chicken.'
+2024-06-13T06:08:21.965586+00:00 app[web.1]: }
+2024-06-13T06:08:21.966500+00:00 heroku[router]: at=info method=GET path="/recipe/Lemon%20Herb%20Roasted%20Chicken?servingSize=6&difficulty=Easy&dietaryRestriction=Soy-Free&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=d207dbe8-6f53-4a39-97c4-74fb5919d092 fwd="139.178.128.205" dyno=web.1 connect=1ms service=5362ms status=200 bytes=1566 protocol=https
+2024-06-13T22:32:30.404684+00:00 app[web.1]: {
+2024-06-13T22:32:30.404688+00:00 app[web.1]: dietaryRestriction: '',
+2024-06-13T22:32:30.404688+00:00 app[web.1]: mealType: '',
+2024-06-13T22:32:30.404688+00:00 app[web.1]: cuisine: '',
+2024-06-13T22:32:30.404689+00:00 app[web.1]: difficulty: '',
+2024-06-13T22:32:30.404689+00:00 app[web.1]: ingredients: ''
+2024-06-13T22:32:30.404689+00:00 app[web.1]: }
+2024-06-13T22:32:30.404712+00:00 app[web.1]: Suggest 5 dishes (concise title) to make.
+2024-06-13T22:32:31.368493+00:00 heroku[router]: at=info method=GET path="/suggestions?dietaryRestriction=&mealType=&cuisine=&difficulty=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=e4ef22b4-614a-4669-b9ba-d6257cb22b3b fwd="69.79.12.3" dyno=web.1 connect=0ms service=994ms status=200 bytes=311 protocol=https
+2024-06-13T22:32:35.442414+00:00 app[web.1]: I want a recipe for Beef Tacos with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Serving Size should be 2
+2024-06-13T22:32:35.442417+00:00 app[web.1]: 
+2024-06-13T22:32:39.287791+00:00 app[web.1]: Recipe Name: Beef Tacos
+2024-06-13T22:32:39.287837+00:00 app[web.1]: Serving Size: 2
+2024-06-13T22:32:39.287837+00:00 app[web.1]: Cooking Time: 30 minutes
+2024-06-13T22:32:39.287837+00:00 app[web.1]: Summary: These delicious beef tacos are easy to make and perfect for a quick weeknight dinner.
+2024-06-13T22:32:39.287838+00:00 app[web.1]: 
+2024-06-13T22:32:39.287838+00:00 app[web.1]: Ingredients:
+2024-06-13T22:32:39.287838+00:00 app[web.1]: - 1/2 lb ground beef
+2024-06-13T22:32:39.287838+00:00 app[web.1]: - 1/2 onion, diced
+2024-06-13T22:32:39.287838+00:00 app[web.1]: - 1 garlic clove, minced
+2024-06-13T22:32:39.287839+00:00 app[web.1]: - 1 tsp chili powder
+2024-06-13T22:32:39.287839+00:00 app[web.1]: - 1/2 tsp cumin
+2024-06-13T22:32:39.287839+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T22:32:39.287839+00:00 app[web.1]: - 4 small tortillas
+2024-06-13T22:32:39.287839+00:00 app[web.1]: - Toppings of your choice (shredded cheese, salsa, lettuce, sour cream, etc.)
+2024-06-13T22:32:39.287839+00:00 app[web.1]: 
+2024-06-13T22:32:39.287840+00:00 app[web.1]: Instructions:
+2024-06-13T22:32:39.287842+00:00 app[web.1]: 1. In a large skillet, cook the ground beef over medium heat until browned, breaking it up with a spoon as it cooks.
+2024-06-13T22:32:39.287843+00:00 app[web.1]: 2. Add the diced onion and minced garlic to the skillet and cook until the onion is translucent.
+2024-06-13T22:32:39.287843+00:00 app[web.1]: 3. Stir in the chili powder, cumin, salt, and pepper, and cook for another 2-3 minutes.
+2024-06-13T22:32:39.287843+00:00 app[web.1]: 4. Warm the tortillas in a separate skillet or in the microwave.
+2024-06-13T22:32:39.287844+00:00 app[web.1]: 5. Divide the beef mixture among the tortillas and top with your favorite toppings.
+2024-06-13T22:32:39.287844+00:00 app[web.1]: 6. Serve hot and enjoy your delicious beef tacos!
+2024-06-13T22:32:39.287948+00:00 app[web.1]: {
+2024-06-13T22:32:39.287948+00:00 app[web.1]: name: 'Beef Tacos',
+2024-06-13T22:32:39.287948+00:00 app[web.1]: ingredients: [
+2024-06-13T22:32:39.287948+00:00 app[web.1]: '1/2 lb ground beef',
+2024-06-13T22:32:39.287949+00:00 app[web.1]: '1/2 onion, diced',
+2024-06-13T22:32:39.287949+00:00 app[web.1]: '1 garlic clove, minced',
+2024-06-13T22:32:39.287949+00:00 app[web.1]: '1 tsp chili powder',
+2024-06-13T22:32:39.287949+00:00 app[web.1]: '1/2 tsp cumin',
+2024-06-13T22:32:39.287949+00:00 app[web.1]: 'Salt and pepper to taste',
+2024-06-13T22:32:39.287949+00:00 app[web.1]: '4 small tortillas',
+2024-06-13T22:32:39.287949+00:00 app[web.1]: 'Toppings of your choice (shredded cheese, salsa, lettuce, sour cream, etc.)'
+2024-06-13T22:32:39.287949+00:00 app[web.1]: ],
+2024-06-13T22:32:39.287950+00:00 app[web.1]: instructions: [
+2024-06-13T22:32:39.287950+00:00 app[web.1]: '1. In a large skillet, cook the ground beef over medium heat until browned, breaking it up with a spoon as it cooks.',
+2024-06-13T22:32:39.287950+00:00 app[web.1]: '2. Add the diced onion and minced garlic to the skillet and cook until the onion is translucent.',
+2024-06-13T22:32:39.287950+00:00 app[web.1]: '3. Stir in the chili powder, cumin, salt, and pepper, and cook for another 2-3 minutes.',
+2024-06-13T22:32:39.287950+00:00 app[web.1]: '4. Warm the tortillas in a separate skillet or in the microwave.',
+2024-06-13T22:32:39.287950+00:00 app[web.1]: '5. Divide the beef mixture among the tortillas and top with your favorite toppings.',
+2024-06-13T22:32:39.287951+00:00 app[web.1]: '6. Serve hot and enjoy your delicious beef tacos!'
+2024-06-13T22:32:39.287951+00:00 app[web.1]: ],
+2024-06-13T22:32:39.287951+00:00 app[web.1]: servingSize: '2',
+2024-06-13T22:32:39.287951+00:00 app[web.1]: cookingTime: '30 minutes',
+2024-06-13T22:32:39.287951+00:00 app[web.1]: summary: 'These delicious beef tacos are easy to make and perfect for a quick weeknight dinner.'
+2024-06-13T22:32:39.287951+00:00 app[web.1]: }
+2024-06-13T22:32:39.288871+00:00 heroku[router]: at=info method=GET path="/recipe/Beef%20Tacos?servingSize=2&difficulty=&dietaryRestriction=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=64c86c64-256d-4888-825d-f812361e2115 fwd="69.79.12.3" dyno=web.1 connect=0ms service=3848ms status=200 bytes=1146 protocol=https
+2024-06-13T22:34:23.132134+00:00 app[web.1]: I want a recipe for Meat balls and macaroni  with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Serving Size should be 2
+2024-06-13T22:34:23.132175+00:00 app[web.1]: 
+2024-06-13T22:34:28.967204+00:00 app[web.1]: Recipe Name: Meatball and Macaroni Casserole
+2024-06-13T22:34:28.967275+00:00 app[web.1]: Serving Size: 2
+2024-06-13T22:34:28.967277+00:00 app[web.1]: Cooking Time: 45 minutes
+2024-06-13T22:34:28.967281+00:00 app[web.1]: Summary: A comforting and hearty casserole dish featuring juicy meatballs, tender macaroni, and a savory tomato sauce.
+2024-06-13T22:34:28.967282+00:00 app[web.1]: Ingredients:
+2024-06-13T22:34:28.967282+00:00 app[web.1]: - 1/2 pound ground beef
+2024-06-13T22:34:28.967283+00:00 app[web.1]: - 1/4 cup breadcrumbs
+2024-06-13T22:34:28.967284+00:00 app[web.1]: - 1/4 cup grated Parmesan cheese
+2024-06-13T22:34:28.967284+00:00 app[web.1]: - 1 egg
+2024-06-13T22:34:28.967284+00:00 app[web.1]: - 1/2 teaspoon garlic powder
+2024-06-13T22:34:28.967284+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T22:34:28.967285+00:00 app[web.1]: - 1 cup uncooked macaroni
+2024-06-13T22:34:28.967285+00:00 app[web.1]: - 1 can (14 oz) diced tomatoes
+2024-06-13T22:34:28.967285+00:00 app[web.1]: - 1/2 cup tomato sauce
+2024-06-13T22:34:28.967285+00:00 app[web.1]: - 1/2 teaspoon dried oregano
+2024-06-13T22:34:28.967286+00:00 app[web.1]: - 1/2 teaspoon dried basil
+2024-06-13T22:34:28.967286+00:00 app[web.1]: - 1/2 cup shredded mozzarella cheese
+2024-06-13T22:34:28.967286+00:00 app[web.1]: 
+2024-06-13T22:34:28.967286+00:00 app[web.1]: Instructions:
+2024-06-13T22:34:28.967287+00:00 app[web.1]: 1. Preheat oven to 375°F (190°C).
+2024-06-13T22:34:28.967288+00:00 app[web.1]: 2. In a mixing bowl, combine the ground beef, breadcrumbs, Parmesan cheese, egg, garlic powder, salt, and pepper. Mix well and shape into meatballs.
+2024-06-13T22:34:28.967289+00:00 app[web.1]: 3. Cook the macaroni according to package instructions, then drain and set aside.
+2024-06-13T22:34:28.967289+00:00 app[web.1]: 4. In a separate bowl, mix together the diced tomatoes, tomato sauce, oregano, and basil.
+2024-06-13T22:34:28.967289+00:00 app[web.1]: 5. In a baking dish, layer the cooked macaroni, tomato mixture, and meatballs.
+2024-06-13T22:34:28.967290+00:00 app[web.1]: 6. Cover the dish with foil and bake for 30 minutes.
+2024-06-13T22:34:28.967291+00:00 app[web.1]: 7. Remove the foil, sprinkle the mozzarella cheese on top, and bake for an additional 10-15 minutes or until the cheese is melted and bubbly.
+2024-06-13T22:34:28.967291+00:00 app[web.1]: 8. Serve hot and enjoy your delicious Meatball and Macaroni Casserole!
+2024-06-13T22:34:28.974319+00:00 app[web.1]: {
+2024-06-13T22:34:28.974321+00:00 app[web.1]: name: 'Meatball and Macaroni Casserole',
+2024-06-13T22:34:28.974321+00:00 app[web.1]: ingredients: [
+2024-06-13T22:34:28.974322+00:00 app[web.1]: '1/2 pound ground beef',
+2024-06-13T22:34:28.974323+00:00 app[web.1]: '1/4 cup breadcrumbs',
+2024-06-13T22:34:28.974323+00:00 app[web.1]: '1/4 cup grated Parmesan cheese',
+2024-06-13T22:34:28.974323+00:00 app[web.1]: '1 egg',
+2024-06-13T22:34:28.974324+00:00 app[web.1]: '1/2 teaspoon garlic powder',
+2024-06-13T22:34:28.974324+00:00 app[web.1]: 'Salt and pepper to taste',
+2024-06-13T22:34:28.974324+00:00 app[web.1]: '1 cup uncooked macaroni',
+2024-06-13T22:34:28.974324+00:00 app[web.1]: '1 can (14 oz) diced tomatoes',
+2024-06-13T22:34:28.974325+00:00 app[web.1]: '1/2 cup tomato sauce',
+2024-06-13T22:34:28.974325+00:00 app[web.1]: '1/2 teaspoon dried oregano',
+2024-06-13T22:34:28.974325+00:00 app[web.1]: '1/2 teaspoon dried basil',
+2024-06-13T22:34:28.974326+00:00 app[web.1]: '1/2 cup shredded mozzarella cheese'
+2024-06-13T22:34:28.974326+00:00 app[web.1]: ],
+2024-06-13T22:34:28.974326+00:00 app[web.1]: instructions: [
+2024-06-13T22:34:28.974326+00:00 app[web.1]: '1. Preheat oven to 375°F (190°C).',
+2024-06-13T22:34:28.974327+00:00 app[web.1]: '2. In a mixing bowl, combine the ground beef, breadcrumbs, Parmesan cheese, egg, garlic powder, salt, and pepper. Mix well and shape into meatballs.',
+2024-06-13T22:34:28.974328+00:00 app[web.1]: '3. Cook the macaroni according to package instructions, then drain and set aside.',
+2024-06-13T22:34:28.974328+00:00 app[web.1]: '4. In a separate bowl, mix together the diced tomatoes, tomato sauce, oregano, and basil.',
+2024-06-13T22:34:28.974328+00:00 app[web.1]: '5. In a baking dish, layer the cooked macaroni, tomato mixture, and meatballs.',
+2024-06-13T22:34:28.974329+00:00 app[web.1]: '6. Cover the dish with foil and bake for 30 minutes.',
+2024-06-13T22:34:28.974329+00:00 app[web.1]: '7. Remove the foil, sprinkle the mozzarella cheese on top, and bake for an additional 10-15 minutes or until the cheese is melted and bubbly.',
+2024-06-13T22:34:28.974330+00:00 app[web.1]: '8. Serve hot and enjoy your delicious Meatball and Macaroni Casserole!'
+2024-06-13T22:34:28.974330+00:00 app[web.1]: ],
+2024-06-13T22:34:28.974330+00:00 app[web.1]: servingSize: '2',
+2024-06-13T22:34:28.974330+00:00 app[web.1]: cookingTime: '45 minutes',
+2024-06-13T22:34:28.974331+00:00 app[web.1]: summary: 'A comforting and hearty casserole dish featuring juicy meatballs, tender macaroni, and a savory tomato sauce.'
+2024-06-13T22:34:28.974331+00:00 app[web.1]: }
+2024-06-13T22:34:28.975407+00:00 heroku[router]: at=info method=GET path="/recipe/Meat%20balls%20and%20macaroni%20?servingSize=2&difficulty=&dietaryRestriction=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=ea373225-3551-4b55-923f-0a4a853c907c fwd="69.79.12.3" dyno=web.1 connect=0ms service=5844ms status=200 bytes=1486 protocol=https
+2024-06-13T22:37:00.420961+00:00 app[web.1]: I want a recipe for Chunks and pie with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Serving Size should be 2
+2024-06-13T22:37:00.420966+00:00 app[web.1]: 
+2024-06-13T22:37:05.948993+00:00 app[web.1]: Recipe Name: Beef Chunks and Pie
+2024-06-13T22:37:05.949045+00:00 app[web.1]: Serving Size: 2
+2024-06-13T22:37:05.949046+00:00 app[web.1]: Cooking Time: 1 hour
+2024-06-13T22:37:05.949046+00:00 app[web.1]: Summary: A hearty and delicious beef chunks and pie recipe that is perfect for a cozy dinner for two.
+2024-06-13T22:37:05.949047+00:00 app[web.1]: Ingredients:
+2024-06-13T22:37:05.949047+00:00 app[web.1]: - 1 lb beef chunks
+2024-06-13T22:37:05.949047+00:00 app[web.1]: - 1 onion, chopped
+2024-06-13T22:37:05.949048+00:00 app[web.1]: - 2 cloves garlic, minced
+2024-06-13T22:37:05.949048+00:00 app[web.1]: - 1 carrot, diced
+2024-06-13T22:37:05.949048+00:00 app[web.1]: - 1 celery stalk, diced
+2024-06-13T22:37:05.949049+00:00 app[web.1]: - 1 cup beef broth
+2024-06-13T22:37:05.949050+00:00 app[web.1]: - 1 tsp Worcestershire sauce
+2024-06-13T22:37:05.949050+00:00 app[web.1]: - 1 tsp thyme
+2024-06-13T22:37:05.949050+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T22:37:05.949050+00:00 app[web.1]: - 1 sheet puff pastry
+2024-06-13T22:37:05.949050+00:00 app[web.1]: 
+2024-06-13T22:37:05.949051+00:00 app[web.1]: Instructions:
+2024-06-13T22:37:05.949051+00:00 app[web.1]: 1. Preheat the oven to 375°F.
+2024-06-13T22:37:05.949052+00:00 app[web.1]: 2. In a large skillet, brown the beef chunks over medium-high heat.
+2024-06-13T22:37:05.949052+00:00 app[web.1]: 3. Add the onion and garlic and cook until softened.
+2024-06-13T22:37:05.949052+00:00 app[web.1]: 4. Stir in the carrot and celery and cook for another 2-3 minutes.
+2024-06-13T22:37:05.949053+00:00 app[web.1]: 5. Add the beef broth, Worcestershire sauce, thyme, salt, and pepper. Bring to a simmer and cook for 10-15 minutes.
+2024-06-13T22:37:05.949053+00:00 app[web.1]: 6. Transfer the beef mixture to a baking dish.
+2024-06-13T22:37:05.949054+00:00 app[web.1]: 7. Roll out the puff pastry and place it on top of the beef mixture, tucking in the edges.
+2024-06-13T22:37:05.949054+00:00 app[web.1]: 8. Cut a few slits in the pastry to allow steam to escape.
+2024-06-13T22:37:05.949054+00:00 app[web.1]: 9. Bake in the preheated oven for 25-30 minutes or until the pastry is golden brown.
+2024-06-13T22:37:05.949054+00:00 app[web.1]: 10. Serve hot and enjoy your delicious beef chunks and pie!
+2024-06-13T22:37:05.949132+00:00 app[web.1]: {
+2024-06-13T22:37:05.949132+00:00 app[web.1]: name: 'Beef Chunks and Pie',
+2024-06-13T22:37:05.949132+00:00 app[web.1]: ingredients: [
+2024-06-13T22:37:05.949133+00:00 app[web.1]: '1 lb beef chunks',
+2024-06-13T22:37:05.949133+00:00 app[web.1]: '1 onion, chopped',
+2024-06-13T22:37:05.949133+00:00 app[web.1]: '2 cloves garlic, minced',
+2024-06-13T22:37:05.949133+00:00 app[web.1]: '1 carrot, diced',
+2024-06-13T22:37:05.949133+00:00 app[web.1]: '1 celery stalk, diced',
+2024-06-13T22:37:05.949133+00:00 app[web.1]: '1 cup beef broth',
+2024-06-13T22:37:05.949134+00:00 app[web.1]: '1 tsp Worcestershire sauce',
+2024-06-13T22:37:05.949134+00:00 app[web.1]: '1 tsp thyme',
+2024-06-13T22:37:05.949134+00:00 app[web.1]: 'Salt and pepper to taste',
+2024-06-13T22:37:05.949134+00:00 app[web.1]: '1 sheet puff pastry'
+2024-06-13T22:37:05.949135+00:00 app[web.1]: ],
+2024-06-13T22:37:05.949135+00:00 app[web.1]: instructions: [
+2024-06-13T22:37:05.949135+00:00 app[web.1]: '1. Preheat the oven to 375°F.',
+2024-06-13T22:37:05.949135+00:00 app[web.1]: '2. In a large skillet, brown the beef chunks over medium-high heat.',
+2024-06-13T22:37:05.949136+00:00 app[web.1]: '3. Add the onion and garlic and cook until softened.',
+2024-06-13T22:37:05.949136+00:00 app[web.1]: '4. Stir in the carrot and celery and cook for another 2-3 minutes.',
+2024-06-13T22:37:05.949136+00:00 app[web.1]: '5. Add the beef broth, Worcestershire sauce, thyme, salt, and pepper. Bring to a simmer and cook for 10-15 minutes.',
+2024-06-13T22:37:05.949137+00:00 app[web.1]: '6. Transfer the beef mixture to a baking dish.',
+2024-06-13T22:37:05.949137+00:00 app[web.1]: '7. Roll out the puff pastry and place it on top of the beef mixture, tucking in the edges.',
+2024-06-13T22:37:05.949137+00:00 app[web.1]: '8. Cut a few slits in the pastry to allow steam to escape.',
+2024-06-13T22:37:05.949137+00:00 app[web.1]: '9. Bake in the preheated oven for 25-30 minutes or until the pastry is golden brown.',
+2024-06-13T22:37:05.949138+00:00 app[web.1]: '10. Serve hot and enjoy your delicious beef chunks and pie!'
+2024-06-13T22:37:05.949138+00:00 app[web.1]: ],
+2024-06-13T22:37:05.949138+00:00 app[web.1]: servingSize: '2',
+2024-06-13T22:37:05.949138+00:00 app[web.1]: cookingTime: '1 hour',
+2024-06-13T22:37:05.949139+00:00 app[web.1]: summary: 'A hearty and delicious beef chunks and pie recipe that is perfect for a cozy dinner for two.'
+2024-06-13T22:37:05.949139+00:00 app[web.1]: }
+2024-06-13T22:37:05.950114+00:00 heroku[router]: at=info method=GET path="/recipe/Chunks%20and%20pie?servingSize=2&difficulty=&dietaryRestriction=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=25c3b641-bfb2-4671-b914-3b5afb89f905 fwd="69.79.12.3" dyno=web.1 connect=1ms service=5529ms status=200 bytes=1333 protocol=https
+2024-06-13T22:37:46.808857+00:00 app[web.1]: I want a recipe for Pie and chunks with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Serving Size should be 2
+2024-06-13T22:37:46.808907+00:00 app[web.1]: 
+2024-06-13T22:37:52.497185+00:00 app[web.1]: Recipe Name: Chicken Pot Pie
+2024-06-13T22:37:52.497228+00:00 app[web.1]: Serving Size: 2
+2024-06-13T22:37:52.497229+00:00 app[web.1]: Cooking Time: 1 hour
+2024-06-13T22:37:52.497229+00:00 app[web.1]: Summary: This classic comfort food is perfect for a cozy night in. Flaky pie crust filled with a savory mixture of chicken and vegetables, topped with more flaky crust.
+2024-06-13T22:37:52.497230+00:00 app[web.1]: 
+2024-06-13T22:37:52.497230+00:00 app[web.1]: Ingredients:
+2024-06-13T22:37:52.497230+00:00 app[web.1]: - 1 pre-made pie crust
+2024-06-13T22:37:52.497231+00:00 app[web.1]: - 1 cup cooked chicken, shredded
+2024-06-13T22:37:52.497231+00:00 app[web.1]: - 1 cup mixed vegetables (such as peas, carrots, and corn)
+2024-06-13T22:37:52.497232+00:00 app[web.1]: - 1/4 cup butter
+2024-06-13T22:37:52.497232+00:00 app[web.1]: - 1/4 cup all-purpose flour
+2024-06-13T22:37:52.497232+00:00 app[web.1]: - 1 cup chicken broth
+2024-06-13T22:37:52.497232+00:00 app[web.1]: - 1/2 cup milk
+2024-06-13T22:37:52.497233+00:00 app[web.1]: - Salt and pepper to taste
+2024-06-13T22:37:52.497233+00:00 app[web.1]: 
+2024-06-13T22:37:52.497233+00:00 app[web.1]: Instructions:
+2024-06-13T22:37:52.497233+00:00 app[web.1]: 1. Preheat oven to 375°F (190°C).
+2024-06-13T22:37:52.497234+00:00 app[web.1]: 2. In a large skillet, melt butter over medium heat. Add flour and cook for 1-2 minutes, stirring constantly.
+2024-06-13T22:37:52.497234+00:00 app[web.1]: 3. Gradually whisk in chicken broth and milk, stirring until smooth. Cook until sauce thickens, about 5 minutes.
+2024-06-13T22:37:52.497235+00:00 app[web.1]: 4. Add chicken and mixed vegetables to the sauce. Season with salt and pepper.
+2024-06-13T22:37:52.497236+00:00 app[web.1]: 5. Roll out pie crust and place it in a pie dish. Pour chicken mixture into the crust.
+2024-06-13T22:37:52.497236+00:00 app[web.1]: 6. Roll out the second pie crust and place it on top of the filling. Crimp the edges to seal the pie.
+2024-06-13T22:37:52.497236+00:00 app[web.1]: 7. Cut a few slits in the top crust to allow steam to escape.
+2024-06-13T22:37:52.497236+00:00 app[web.1]: 8. Bake for 45-50 minutes, or until crust is golden brown.
+2024-06-13T22:37:52.497236+00:00 app[web.1]: 9. Let the pie cool for a few minutes before serving. Enjoy your delicious chicken pot pie!
+2024-06-13T22:37:52.497361+00:00 app[web.1]: {
+2024-06-13T22:37:52.497361+00:00 app[web.1]: name: 'Chicken Pot Pie',
+2024-06-13T22:37:52.497361+00:00 app[web.1]: ingredients: [
+2024-06-13T22:37:52.497361+00:00 app[web.1]: '1 pre-made pie crust',
+2024-06-13T22:37:52.497361+00:00 app[web.1]: '1 cup cooked chicken, shredded',
+2024-06-13T22:37:52.497361+00:00 app[web.1]: '1 cup mixed vegetables (such as peas, carrots, and corn)',
+2024-06-13T22:37:52.497361+00:00 app[web.1]: '1/4 cup butter',
+2024-06-13T22:37:52.497361+00:00 app[web.1]: '1/4 cup all-purpose flour',
+2024-06-13T22:37:52.497362+00:00 app[web.1]: '1 cup chicken broth',
+2024-06-13T22:37:52.497362+00:00 app[web.1]: '1/2 cup milk',
+2024-06-13T22:37:52.497362+00:00 app[web.1]: 'Salt and pepper to taste'
+2024-06-13T22:37:52.497362+00:00 app[web.1]: ],
+2024-06-13T22:37:52.497362+00:00 app[web.1]: instructions: [
+2024-06-13T22:37:52.497362+00:00 app[web.1]: '1. Preheat oven to 375°F (190°C).',
+2024-06-13T22:37:52.497362+00:00 app[web.1]: '2. In a large skillet, melt butter over medium heat. Add flour and cook for 1-2 minutes, stirring constantly.',
+2024-06-13T22:37:52.497363+00:00 app[web.1]: '3. Gradually whisk in chicken broth and milk, stirring until smooth. Cook until sauce thickens, about 5 minutes.',
+2024-06-13T22:37:52.497363+00:00 app[web.1]: '4. Add chicken and mixed vegetables to the sauce. Season with salt and pepper.',
+2024-06-13T22:37:52.497363+00:00 app[web.1]: '5. Roll out pie crust and place it in a pie dish. Pour chicken mixture into the crust.',
+2024-06-13T22:37:52.497363+00:00 app[web.1]: '6. Roll out the second pie crust and place it on top of the filling. Crimp the edges to seal the pie.',
+2024-06-13T22:37:52.497363+00:00 app[web.1]: '7. Cut a few slits in the top crust to allow steam to escape.',
+2024-06-13T22:37:52.497363+00:00 app[web.1]: '8. Bake for 45-50 minutes, or until crust is golden brown.',
+2024-06-13T22:37:52.497364+00:00 app[web.1]: '9. Let the pie cool for a few minutes before serving. Enjoy your delicious chicken pot pie!'
+2024-06-13T22:37:52.497364+00:00 app[web.1]: ],
+2024-06-13T22:37:52.497364+00:00 app[web.1]: servingSize: '2',
+2024-06-13T22:37:52.497364+00:00 app[web.1]: cookingTime: '1 hour',
+2024-06-13T22:37:52.497365+00:00 app[web.1]: summary: 'This classic comfort food is perfect for a cozy night in. Flaky pie crust filled with a savory mixture of chicken and vegetables, topped with more flaky crust.'
+2024-06-13T22:37:52.497365+00:00 app[web.1]: }
+2024-06-13T22:37:52.498476+00:00 heroku[router]: at=info method=GET path="/recipe/Pie%20and%20chunks?servingSize=2&difficulty=&dietaryRestriction=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=e6398f1b-41b1-4f54-9890-f2413a7f983c fwd="69.79.12.3" dyno=web.1 connect=0ms service=5691ms status=200 bytes=1464 protocol=https
+2024-06-13T22:38:04.085099+00:00 app[web.1]: I want a recipe for Chicken Stir-Fry with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Serving Size should be 2
+2024-06-13T22:38:04.085137+00:00 app[web.1]: 
+2024-06-13T22:38:08.971266+00:00 app[web.1]: Recipe Name: Chicken Stir-Fry
+2024-06-13T22:38:08.971316+00:00 app[web.1]: Serving Size: 2
+2024-06-13T22:38:08.971316+00:00 app[web.1]: Cooking Time: 30 minutes
+2024-06-13T22:38:08.971317+00:00 app[web.1]: Summary: This quick and easy chicken stir-fry is packed with flavor and perfect for a weeknight dinner for two.
+2024-06-13T22:38:08.971318+00:00 app[web.1]: 
+2024-06-13T22:38:08.971318+00:00 app[web.1]: Ingredients:
+2024-06-13T22:38:08.971319+00:00 app[web.1]: - 2 boneless, skinless chicken breasts, sliced into thin strips
+2024-06-13T22:38:08.971320+00:00 app[web.1]: - 1 tablespoon vegetable oil
+2024-06-13T22:38:08.971320+00:00 app[web.1]: - 1 red bell pepper, sliced
+2024-06-13T22:38:08.971320+00:00 app[web.1]: - 1 yellow bell pepper, sliced
+2024-06-13T22:38:08.971321+00:00 app[web.1]: - 1 small onion, sliced
+2024-06-13T22:38:08.971322+00:00 app[web.1]: - 1 cup broccoli florets
+2024-06-13T22:38:08.971322+00:00 app[web.1]: - 2 cloves garlic, minced
+2024-06-13T22:38:08.971322+00:00 app[web.1]: - 1/4 cup soy sauce
+2024-06-13T22:38:08.971322+00:00 app[web.1]: - 1 tablespoon honey
+2024-06-13T22:38:08.971322+00:00 app[web.1]: - 1 teaspoon sesame oil
+2024-06-13T22:38:08.971323+00:00 app[web.1]: - 1 teaspoon cornstarch
+2024-06-13T22:38:08.971323+00:00 app[web.1]: - Cooked rice, for serving
+2024-06-13T22:38:08.971323+00:00 app[web.1]: 
+2024-06-13T22:38:08.971323+00:00 app[web.1]: Instructions:
+2024-06-13T22:38:08.971323+00:00 app[web.1]: 1. In a small bowl, whisk together soy sauce, honey, sesame oil, and cornstarch. Set aside.
+2024-06-13T22:38:08.971324+00:00 app[web.1]: 2. Heat vegetable oil in a large skillet or wok over medium-high heat. Add chicken strips and cook until browned and cooked through, about 5-7 minutes. Remove from skillet and set aside.
+2024-06-13T22:38:08.971326+00:00 app[web.1]: 3. In the same skillet, add the peppers, onion, broccoli, and garlic. Stir-fry for 5-7 minutes, or until vegetables are tender-crisp.
+2024-06-13T22:38:08.971327+00:00 app[web.1]: 4. Return the chicken to the skillet and pour the soy sauce mixture over the top. Stir everything together and cook for another 2-3 minutes, until the sauce has thickened.
+2024-06-13T22:38:08.971327+00:00 app[web.1]: 5. Serve the chicken stir-fry over cooked rice and enjoy!
+2024-06-13T22:38:08.971384+00:00 app[web.1]: {
+2024-06-13T22:38:08.971384+00:00 app[web.1]: name: 'Chicken Stir-Fry',
+2024-06-13T22:38:08.971384+00:00 app[web.1]: ingredients: [
+2024-06-13T22:38:08.971385+00:00 app[web.1]: '2 boneless, skinless chicken breasts, sliced into thin strips',
+2024-06-13T22:38:08.971385+00:00 app[web.1]: '1 tablespoon vegetable oil',
+2024-06-13T22:38:08.971386+00:00 app[web.1]: '1 red bell pepper, sliced',
+2024-06-13T22:38:08.971386+00:00 app[web.1]: '1 yellow bell pepper, sliced',
+2024-06-13T22:38:08.971386+00:00 app[web.1]: '1 small onion, sliced',
+2024-06-13T22:38:08.971386+00:00 app[web.1]: '1 cup broccoli florets',
+2024-06-13T22:38:08.971386+00:00 app[web.1]: '2 cloves garlic, minced',
+2024-06-13T22:38:08.971386+00:00 app[web.1]: '1/4 cup soy sauce',
+2024-06-13T22:38:08.971386+00:00 app[web.1]: '1 tablespoon honey',
+2024-06-13T22:38:08.971387+00:00 app[web.1]: '1 teaspoon sesame oil',
+2024-06-13T22:38:08.971387+00:00 app[web.1]: '1 teaspoon cornstarch',
+2024-06-13T22:38:08.971387+00:00 app[web.1]: 'Cooked rice, for serving'
+2024-06-13T22:38:08.971387+00:00 app[web.1]: ],
+2024-06-13T22:38:08.971387+00:00 app[web.1]: instructions: [
+2024-06-13T22:38:08.971387+00:00 app[web.1]: '1. In a small bowl, whisk together soy sauce, honey, sesame oil, and cornstarch. Set aside.',
+2024-06-13T22:38:08.971388+00:00 app[web.1]: '2. Heat vegetable oil in a large skillet or wok over medium-high heat. Add chicken strips and cook until browned and cooked through, about 5-7 minutes. Remove from skillet and set aside.',
+2024-06-13T22:38:08.971389+00:00 app[web.1]: '3. In the same skillet, add the peppers, onion, broccoli, and garlic. Stir-fry for 5-7 minutes, or until vegetables are tender-crisp.',
+2024-06-13T22:38:08.971389+00:00 app[web.1]: '4. Return the chicken to the skillet and pour the soy sauce mixture over the top. Stir everything together and cook for another 2-3 minutes, until the sauce has thickened.',
+2024-06-13T22:38:08.971389+00:00 app[web.1]: '5. Serve the chicken stir-fry over cooked rice and enjoy!'
+2024-06-13T22:38:08.971389+00:00 app[web.1]: ],
+2024-06-13T22:38:08.971389+00:00 app[web.1]: servingSize: '2',
+2024-06-13T22:38:08.971390+00:00 app[web.1]: cookingTime: '30 minutes',
+2024-06-13T22:38:08.971390+00:00 app[web.1]: summary: 'This quick and easy chicken stir-fry is packed with flavor and perfect for a weeknight dinner for two.'
+2024-06-13T22:38:08.971390+00:00 app[web.1]: }
+2024-06-13T22:38:08.972195+00:00 heroku[router]: at=info method=GET path="/recipe/Chicken%20Stir-Fry?servingSize=2&difficulty=&dietaryRestriction=&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=9b8d7c3c-38db-4052-9e32-45e96888e1b5 fwd="69.79.12.3" dyno=web.1 connect=0ms service=4887ms status=200 bytes=1426 protocol=https
+2024-06-13T23:46:18.872093+00:00 app[web.1]: {
+2024-06-13T23:46:18.872129+00:00 app[web.1]: dietaryRestriction: 'Vegetarian',
+2024-06-13T23:46:18.872129+00:00 app[web.1]: mealType: '',
+2024-06-13T23:46:18.872130+00:00 app[web.1]: cuisine: 'Indian',
+2024-06-13T23:46:18.872130+00:00 app[web.1]: difficulty: 'Easy',
+2024-06-13T23:46:18.872131+00:00 app[web.1]: ingredients: 'Paneer'
+2024-06-13T23:46:18.872131+00:00 app[web.1]: }
+2024-06-13T23:46:18.872135+00:00 app[web.1]: Suggest 5 dishes (concise title) to make.Dietary restriction Vegetarian.Cuisine Indian.Difficulty Easy.Using ingredients Paneer.
+2024-06-13T23:46:19.785190+00:00 heroku[router]: at=info method=GET path="/suggestions?dietaryRestriction=Vegetarian&mealType=&cuisine=Indian&difficulty=Easy&ingredients=Paneer" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=3f8a6a39-8927-41aa-9ad0-6d78e71152e3 fwd="24.6.224.170" dyno=web.1 connect=0ms service=914ms status=200 bytes=299 protocol=https
+2024-06-13T23:47:39.567478+00:00 app[web.1]: I want a recipe for Paneer paratha with recipe name (Recipe Name: ), serving size suggestion (Serving Size: ), cooking time (Cooking Time: ), and summary (Summary: ), ingredients (Ingredients: ), and instructions (Instructions: ). Order it in the following format: Recipe Name, Serving Size, Cooking Time, Summary, Ingredients, Instructions.Dietary restriction Vegetarian.Serving Size should be 3
+2024-06-13T23:47:39.567679+00:00 app[web.1]: Difficulty should be Easy
+2024-06-13T23:47:39.567681+00:00 app[web.1]: 
+2024-06-13T23:47:45.124210+00:00 app[web.1]: Recipe Name: Paneer Paratha
+2024-06-13T23:47:45.124254+00:00 app[web.1]: Serving Size: 3
+2024-06-13T23:47:45.124254+00:00 app[web.1]: Cooking Time: 30 minutes
+2024-06-13T23:47:45.124261+00:00 app[web.1]: Summary: Paneer paratha is a delicious and filling Indian flatbread stuffed with a spiced paneer (Indian cottage cheese) filling. It is perfect for a hearty breakfast or lunch.
+2024-06-13T23:47:45.124261+00:00 app[web.1]: 
+2024-06-13T23:47:45.124262+00:00 app[web.1]: Ingredients:
+2024-06-13T23:47:45.124262+00:00 app[web.1]: - 1 cup whole wheat flour
+2024-06-13T23:47:45.124262+00:00 app[web.1]: - 1 cup grated paneer
+2024-06-13T23:47:45.124262+00:00 app[web.1]: - 1 small onion, finely chopped
+2024-06-13T23:47:45.124263+00:00 app[web.1]: - 1 green chili, finely chopped
+2024-06-13T23:47:45.124263+00:00 app[web.1]: - 1/2 tsp cumin seeds
+2024-06-13T23:47:45.124263+00:00 app[web.1]: - 1/2 tsp garam masala
+2024-06-13T23:47:45.124263+00:00 app[web.1]: - 1/2 tsp red chili powder
+2024-06-13T23:47:45.124264+00:00 app[web.1]: - 1/2 tsp turmeric powder
+2024-06-13T23:47:45.124264+00:00 app[web.1]: - Salt to taste
+2024-06-13T23:47:45.124264+00:00 app[web.1]: - Fresh coriander leaves, chopped
+2024-06-13T23:47:45.124265+00:00 app[web.1]: - Ghee or oil for cooking
+2024-06-13T23:47:45.124265+00:00 app[web.1]: 
+2024-06-13T23:47:45.124265+00:00 app[web.1]: Instructions:
+2024-06-13T23:47:45.124267+00:00 app[web.1]: 1. In a mixing bowl, combine whole wheat flour, salt, and enough water to make a soft dough. Cover and let it rest for 15 minutes.
+2024-06-13T23:47:45.124267+00:00 app[web.1]: 2. In another bowl, mix grated paneer, chopped onion, green chili, cumin seeds, garam masala, red chili powder, turmeric powder, salt, and fresh coriander leaves to make the filling.
+2024-06-13T23:47:45.124268+00:00 app[web.1]: 3. Divide the dough into 6 equal portions and roll each portion into a small disc.
+2024-06-13T23:47:45.124269+00:00 app[web.1]: 4. Place a spoonful of the paneer filling in the center of one disc, then cover it with another disc and seal the edges by pressing them together.
+2024-06-13T23:47:45.124270+00:00 app[web.1]: 5. Roll out the stuffed disc gently into a paratha.
+2024-06-13T23:47:45.124272+00:00 app[web.1]: 6. Heat a griddle or pan over medium heat and cook the paratha on both sides until golden brown, brushing with ghee or oil.
+2024-06-13T23:47:45.124272+00:00 app[web.1]: 7. Serve hot with yogurt, pickle, or chutney. Enjoy your delicious Paneer Paratha!
+2024-06-13T23:47:45.124347+00:00 app[web.1]: {
+2024-06-13T23:47:45.124347+00:00 app[web.1]: name: 'Paneer Paratha',
+2024-06-13T23:47:45.124347+00:00 app[web.1]: ingredients: [
+2024-06-13T23:47:45.124347+00:00 app[web.1]: '1 cup whole wheat flour',
+2024-06-13T23:47:45.124347+00:00 app[web.1]: '1 cup grated paneer',
+2024-06-13T23:47:45.124348+00:00 app[web.1]: '1 small onion, finely chopped',
+2024-06-13T23:47:45.124348+00:00 app[web.1]: '1 green chili, finely chopped',
+2024-06-13T23:47:45.124348+00:00 app[web.1]: '1/2 tsp cumin seeds',
+2024-06-13T23:47:45.124348+00:00 app[web.1]: '1/2 tsp garam masala',
+2024-06-13T23:47:45.124348+00:00 app[web.1]: '1/2 tsp red chili powder',
+2024-06-13T23:47:45.124349+00:00 app[web.1]: '1/2 tsp turmeric powder',
+2024-06-13T23:47:45.124349+00:00 app[web.1]: 'Salt to taste',
+2024-06-13T23:47:45.124349+00:00 app[web.1]: 'Fresh coriander leaves, chopped',
+2024-06-13T23:47:45.124349+00:00 app[web.1]: 'Ghee or oil for cooking'
+2024-06-13T23:47:45.124349+00:00 app[web.1]: ],
+2024-06-13T23:47:45.124349+00:00 app[web.1]: instructions: [
+2024-06-13T23:47:45.124349+00:00 app[web.1]: '1. In a mixing bowl, combine whole wheat flour, salt, and enough water to make a soft dough. Cover and let it rest for 15 minutes.',
+2024-06-13T23:47:45.124350+00:00 app[web.1]: '2. In another bowl, mix grated paneer, chopped onion, green chili, cumin seeds, garam masala, red chili powder, turmeric powder, salt, and fresh coriander leaves to make the filling.',
+2024-06-13T23:47:45.124350+00:00 app[web.1]: '3. Divide the dough into 6 equal portions and roll each portion into a small disc.',
+2024-06-13T23:47:45.124350+00:00 app[web.1]: '4. Place a spoonful of the paneer filling in the center of one disc, then cover it with another disc and seal the edges by pressing them together.',
+2024-06-13T23:47:45.124350+00:00 app[web.1]: '5. Roll out the stuffed disc gently into a paratha.',
+2024-06-13T23:47:45.124350+00:00 app[web.1]: '6. Heat a griddle or pan over medium heat and cook the paratha on both sides until golden brown, brushing with ghee or oil.',
+2024-06-13T23:47:45.124351+00:00 app[web.1]: '7. Serve hot with yogurt, pickle, or chutney. Enjoy your delicious Paneer Paratha!'
+2024-06-13T23:47:45.124351+00:00 app[web.1]: ],
+2024-06-13T23:47:45.124351+00:00 app[web.1]: servingSize: '3',
+2024-06-13T23:47:45.124351+00:00 app[web.1]: cookingTime: '30 minutes',
+2024-06-13T23:47:45.124351+00:00 app[web.1]: summary: 'Paneer paratha is a delicious and filling Indian flatbread stuffed with a spiced paneer (Indian cottage cheese) filling. It is perfect for a hearty breakfast or lunch.'
+2024-06-13T23:47:45.124351+00:00 app[web.1]: }
+2024-06-13T23:47:45.125321+00:00 heroku[router]: at=info method=GET path="/recipe/Paneer%20paratha?servingSize=3&difficulty=Easy&dietaryRestriction=Vegetarian&ingredients=" host=arcane-inlet-71234-7d790c9df958.herokuapp.com request_id=72379d90-e60d-4836-bde3-ba6b18973980 fwd="24.6.224.170" dyno=web.1 connect=0ms service=5558ms status=200 bytes=1596 protocol=https
+2024-06-14T05:22:33.789853+00:00 heroku[web.1]: Cycling
+2024-06-14T05:22:33.791976+00:00 heroku[web.1]: State changed from up to starting
+2024-06-14T05:22:34.552555+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2024-06-14T05:22:34.650493+00:00 heroku[web.1]: Process exited with status 143
+2024-06-14T05:22:37.234314+00:00 heroku[web.1]: Starting process with command `npm install && npm start`
+2024-06-14T05:22:38.982964+00:00 app[web.1]: 
+2024-06-14T05:22:38.982984+00:00 app[web.1]: up to date, audited 73 packages in 673ms
+2024-06-14T05:22:38.983059+00:00 app[web.1]: 
+2024-06-14T05:22:38.983086+00:00 app[web.1]: 14 packages are looking for funding
+2024-06-14T05:22:38.983102+00:00 app[web.1]: run `npm fund` for details
+2024-06-14T05:22:38.984001+00:00 app[web.1]: 
+2024-06-14T05:22:38.984002+00:00 app[web.1]: found 0 vulnerabilities
+2024-06-14T05:22:38.984664+00:00 app[web.1]: npm notice
+2024-06-14T05:22:38.984665+00:00 app[web.1]: npm notice New minor version of npm available! 10.7.0 -> 10.8.1
+2024-06-14T05:22:38.984665+00:00 app[web.1]: npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.1
+2024-06-14T05:22:38.984666+00:00 app[web.1]: npm notice To update run: npm install -g npm@10.8.1
+2024-06-14T05:22:38.984666+00:00 app[web.1]: npm notice
+2024-06-14T05:22:39.111949+00:00 app[web.1]: 
+2024-06-14T05:22:39.111951+00:00 app[web.1]: > start
+2024-06-14T05:22:39.111951+00:00 app[web.1]: > node app.js
+2024-06-14T05:22:39.111952+00:00 app[web.1]: 
+2024-06-14T05:22:39.246502+00:00 app[web.1]: Server is running on port 57202
+2024-06-14T05:22:39.424568+00:00 heroku[web.1]: State changed from starting to up
