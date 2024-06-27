@@ -4,12 +4,12 @@ const PrivacyPolicy = () => {
   return (
     <div className="px-5 py-10 max-w-3xl mx-auto">
       <Head>
-        <title>Privacy Policy - Pocket Chef</title>
+        <title>Privacy Policy - Reset</title>
       </Head>
       <main>
         <h1 className="text-3xl font-bold mb-5">Privacy Policy</h1>
         <p className="mb-4">
-          This privacy policy applies to the Pocket Chef app (referred to as
+          This privacy policy applies to the Reset app (referred to as
           "Application") for mobile devices, created by Rupal Totale (referred
           to as "Service Provider") as an ad-supported service. This service is
           provided "AS IS".
@@ -41,8 +41,8 @@ const PrivacyPolicy = () => {
 
         <h2 className="text-2xl font-semibold mt-6 mb-3">Information Use</h2>
         <p className="mb-4">
-          The information collected by the Pocket Chef application is used to
-          enhance and improve your user experience, including:
+          The information collected by the Reset application is used to enhance
+          and improve your user experience, including:
         </p>
         <ul className="list-disc list-inside mb-4">
           <li>
@@ -155,10 +155,10 @@ const PrivacyPolicy = () => {
           use the Application and for a reasonable time thereafter. To request
           deletion of user-provided data, contact the Service Provider at{" "}
           <a
-            href="mailto:pocket_chef@outlook.com"
+            href="mailto:reset_app@outlook.com"
             className="text-blue-500 hover:underline"
           >
-            pocket_chef@outlook.com
+            reset_app@outlook.com
           </a>
           .
         </p>
@@ -173,10 +173,10 @@ const PrivacyPolicy = () => {
           child has provided personal information, contact the Service Provider
           at{" "}
           <a
-            href="mailto:pocket_chef@outlook.com"
+            href="mailto:reset_app@outlook.com"
             className="text-blue-500 hover:underline"
           >
-            pocket_chef@outlook.com
+            reset_app@outlook.com
           </a>
           .
         </p>
@@ -209,10 +209,10 @@ const PrivacyPolicy = () => {
           If you have any questions or suggestions about the Terms and
           Conditions, please contact the Service Provider at{" "}
           <a
-            href="mailto:pocket_chef@outlook.com"
+            href="mailto:reset_app@outlook.com"
             className="text-blue-500 hover:underline"
           >
-            pocket_chef@outlook.com
+            reset_app@outlook.com
           </a>
           .
         </p>

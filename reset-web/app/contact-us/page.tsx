@@ -116,11 +116,8 @@ export default function Component() {
           <div className="space-y-4">
             <div>
               <h3 className="text-lg font-medium">Email</h3>
-              <a
-                href="mailto:pocket_chef@outlook.com"
-                className="text-blue-600"
-              >
-                pocket_chef@outlook.com
+              <a href="mailto:reset_app@outlook.com" className="text-blue-600">
+                reset_app@outlook.com
               </a>
             </div>
           </div>

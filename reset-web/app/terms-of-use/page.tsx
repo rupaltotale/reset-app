@@ -4,15 +4,14 @@ const TermsOfUse = () => {
   return (
     <div className="p-5 max-w-4xl mx-auto font-sans">
       <Head>
-        <title>Terms &amp; Conditions - Pocket Chef</title>
+        <title>Terms &amp; Conditions - Reset</title>
       </Head>
       <main>
         <h1 className="text-3xl font-bold mb-4">Terms &amp; Conditions</h1>
         <p className="mb-4">
-          These terms and conditions apply to the Pocket Chef app (hereby
-          referred to as "Application") for mobile devices that was created by
-          Rupal Totale (hereby referred to as "Service Provider") as an Ad
-          Supported service.
+          These terms and conditions apply to the Reset app (hereby referred to
+          as "Application") for mobile devices that was created by Rupal Totale
+          (hereby referred to as "Service Provider") as an Ad Supported service.
         </p>
 
         <p className="mb-4">
@@ -179,10 +178,10 @@ const TermsOfUse = () => {
           If you have any questions or suggestions about the Terms and
           Conditions, please do not hesitate to contact the Service Provider at{" "}
           <a
-            href="mailto:pocket_chef@outlook.com"
+            href="mailto:reset_app@outlook.com"
             className="text-blue-500 underline"
           >
-            pocket_chef@outlook.com
+            reset_app@outlook.com
           </a>
           .
         </p>
